@@ -1,0 +1,23 @@
+﻿
+#
+# Mission Specific Briefings and Intel Info 
+#
+@briefing_pathtosuckless=A Rangers scouting party chanced upon a small Insurgent hideout. Proceed carefully to clear the structure and eliminate or secure all hostiles.
+@briefing_wooddoorsareeasy=We have Intel of a low level Insurgent clerk quartering in this location. Secure him and bring him out for interrogation. 
+@briefing_alltogethernow=An isolated Insurgent element of strength 5 to 6 has been spotted roughinh up locals at a corner minimarket, and must be dealt with to win Hearts & Minds. 
+@intel_alltogethernow_weapons=Unarmed enemies may pick up weapons if given the chance. 
+@intel_alltogethernow_windows=Blocked windows can be cleared by manual breaching or explosive charges. 
+@briefing_whywefight=Time Sensitive Intel reports hostages being present at this known insurgent hideout. Heavy enemy presence is reported, including experienced Veterans and explosives. 
+@intel_whywefight_gratingdoor=Grating doors and chainlink fences expose you to enemy observation and gunfire. 
+@intel_whywefight_gate=Sheet Metal Gates are more difficult to breach via mechanical methods.
+@briefing_rescueatdawn=Drone surveillance of a known Insurgent location has picked up a hostage being smuggled in last night, possibly on the way to the border badlands. Locate and extract him safely. 
+@briefing_jihadiliveshow=
+@briefing_killingtime=
+
+
+@briefing_kingofspades=We're here to kick ass and save mr Bad Guy. 
+@intel_kingofspades_VIP=This guy is cooperating and wantst to be brought in safely. You can control him as a regular trooper, but don't trust him with weapons. 
+
+@intel_generic_hostages=HUMINT sources place a hostage at this location. 
+@intel_generic_hostages_unsure=Possible hostages location. 
+@intel_generic_bomb=If there's a bomb, this would be a likely place for it to be placed in.

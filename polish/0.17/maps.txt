@@ -1,0 +1,170 @@
+﻿#
+# IMPORTANT
+# -Do not modify/localize %s, %d, %u or any other such constructs, leave them as they are.
+# -Do not modify \n (it moves the text following it to the next line).
+# -Text IDs ending in _ttip or _tooltip can be translated using any length, for all others try to keep the same length (though it depends from text to text).
+# -Keep every @id=text on one line
+#
+
+#
+# Single Player Mission Packs
+#
+
+@single_mispack_1_name=WITAMY NOWEGO
+@single_mispack_2_name=PROWADŹ
+@single_mispack_3_name=NICZYM DELTA
+@single_mispack_4_name=NIE WIDZIAŁEŚ
+@single_mispack_5_name=MAŁE PROBLEMY
+@single_mispack_5x_name=MAŁE PROBLEMY 2
+@single_mispack_6_name=POWAŻNY RATUNEK
+@single_mispack_6x_name=POWAŻNY RATUNEK 2
+@single_mispack_7_name=HINDUSKI KRAJ
+@single_mispack_8_name=CZERWONA ZIEMIA
+@single_mispack_9_name=OPERACJA ZDOBYWCA
+@single_mispack_10_name=UDERZENIE WSPOMNIEŃ
+@single_mispack_11_name=TALIA KART
+@single_mispack_12_name=CAŁĄ DROGĘ
+@single_mispack_undisclosed_name=<NADAL TAJNE>
+
+#
+# Maps from Mission Packs
+#
+
+# 01 FNGs Welcome
+
+@map_pathtosuckless=BĄDŹ LEPSZY
+@map_wooddoorsareeasy=DREWNIANE DRZWI
+@map_practicemakesperfect=WSZYSCY RAZEM
+@map_doorkickers=CZEMU WALCZYMY
+@map_rescueatdawn=POMOC O ŚWICIE
+@map_thejihadiliveshow=DŻIHAD NA ŻYWO
+@map_killingtime=CZAS ZABIJANIA
+
+# 02 Lead the Way
+
+@map_gatecrashers=NISZCZYCIELE
+@map_vbiedsareus=VBIEDY TO MY
+@map_aquaintlittleman=OSOBLIWY CZŁOWIEK
+@map_universityassault=SZTURM NA UNIWEREK
+@map_fireandmaneuver=STRZELAJ I MANEWRUJ
+@map_safehousestrike=UDERZENIE NA KRYJÓWKĘ
+@map_alhasanhasitall=AL-HASAN MA WSZYSTKO
+@map_vipersnest=GNIAZDO ŻMIJ
+@map_exterior05=WIERNI EMIRA
+@map_opbase=TWARDY ORZECH DO ZGRYZIENIA
+
+# 03 Do it like Delta
+
+@map_duplex=DUPLEKS
+
+# 04 Never See Never Bee
+
+@map_compound01=KOMBINAT 01
+@map_countrysidejackpot=WIEJSKIE BINGO
+
+# 05 Tiny Troubles
+
+@map_noisyneighborsnuisance=GŁOŚNI SĄSIEDZI
+@map_theview=NIEZŁY WIDOK
+@map_ratwork=SZCZURZA ROBOTA
+@map_uninvitedguests=NIEPROSZENI GOŚCIE
+@map_doortodoor=OD DZRWI DO DRZWI
+@map_roomservice=POMOC HOTELOWA
+@map_pincerspower=MOC OBCĘGÓW
+@map_lonelyabode=SAMOTNA SIEDZIBA
+@map_extratrouble=WIELKIE BUM W MIESZKANIU
+
+#  Deck of Aces
+
+@map_living_large=WALET KIER
+@map_large_penthouse=DAMA KARO
+@map_kingofspades=KRÓL PIK
+
+
+# 06 Extreme Rescues
+
+@map_crisisonroutekilo=KRYZYS NA KILO
+@map_againsttheodds=PRZECIW WSZYSTKIM
+@map_embassysiege=OBLĘŻENIE AMBASADY
+@map_maniacsmansion=WILLA SZALEŃCA
+@map_supermarket=SWÓJ W KSIĘGOWOŚCI
+@map_exchange=WYMIANA
+@map_fancyrestaurant=NIESPODZIANKA DLA FERGIE
+@map_largeapartment=PUNKT WIDOKOWY
+@map_cardealership=WYPRZEDAŻ
+@map_rockyterrain=POD GÓRKĘ
+@map_mazerunners=LABIRYNT FAUNA
+@map_speedislife=SZYBKOŚĆ TO ŻYCIE
+@map_nightcall=NOCNE WEZWANIE
+
+# 07 Indian Country
+
+@map_kamilpashamarket=TARG KAMIL PASHA
+@map_inthesouk=NA BAZARZE
+@map_marketday=DZIEŃ HANDLOWY
+@map_kingoftheslums=KRÓL SLUMSÓW
+@map_busdepot=ZAGROŻENIE BOMBOWE
+
+# 08 Red Earth
+
+@map_isolatedcompound=ODOSOBNIONY BUDYNEK
+@map_bakr=BAKR
+
+# 09 Operation Subjugator
+
+@map_phaseisurprise=FAZA I: NIESPODZIANKA
+@map_phaseiisafeguard=FAZA II: OCHRONA
+@map_phaseiiisecure=FAZA III: ZABEZPIECZENIE
+@map_phaseivsmash=FAZA IV: UDERZENIE
+
+# 10 Still Classified
+
+@map_museum=MUZEUM
+@map_xlsadrcity=XL MIASTO SADR
+@map_diamondyard=DIAMENTOWE POLE
+
+# 11 Blast form the Past
+
+# All the Way
+
+@map_bridget=ATAK NA MOST
+@map_tolltakers=CELNICY
+
+# SICK MAPS
+
+
+@map_busdepot=PĘTLA BUSOWA
+@map_blockade=BLOKADA
+@map_apartment02hr=APARTAMENT 02 HR
+@map_walledcompoundsmall=MAŁY KOMBINAT
+@map_canyonambush=ZASADZKA W KANIONIE
+@map_compound02=KOMBINAT 02
+@map_triplex=TRIPLEKS
+@map_farmhouse01=FARMA 01
+@map_exterior01=PODWÓRKO 01
+@map_breakin=WŁAMANIE
+@map_exterior02=PODWÓRKO 02
+@map_exterior03=PODWÓRKO 03
+@map_farmhouse02=FARMA 02
+@map_backalley=BOCZNA ULICZKA
+@map_wip02=WIP 02
+@map_wip03=WIP 03
+@map_wip04=WIP 04
+@map_wip06=WIP 06
+@map_wip07=WIP 07
+@map_wip09=WIP 09
+@map_wip10=WIP 10
+@map_wip12=WIP 12
+@map_wip13=WIP 13
+@map_wip14=WIP 14
+@map_wip15=WIP 15
+@map_wip16=WIP 16
+@map_wip17=WIP 17
+
+
+#
+#Single Player Maps
+#
+
+@single_map_1_name=P.C. Nazwa Mapy 1 
+@single_map_2_name=P.C. Nazwa Mapy 2 

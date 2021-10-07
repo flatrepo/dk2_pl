@@ -1,0 +1,45 @@
+# added for the cooperative mode update
+@menu_m_coop=KOOPERACJA
+@menu_m_coop_quickmission=SZYBKA MISJA
+@menu_m_coop_host=STWÓRZ GRĘ
+@menu_m_coop_search=WYSZUKIWANIE GRACZY...
+@menu_m_coop_host_wait=OCZEKIWANIE NA GRACZY %d/%d
+@menu_m_coop_waiting_host=OCZEKIWANIE NA HOSTA...
+@menu_m_coop_friendsonly=Tylko dla znajomych
+@menu_m_coop_players=Gracze
+@menu_m_coop_pausetype=Typ pauzy
+@menu_m_coop_pause_full=Synchronizacja
+@menu_m_coop_pause_full_ttip=Każdy gracz może zatrzymać rozgrywkę w dowolnej chwili, ale by ją kontynuować, wszyscy gracze muszą odpauzować.
+@menu_m_coop_pause_realtime=Rzeczywista
+@menu_m_coop_pause_realtime_ttip=Podczas pauzy twoje jednostki stoją w miejscu, ale czas się nie zatrzymuje.
+@menu_m_coop_invite=ZAPROŚ ZNAJOMYCH
+@menu_m_coop_join=DOŁĄCZ
+
+@menu_coop_peer_disconnected=Gracz\n'%s'\n opuścił rozgrywkę!
+@menu_coop_server_timedout=Zbyt długie oczekiwanie na hosta :(
+@menu_coop_server_disconnected=Serwer został wyłączony :( 
+@menu_coop_lobby_join_failed=Nie udało się dołączyć do lobby
+@menu_coop_lobby_create_failed=Nie udało się stworzyć lobby
+@menu_coop_lobby_invite=Gracz\n%s\n chce zaprosić cię do gry
+@menu_coop_map_not_found=Nie wspieramy takiej mapy\n lub jest to przestarzała wersja.
+
+@menu_coop_lobby_handshake_failed=Połączenie w lobby nie powiodło się,
+@menu_coop_lobby_handshake_failed1=otrzymano niepoprawną wiadomość!
+@menu_coop_lobby_handshake_failed2=gracz chce załadować mapę, której nie wspieramy!
+@menu_coop_lobby_handshake_failed3=gracz posiada inny zestaw modów!
+@menu_coop_waitingfordeploy=Oczekiwanie na rozstawienie jednostek przez %s...
+@menu_coop_saverpl=Zapisz powtórkę
+@menu_coop_peer_not_responding=Gracz %s nie odpowiada...
+@menu_coop_mods_detected=Masz włączone mody!\nMożesz grać tylko z tymi, którzy mają załadowane TE SAME mody\nPorada: wyładuj wszystkie mody by szybciej znaleźć ludzi do gry.
+@menu_options_commands_ttip=Przytrzymaj Q by włączyć szybkie komendy dla trybu kooperacji.
+@menu_coop_commands_ttip=Przytrzymaj Q dla menu szybkich komend
+@coop_restartrequest=*chce zrestartować misję*
+
+@menu_m_replaywarningmods=Powtórka nagrana z innym zestawem modów\nniż obecnie, może działać niepoprawnie.
+
+@coop_quickmsg0=POTRZEBNE\nWSPARCIE
+@coop_quickmsg1=OK
+@coop_quickmsg2=SYNCHRO
+@coop_quickmsg3=UWAGA!
+@coop_quickmsg4=NIE
+@coop_quickmsg5=DAM RADĘ

@@ -1,0 +1,250 @@
+#
+# IMPORTANT
+# -Do not modify/localize %s, %d, %u or any other such constructs, leave them as they are.
+# -Do not modify \n (it moves the text following it to the next line).
+# -Text IDs ending in _ttip or _tooltip can be translated using any length, for all others try to keep the same length (though it depends from text to text).
+# -Keep every @id=text on one line
+#
+
+@ed_file=Plik
+@ed_new=Nowy
+@ed_new_ttip=Utwórz nowa mape
+@ed_open=Otwórz
+@ed_open_ttip=Otwórz aktualna mape
+@ed_save=Zapisz
+@ed_save_ttip=Zapisz mape
+@ed_run=Rozegraj
+@ed_run_ttip=Rozegraj swoja mape
+@ed_exit=Wyjdz z edytora
+@ed_edit=Edytuj
+@ed_publish=Opublikuj w Warsztacie
+
+@ed_mapsettings=Ustawienia mapy
+@ed_mapsettings_ttip=Zmien aktualne ustawienia mapy
+@ed_mapsettings_mapname=Nazwa mapy
+@ed_mapsettings_mapname_ttip=Nazwa mapy jest unikatowym identyfikatorem tego przedmiotu w Warsztacie. \nJej zmiana spowoduje dodanie nowego obiektu do Warsztatu (musisz wtedy usunąć stary). \nPozostawienie tej samej nazwy jedynie uaktualni mapę.
+@ed_mapsettings_xmlname=Nazwa pliku XML
+@ed_mapsettings_mapwidth=Szerokosc mapy (w metrach)
+@ed_mapsettings_mapheight=Dlugosc mapy (w metrach)
+@ed_mapsettings_mapscenario=Typ scenariusza
+@ed_mapsettings_challenges=Wyzwania
+@ed_mapsettings_othersettings=Inne ustawienia
+@ed_mapsettings_othersettings_wintime=Proponowany czas ukonczenia (milisekundy)
+@ed_mapsettings_othersettings_novisualintel=Brak informacji wizualnych
+@ed_mapsettings_briefinginfo=Raport sytuacyjny
+@ed_mapsettings_briefinginfo_knownhostiles=Znani przeciwnicy
+@ed_mapsettings_briefinginfo_uncertainhostiles=Nieznani przeciwnicy
+@ed_mapsettings_briefinginfo_knownhostages=Znani zakladnicy
+@ed_mapsettings_briefinginfo_arrestwarrants=Nakazy aresztowan
+@ed_mapsettings_showfolder=Pokaz w folderze
+@ed_mapsettings_descr=Opis
+@ed_mapsettings_changenotes=Dziennik zmian
+@ed_mapsettings_author=Autor
+
+@ed_workshop_publish_dialog_title=Opublikuj
+@ed_workshop_update_dialog_title=Zaktualizuj
+@ed_workshop_publishing=Publikowanie mapy...
+@ed_workshop_updating=Aktualizowanie mapy...
+@ed_workshop_publish_success=Opublikowano mapę!
+@ed_workshop_publish_success_eula=Scenariusz został opublikowany! Musisz\n zaakceptować EULA Warsztatu, by \nmod był widoczny dla innych.
+@ed_workshop_publish_fail=Publikacja nie powiodła się,\n spróbuj jeszcze raz.
+@ed_workshop_update_success=Zaktualizowano mapę!
+@ed_workshop_update_success_eula=Scenariusz został zaktualizowany! Musisz\n zaakceptować EULA Warsztatu, by \nmod był widoczny dla innych.
+@ed_workshop_update_fail=Aktualizacja nie powiodła się,\n spróbuj jeszcze raz.
+@ed_workshop_unreachable=Warsztat Steam nie odpowiada,\n spróbuj ponownie.
+@ed_workshop_publish=Opublikuj
+@ed_workshop_update=Zaktualizuj
+
+@ed_view=Widok
+@ed_toolbar=Pasek narzedzi
+@ed_grid_dec=Zmniejsz siatke
+@ed_grid_dec_ttip=Zmniejsza gestosc siatki
+@ed_grid_inc=Zwieksz siatke
+@ed_grid_inc_ttip=Zwieksza gestosc siatki
+@ed_grid_snap=Przyklejanie
+@ed_grid_snap_ttip=Wlacza przyklejanie obiektów do siatki (Klawisz: S)
+@ed_grid_show=Pokaz
+@ed_grid_show_ttip=Pokazuje lub ukrywa siatke (Klawisz: G)
+@ed_grid=Siatka:
+@ed_show_walkable=Pokaz/ukryj niedostepne strefy
+@ed_show_los_blockers=Pokaz/ukryj blokady LOS
+@ed_select=Zaznacz
+@ed_select_ttip=Zaznacza obiekty (Klawisz: Escape)
+@ed_brushestool=Maluj
+@ed_brushestool_ttip=Pozwala na kolorowanie podloza
+@ed_soundefxtool=Efekty dzwiekowe
+@ed_soundefxtool_ttip=Efekty dzwiekowe
+@ed_particlestool=Czasteczki
+@ed_particlestool_ttip=Edycja systemów czasteczek
+@ed_mapgfxtool=Grafika
+@ed_mapgfxtool_ttip=Ustawienia graficzne mapy, post-processing itd.
+@ed_mapgentool=Generator
+@ed_mapgentool_ttip=Podglad losowo generowanych map
+@ed_rotate180=Obroc mape o 180°
+@ed_rotate90=Obroc mape o 90°
+@ed_ok=OK
+@ed_cancel=Anuluj
+@ed_info=Info
+@ed_name=Nazwa
+@ed_prefab_create_success=Tworzenie kompozycji udalo sie
+@ed_prefab_create=Utwórz kompozycje
+@ed_zoom=Przybliz
+@ed_entities_showing=Wyswietlanie %d z %d obiektów
+@ed_entities_hidden=(%d ukryto filtrem)
+@ed_entities_selection_do=Akcje dla zaznaczonego obiektu:
+@ed_entities_prefab_create=Utwórz kompozycje
+@ed_entities_group=Zgrupuj
+@ed_entities_ungroup=Rozgrupuj
+@ed_wall_split=Podziel sciane w wybranym miejscu
+@ed_hotkey=Klawisz
+@ed_delete=Usun
+@ed_search=Szukaj
+@ed_clear_search=Wyczysc
+@ed_rotation=Rotacja
+@ed_rotation_ttip=Obrót o 5 stopni: Shift + Kólko myszy góra/dól (na zaznaczonym obiekcie)\Obrót o 45 stopni: Shift + Ctrl + Kólko myszy góra/dól (na zaznaczonym obiekcie)
+@ed_rotation_reset=Cofnij rotacje
+@ed_scale=Skala
+@ed_scale_ttip=Skrot: CTRL + Kolko myszy
+@ed_tools=Narzedzia
+@ed_options=Ustawienia
+@ed_canvas_only=Pokaz tylko teren
+@ed_canvas_only_ttip=Klawisz: Spacja
+@ed_layers=Warstwy
+@ed_layers_follows=Warstwy podazaja za kategoria obiektów
+@ed_layers_hotkeytip=Porada: Przytrzymaj Shift dla indywidualnego zaznaczania.
+@ed_addtarget=Dodaj cel
+@ed_targets=Cele
+@ed_addaltspawn=Dodaj alternatywny spawn
+@ed_copypoly=Skopiuj ksztalt z...
+@ed_stats=Statystyki mapy
+
+@ed_panel_object=Obiekty
+@ed_panel_object_ttip=Lista obiektów do postawienia na mapie
+@ed_panel_decal=Detale
+@ed_panel_decal_ttip=Tekstury pylu, krwi etc
+@ed_panel_light=Oswietlenie
+@ed_panel_light_ttip=Globalne i lokalne zródla swiatla
+@ed_panel_house=Budynki
+@ed_panel_house_ttip=Obiekty do tworzenia pomieszczen
+@ed_panel_human=Jednostki
+@ed_panel_human_ttip=Sojusznicze, wrogie i niezalezne jednostki
+@ed_panel_prefab=Kompozycje
+@ed_panel_prefab_ttip= Kompozycje z polaczonych obiektów
+@ed_panel_sound=Dzwieki
+@ed_panel_sound_ttip=Rodzaje dzwieków
+@ed_panel_trigger=Triggery
+@ed_panel_trigger_ttip=Moduly logiczne
+
+@ed_brushes_mode=Tryb edycji
+@ed_brushes_mode_height=Wysokosc
+@ed_brushes_mode_paint=Malowanie
+@ed_brushes_mode_pick=Wybieranie
+@ed_brushes_mode_ttip=LPM = Malowanie\nAlt + LPM = Wysokosc\nCtrl + LMP = Wybierz\n\nPPM = Usun malowanie\nAlt + PPM = Usun wysokosc\nCtrl + PPM = Wybierz
+@ed_brushes_materials=Material
+@ed_brushes_material_ttip=Szybki wybór: Klawisze 1/2/3/4\nMenu kontekstowe: PPM
+@ed_brushes_shapes=Ksztalty
+@ed_brushes_brush=Pedzel
+@ed_brushes_opacity=Przezroczystosc
+@ed_brushes_spacing=Odleglosc
+@ed_brushes_size=Wielkosc
+@ed_brushes_size_ttip=Klawisz: Shift + Kólko myszy góra/dól\Klawisz: [ or ]
+@ed_brushes_replace_with=Zamien na...
+@ed_brushes_add_material_ttip=Dodaj material
+@ed_brushes_terrain_copied=Teren zostal skopiowany!\nMozesz go nawet wklejac na inne mapy :)
+
+@ed_mapgfx_title=Ustawienia graficzne mapy
+@ed_mapgfx_fogcolor=Kolor
+@ed_mapgfx_fogdensity=Gestosc
+@ed_mapgfx_windspeed=Predkosc wiatru
+@ed_mapgfx_winddirection=Kierunek wiatru
+@ed_mapgfx_waterclarity=Przejrzystosc wody
+@ed_mapgfx_clouddensity=Gestosc chmur
+@ed_mapgfx_terrainnormals=Normalna waga
+@ed_mapgfx_terrainsharpness=Ostrosc wygladzenia
+@ed_mapgfx_gossao_strength=Moc (obiekty)
+@ed_mapgfx_gossao_strengthterrain=Moc (teren)
+@ed_mapgfx_gossao_directional=Okluzja kierunkowa
+@ed_mapgfx_gossao_levelsmin=Poziomy (minimum)
+@ed_mapgfx_rain=Deszcz
+@ed_mapgfx_enablesnow=Snieg
+@ed_mapgfx_terrain=Teren
+@ed_mapgfx_weather=Pogoda
+
+
+@ed_properties_group=Wlasciwosci grupy
+@ed_properties_basic=Bazowe wlasciwosci
+@ed_properties_soundefx=Efekty dzwiekowe
+@ed_properties_light=Wlasciwosci swiatla
+@ed_properties_particle=Wlasciwosci czasteczek
+@ed_properties_decal=Wlasciwosci detali
+@ed_properties_waypoints=Wlasciwosci sciezek
+@ed_properties_traits=Wlasciwosci wrogiej SI
+@ed_properties_sound=Wlasciwosci dzwieku
+
+@ed_origin=Polozenie
+@ed_autoheight=Autom. Y
+@ed_autoheight_ttip=Podczas przemieszczania obiekt jest automatycznie umieszczany nad obiektem pod nim (na osi Y)
+@ed_noenveffects=Wylacz snieg
+
+@ed_effect=Efekt
+@ed_preset=Preset
+
+@ed_particlesize=Wielkosc
+@ed_particlesize_ttip=Wielkosc strefy poczatkowej. Tylko dla emiterów \"rect\". Niebieski obszar.
+@ed_particlelimits=Limity
+@ed_particlelimits_ttip=Pozwala na wizualizacje wielkosci efektu.\nMusisz ustawic to reczne. Tak naprawde nic nie robi. Czerwony obszar.
+
+@ed_particletarget=Cel
+
+@ed_lightradius=Zasieg
+@ed_lightangle=Kat
+@ed_lightintensity=Intensywnosc
+@ed_lightindoors=Tylko dla wnetrz
+@ed_lightlimittype=Limit
+@ed_lightlimits=Strefa limitu
+@ed_lightlimits_ttip=PPM dla automatycznych ustawien
+@ed_lightlimits_auto=Wszystko
+@ed_lightlimits_left=Lewo
+@ed_lightlimits_right=Prawo
+@ed_lightlimits_up=Góra
+@ed_lightlimits_down=Dól
+@ed_lightlimits_none=Brak
+@ed_lightdisabled=Wylaczone
+
+@ed_color=Kolor
+@ed_color_ttip=Porada: PPM dla ustawien koloru, LPM dla wyboru koloru
+
+@ed_decalsize=Wielkosc
+
+@ed_roamRange=Zasieg poruszania sie
+@ed_roamRange_ttip=Wplywa na wielkosc strefy, po której NPC bedzie sie przemieszczac w poszukiwaniu punktów zainteresowan
+
+@ed_rescueVIP=Potrzebuje pomocy
+@ed_rescueVIP_ttip=Jesli zaznaczone, VIP nie bedzie interaktywny dopóki sojusznicze jednostki nie znajda sie w poblizu
+
+@ed_trait_aggressiveness=Agresywnosc
+@ed_trait_chanceToInvestigate=Szansa na badanie strefy
+@ed_trait_chanceToPickupWeapon=Szansa na podniesienie broni
+@ed_trait_chanceToThrowGrenade=Szansa na rzut granatem
+@ed_trait_chanceToAmbush=Szansa na zasadzke
+@ed_trait_chanceToBlindFire=Szansa na slepy ostrzal
+@ed_trait_investigateMaxDistance=Maks. odleglosc badania (w metrach)
+@ed_trait_execution_stoptime=Czas do egzekucji (w milisekundach)
+
+@ed_sound_minattenuationdistance=Min. dystans oslabienia
+@ed_sound_maxattenuationdistance=Maks. dystans oslabienia
+
+@ed_quit_nosave1=Mapa nie jest zapisana!
+@ed_quit_nosave2=Czy na pewno chcesz wyjsc?
+
+@ed_sniper_firearm=Bron
+@ed_sniper_distance=Odleglosc
+@ed_sniper_fov=Pole widzenia
+
+@ed_waypoints_time=Czas (msek)
+
+@ed_timebomb_kaboomtime=Czas do wybuchu (sec)
+
+@ed_cannot_overwrite_stock_map=Nie mozna zmodyfikowac domyslnych map.\nMusisz je skopiowac do folderu uzytkownika.
+
+@ed_map_saved=ZAPISANO MAPE

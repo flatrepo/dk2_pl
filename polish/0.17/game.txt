@@ -1,0 +1,735 @@
+﻿#
+# IMPORTANT
+# -Do not modify/localize %s, %d, %u or any other such constructs, leave them as they are.
+# -Do not modify \n (it moves the text following it to the next line).
+# -Text IDs ending in _ttip or _tooltip can be translated using any length, for all others try to keep the same length (though it depends from text to text).
+# -Keep every @id=text on one line
+#
+
+#
+# Trooper Ranks
+#
+
+@trooper_rank_0=Szeregowy
+@trooper_rank_1=Starszy szeregowy
+@trooper_rank_2=Kapral
+@trooper_rank_3=Starszy kapral
+@trooper_rank_4=Plutonowy
+@trooper_rank_5=Sierżant
+@trooper_rank_6=Starszy sierżant
+@trooper_rank_7=Młodszy chorąży
+@trooper_rank_8=Chorąży
+@trooper_rank_9=Starszy chorąży
+@roster_rank_0=Niedoświadczona drużyna
+@roster_rank_1=Niedoświadczona drużyna 2
+@roster_rank_2=Niedoświadczona drużyna 3
+@roster_rank_3=Niedoświadczona drużyna 4 
+@roster_rank_4=Niedoświadczona drużyna 5
+@roster_rank_5=Doświadczona drużyna
+@roster_rank_6=Doświadczona drużyna 2
+@roster_rank_7=Doświadczona drużyna 3
+@roster_rank_8=Doświadczona drużyna 4
+@roster_rank_9=Wyszkolona drużyna 
+@roster_rank_10=Wyszkolona drużyna 2
+@roster_rank_11=Wyszkolona drużyna 3
+@roster_rank_12=Wyszkolona drużyna 4
+@roster_rank_13=Elitarna drużyna
+@roster_rank_14=Elitarna drużyna 2
+@roster_rank_15=Elitarna drużyna 3
+
+
+#
+# Equipment (data/equipment/*.xml)
+#
+
+@grenade_smoke_name=Granat dymny [2x]
+@grenade_smoke_desc=Standardowy granat dymny na wyposażeniu Armii Stanów zjednoczonych. Tworzy chmurę o średnicy 5 metrów, która ogranicza widoczność i zapewnia osłonę - jednocześnie alarmując wrogów, że coś jest nie tak.\n\nKorzystaj z dymu by ukrywać swoje działania do momentu zajęcia odpowiedniej pozycji. Pamiętaj, że dym nie zapewnia osłony przed wrogim ogniem.\n\nCzas zapłonu: Natychmiast\nCzas trwania: 8 sek.
+@grenade_flashbang_name=Granat błyskowy [2x]
+@grenade_flashbang_kit_name=Granat błyskowy [3x]
+@grenade_flashbang_desc=Niezagrażający życiu granat błyskowy ogłuszy i oślepi każdego w promieniu 3 metrów od punktu wybuchu, dając Tobie kilka sekund bezpieczeństwa. Nie będzie mieć wpływu na twoje jednostki, gdyż są odpowiednio przeszkolone i mają wyposażenie niwelujące te efekty.\n\nKorzystaj z granatów błyskowych by odwracać uwagę strażników i przeciwników w relatywnie trudnych miejscach.\n\nCzas zapłonu: Natychmiast\nEfektywny zasięg: 2m\nMaksymalny zasięg: 3.5m
+@grenade_stinger_name=Stinger [2x]
+@grenade_stinger_desc=Niezbyt zagrażający życiu granat, który po wybuchu rozrzuca mnóstwo "bezpiecznych" gumowych kulek, których trafienia zmuszają do ucieczki i ukrycia się - o ile ranni nadal mogą chodzić.\n\nKorzystaj ze Stingerów by odstraszać cywili lub innych ludzi, i tym samym wyczyścić sobie perymetr, ale nie rzucaj ich bezpośrednio w ważnych dla Ciebie ludzi.\n\nCzas zapłonu: 1 sek.\nEfektywny zasięg: 4m\nZasięg ranienia: 1m
+@grenade_frag_name=Granat odłamkowy [2x]
+@grenade_frag_desc=Standardowy granat, którym rzucasz, by wysadzać ludzi. Zabije każdego w zasięgu metalowych odłamków. Granat nie wybacza, granat ma wszystko w dupie. Co mogłoby pójść nie tak?\n\nKorzystaj z odłamkowych, by eliminować przeciwników w ukryciu, ale miej na uwadze niekombatantów.\n\nCzas zapłonu: 1 sek.\nZasięg śmiertelny: 2m\nZasięg ranienia: 4m
+@slap_charge_name=Ładunek przylepny [2x]
+@slap_charge_desc=Mały samoprzylepny ładunek wybuchowy, który przyczepiasz do drzwi, by wysadzićzamek. Spowoduje niewielki wybuch, toteż jest bezpieczny w większości sytuacji.\n\nKorzystaj z ładunków przylepnych, by szybko wchodzić do zamkniętych pomieszczeń mając jednocześnie element zaskoczenia. Można nim też wysadzać okna.\n\nCzas założenia: 2.5 sek.\nCzas zapłonu: Natychmiast
+@gear_torch_name=Palnik
+@gear_torch_desc=Poręczny, jednorazowy palnik który przepala się przez kłódki, metalowe drzwi i łańcuchy.\n\nStworzy pokaz świateł i dźwięków na korzyść przeciwnika, więc korzystaj tylko, gdy element zaskoczeenia się nie liczy.\n\nCzas użycia: 3s\n\n*to nie miecz świetlny!
+@slap_charge_kit_name=Ładunek przylepny [3x]
+@grenade_smoke_kit_name=Granat dymny [3x]
+@grenade_frag_kit_name=Granat odłamkowy [3x]
+@breaching_charge_name=Ładunek wybuchowy [1x]
+@breaching_charge_desc=Zyskaj element zaskoczenia i odrobinę inicjatywy wysadzając ścianę i przechodząc przez dziurę.\n\nWykorzystuj ładunki wybuchowe do likwidowania przeszków i ścian, oraz przeciwników za nimi. Pamiętaj jednak, że możesz tym zranić też zakładników.\n\nCzas założenia: 6 sek\nCzas zapłonu: Natychmiast\nZasięg śmiertelny: 4m\nZasięg ranienia: 6m
+@armor_rangers_basicvest_name=Standardowa kamizelka
+@armor_rangers_basicvest_desc=Kamizelka typu MPC (Modular Plate Carrier) wydawana każdemu w regimencie. Czego się spodziewałeś, przebieralni Flanelowego Tatusia?\n\n Dostajesz trzy płyty Poziomu 3 na front i tył, oraz ochronę przed kalibrem pistoletowym w innych miejscach.\n\nPamiętaj - zaufanie pancerzowi to granie w ruletkę, działaj taktycznie by zachować życie!
+@armor_rangers_levelIVaddon_name=Kamizelka z płytami ESAPI
+@armor_rangers_levelIVaddon_desc=Zastępuje płyty standardowej kamizelki cięższymi odpowiednikami ESAPI, dającymi osłonę Poziomu 4. To dobra osłona przed amunicją penetrującą i jakąkolwiek wyborową.\n\nPłyty osłaniają jedynie najważniejsze strefy twojego frontu i tyłu, jest wiele miejsc na twoim ciele których nie da się osłonić.
+@armor_rangers_extended_name=Wzmocniona kamizelka
+@armor_rangers_extended_desc=Kiedy MRAP podstawia cię prosto pod drzwi celu, nie ma sensu wchodzić tam w lekkim stroju, za to jest wiele powodów, dla których warto mieć na sobie jak najwięcej pancerza.\n\n Kamizelka zostałą wzbogacona o płyty boczne, osłonę pachwin, szyi i ud. Szybkość przemieszczania się przestała być twoim plusem.\n\nKamizelka radzi sobie świetnie ze zwykłą amunicją, ale penetrującą lub snajperską naprawdopodobniej przepuści.
+@armor_rangers_jumpable_name=Kamizelka szturmowa
+@armor_rangers_jumpable_desc=Kiedy potrzebujesz ruszać się szybciej, niż przeciwnik, a nadal chcesz mieć jakąkolwiek osłonę, ten niewielki Plate Carrier jest najlepszym rozwiązaniem.\n\nZawiera parę płyt Poziomu 3, które osłonią cię z przodu i z tyłu przed pociskami z kałacha, ale od boków już nie.\n\nPowtarzaj za mną: 'kryj się, ruszaj się, strzelaj pierwszy, nie zabij się' aż stanie się to twoją naturą, a dzięki temu najpewniej nie stracisz życia.
+@armor_rangers_jump_swimmeriv_name=Szturmowa z płytami
+@armor_rangers_jump_swimmeriv_desc=Dla wymagających użytkowników. Wielokształtne płyty Poziomu 4 zapewniają ochronę przed amunicją wyborową i penetrującą - bez utraty mobilności, gdyż po prostu mają ucięte krawędzie w celu zachowania wygodniejszej manipulacji i komfortu użytkowania broni.\n\nSzturmowa z płytami nie zapewnia jednak ochrony od boków i osłania jedynie najważniejsze organy w twoim ciele, więc jeśli masz już być trafionym, to módl się, żeby przeciwnik celował właśnie w kamizelkę.
+@armor_rangers_noplates_name=Kamizelka bez płyt
+@armor_rangers_noplates_desc=Wyciągasz płyty kuloodporne z kamizelki, licząc na to, że sierżant nie zobaczy jak wielkim głupcem jesteś.\n\nByć może zyskasz na mobilności, ale pamiętaj, terroryści z Nowheraki są największym importerem Kałasznikowów, a ich amunicja z łatwością przebije się przez taką kamzę.\n\nStarzy żołnierze powiedzą ci że najlepszym pancerzem jest bycie nietrafianym, więc ruszaj się szybko i nie daj się postrzelić.
+@armor_no_armour_name=Brak pancerza
+
+@armor_enemy_softarmor_name=Ukryty lekki pancerz
+@armor_enemy_heavyarmor_name=Minimalistyczny platecarrier
+
+@armor_no_armour_desc=<OLD!>Who needs armor when bearing a big shield?\n\nNo investment needed but you DO need to pull\nsome strings if you intend to go out naked.
+@armor_low_thread_armor_name=Low Threat Armor
+@armor_low_thread_armor_desc=<OLD!>Soft armor vest covering the officer's\nvital zones with all around Level IIIA\nprotection.\n\nWill reliably stop impacts from handgun\nand submachinegun threats, but cannot match\nrifle projectiles.
+@armor_assaulter_vest_name=Assaulter Vest
+@armor_assaulter_vest_desc=<OLD!>Add a pair of Level III Hard Armor plates\nto the vest, protecting the officer's vital\norgans.\n\nWill stop rifle impacts coming from\nthe front and back quarters, while other\ndirections are protected from pistol\ncaliber threats.
+@armor_raider_vest_name=Raider Vest
+@armor_raider_vest_desc=<OLD!>Minimalistic all-or-nothing Level III plate\ncarrier that trades protection for mobility\nby removing all side armor.\n\nWill stop rifle caliber threats from the\nfront and rear, but leaves the side quarters\ncompletely vulnerable.
+@armor_front_plate_only_name=Front Plate Only
+@armor_front_plate_only_desc=<OLD!>'I don't know about you, Grimesy, I don't\nplan to get shot in the back, running away'\n\nRemove the Level III plate in the back of\nyour armor to save some weight and regain\nsome mobility.
+@armor_extended_protection_name=Extended Protection
+@armor_extended_protection_desc=<OLD!>For when you need to pass the gates of fire.\n\nA full featured armor set, covering the\nofficer's vitals, groin, neck and shoulders\nwith Level III and IIIA armor.\n\nWill stop rifle impacts coming from all\ndirections.
+@support_gear_spy_camera_name=Kamera szpiegowska
+@support_gear_spy_camera_desc=Niskoprofilowa kamera, która mieści się pod większością drzwi, pozwala na patrzenie tam, gdzie się nie ma dostępu (także za róg ściany).\n\nTwoi żołnierze będą automatycznie wcelowywać się w "czerwone duchy", czyli ostatnie pozycje przeciwników. Taka wiedza pozwala na szybsze i bezpieczniejsze czyszczenie pomieszczeń.\n\nUżywaj kamery do badania pomieszczeń i niebezpiecznych stref, o ile masz na to czas.
+@support_gear_lockpic_name=Wytrych
+@utility_pouch_tazer_name=Tazer
+@utility_pouch_tazer_desc=<OLD!>A reloadable less lethal weapon that sends\na pair of electrodes flying into the target\nand electroshocks him into submission.\n\nThe target will become unconscious but the\neffects wear off in 10 seconds, time you\nshould use to handcuff the suspect.\n\nMaximum shooting range: 7m
+@utility_pouch_lockpick_machine_name=Mechaniczny wytrych
+@utility_pouch_lockpick_machine_desc=<OLD!>Mechanical lockpicking enters the modern\nage with this nifty little device.\n\nGuaranteed to unlock most doors in 4\nseconds or less!
+@utility_dynamic_hammer_name=Młot dynamiczny
+@utility_dynamic_hammer_desc=\n       "On trzymał swój młot wysoko\n       I prosił Odyna o znak"\n\nByć może Twój ojciec wyglądał nieco śmiesznie, gdy wymachiwał pięściami do heroicznego heavy metalu na jednej z imprez, ale coś jednak jest w zabieraniu wielkiego młota na wojnę - nawet starodawnego.\n\nKorzystaj z niego by otwierać zamknięte drzwi jednym uderzeniem. I nie, nie możesz nim atakować ludzi.
+@utility_bolt_cutter_name=Bolt Cutter
+@utility_bolt_cutter_desc=<OLD!>The Bolt Cutter allows you to quickly cut\ndown padlocks and open fence gates.\n\nA must have tool in your inventory once you\nleave downtown and head to the real world.
+@utility_breaching_kit_name=Zestaw szturmowy
+@utility_breaching_kit_desc=Jasne, czemu nie dać Młota dynamicznego i Przecinaka temu samemu kolesiowi.\n\nWiesz dobrze, któremu. Wszyscy wiemy, i on zdecydowanie na to zasługuje.
+@equipment_protect0=Broń długa
+@equipment_protect1=Pistolety, PMy
+@equipment_protect2=Pistolety, PMy, karabiny
+
+# Pistols
+@firearm_tt_33_name=TT-33 (7.62mmP / 8 nab.)
+
+@firearm_mps45sup_name=M&P 45C z tłumikiem
+
+@firearm_g19x_name=Pistolet G19X
+@firearm_g19x_desc=Klasyczny austriacki pistolet polimerowy w hybrydowej wersji: połączona rama 9mm z lufą i mechanizmami od jego kompaktowego brata.\n\nPoręczna i lekka broń - G19X grzeszy pojemnością magazynka i łatwością w obsłudze, ogólna jakość broni uniemożliwia celne strzelanie na długie dystanse.\n\n
+@firearm_g2240_name=Pistolet G22
+@firearm_g2240_desc=Gdzieś, kiedyś, jakiś sprytny człowiek stwierdził, że amunicja 9mm ma za małą moc obalającą, ale .45 za bardzo kopie.\n\nG22 znajduje się w wesołym "pomiędzy" dzięki amunicji .40 S&W, nie tracąc jednocześnie zbyt wiele na pojemności magazynka. Świetna broń na krótkie i średnie dystanse.
+@firearm_m17_name=Pistolet M17
+@firearm_m17_desc=Najnowszy służbowy pistolet Armii USA, strzela celnie i łatwo się go obsługuje, przez co przeładowanie i ogólne działanie w polu walki jest szybkie oraz precyzyjne.\n\nJednakże ze względu na dość grubą szczerbinkę celowanie na większe dystanse jest nieco utrudnione.
+@firearm_m18_name=Pistolet M18
+@firearm_m18_desc=Kompaktowy wariant M17, ma taką samą pojemność i podobnie strzela, ale nieco gorzej radzi sobie na średnich dystansach, w zamian za łatwiejsze dobywanie i celowanie.\n\nJeżeli potrzebujesz zaufanej dodatkowej broni, gdy ta główna klika zamiast strzelać, to jest najlepszy wybór.
+@firearm_m9_name=Pistolet M9
+@firearm_m9_desc=Jedna z oryginalnych "Niesamowitych Dziewiątek", które wprowadziły do świata automaty 9mm. Nic nie może przecież pójść nie tak z zaufanym gnatem Johna McClane'a, nie?\n\nM9 posłuży dobrze jako broń zapasowa na bliski dystans, powinien sobie poradzić nawet ze strzelaniem na większe dystanse.
+@firearm_m9sup_name=M9 z tłumikiem
+@firearm_m9sup_desc=Jasne, duża siła ognia jest spoko, ale czy próbowałeś zabijać po cichu przy pomocy kalibru 7.62? Wyciszona broń boczna jest idealna do dyskretnego wprowadzania operatorów do strefy akcji.\n\nNiestety, celownik mechaniczny jest dość nisko i tłumik przeszkadza w celnym strzelaniu.\n\nSłyszalność: 7m
+@firearm_1911_pistol_name=Pistolet 1911
+@firearm_1911_pistol_desc=Potrzebujesz dobrej broni bocznej? Pociągnij za parę sznurków na kompanii i przeszmugluj trochę zapomnianych skrzyń najlepszego uzbrojenia od Browninga.\n\nPrzyrządy celownicze mogą być gówniane, a magazynek za mały, ale nic nie zastąpi grubego naboju .45 ACP powalającego przeciwnika na ziemię.
+
+@firearm_g17_pistol_name=G17 Pistol
+@firearm_g17_pistol_desc=<OLD!>A high capacity 9mm sidearm, the perfect\ncompanion when you know how to hit the\nsoft spots.\n\nLow in the hand and shooting 'just' 9mm, the\nG17 offers great recoil control to deliver\nmultiple shots.
+@firearm_g17_pistol_1h_name=G17 Pistol (One Hand)
+@firearm_g17_pistol_1h_desc=<OLD!>A high capacity 9mm sidearm, the perfect\ncompanion when you know how to hit the\nsoft spots.\n\nLow in the hand and shooting 'just' 9mm, the\nG17 offers great recoil control to deliver\nmultiple shots.
+@firearm_p226_pistol_name=P226 Pistol
+@firearm_p226_pistol_desc=<OLD!>The P226 is an accurate combat pistol but\nloses some recoil control due to its high\nbore axis.\n\nIn any case, good enough for the Navy SEALs\nshould be good enough for you.
+@firearm_p226_pistol_1h_name=P226 Pistol (One Hand)
+@firearm_p226_pistol_1h_desc=<OLD!>The P226 is an accurate combat pistol but\nloses some recoil control due to its high\nbore axis.\n\nIn any case, good enough for the Navy SEALs\nshould be good enough for you.
+@firearm_mp_40_pistol_name=M&P 40 Pistol
+@firearm_mp_40_pistol_desc=<OLD!>A modern semi-automatic in .40 caliber, the\nM&P doesn't recoil as much as a .45 but has\n45 percent chance to stop the threat\non 1st hit.\n\nIn the hands of a skilled shooter it's a\ngreat mix of stopping power, shootability\nand magazine capacity.
+@firearm_mp_40_pistol_1h_name=M&P 40 (One Hand)
+@firearm_mp_40_pistol_1h_desc=<OLD!>A modern semi-automatic in .40 caliber, the\nM&P doesn't recoil as much as a .45 but has\n45 percent chance to stop the threat on\n1st hit.\n\nIn the hands of a skilled shooter it's a\ngreat mix of stopping power, shootability\nand magazine capacity.
+@firearm_686_plus_revolver_name=686 PLUS Revolver
+@firearm_686_plus_revolver_desc=<OLD!>Having no moving slide, revolvers offer\nthe distinct advantage of being able to\nmaneuver and shoot in very tight spaces,\nwithout maiming yourself or getting a jam.\n\nHowever, the real reason to get a Magnum\nrevolver is so you can ask some poor soul:\n\n       'Do you feel lucky, punk?'
+@firearm_686_plus_revolver_1h_name=686 PLUS (One Hand)
+@firearm_686_plus_revolver_1h_desc=<OLD!>Having no moving slide, revolvers offer\nthe distinct advantage of being able to\nmaneuver and shoot in very tight spaces,\nwithout maiming yourself or getting a jam.\n\nThis also applies to using shields, and the\nrevolver can even be shot when literally\ntouching the shield viewport.
+@firearm_tazer_1h_name=Tazer (One Hand)
+@firearm_tazer_1h_desc=<OLD!>A reloadable less lethal weapon that sends\na pair of electrodes flying into the target\nand electroshocks him into submission.\n\nThe target will become unconscious but the\neffects wear off in 10 seconds, time you\nshould use to handcuff the suspect.\n\nMaximum shooting range: 7m.
+@firearm_p226sd_pistol_name=P226-SD Pistol
+@firearm_p226sd_pistol_desc=<OLD!>The suppressed version of the P226, loses\nsome practical accuracy as the sights are\nharder to see over the can.\n\nSound Travel Range: 9m
+@firearm_vp9_pistol_name=VP-9 Pistol
+@firearm_vp9_pistol_desc=<OLD!>The Nec-plus-ultra of 9mm handguns, the\nVP-9 is extremely accurate and reliable.\n\nThe slightly high bore axis has close to\nzero practical effect on recoil and leads\nto very quick follow-up shots.
+@firearm_vp9_pistol_1h_name=VP-9 Pistol (One Hand)
+@firearm_vp9_pistol_1h_desc=<OLD!>The Nec-plus-ultra of 9mm handguns, the\nVP-9 is extremely accurate and reliable.\n\nThe slightly high bore axis has close to\nzero practical effect on recoil and leads\nto very quick follow-up shots.
+@firearm_xd4_ported_pistol_name=XD4 Ported Pistol
+@firearm_xd4_ported_pistol_desc=<OLD!>The XD4 Ported tames the powerful .40\ncartridge by venting gas vertically at the\nfront of the barrel.\n\nGreat for recoil-control and getting back\non target but the V-Shaped vertical flash\nwill burn your night vision and your 'stache.\n\nCannot be safely shot in the CAR stance.
+@firearm_xd4_ported_pistol_1h_name=XD4 Ported (One Hand)
+@firearm_xd4_ported_pistol_1h_desc=<OLD!>The XD4 Ported tames the powerful .40\ncartridge by venting gas vertically at the\nfront of the barrel.\n\nGreat for recoil-control and getting back\non target but the V-Shaped vertical flash\nwill burn your night vision and your 'stache.
+@firearm_tactical_357_revolver_name=Tactical .357 Revolver
+@firearm_tactical_357_revolver_desc=<OLD!>Designed with the needs of Tactical teams\nin mind, the TR allows troopers to safely\nmaneuver and shoot in tight spaces without\nsacrificing magazine capacity, accuracy or\nrecoil control.
+@firearm_tactical_357_revolver_1h_name=Tactical .357 (One Hand)
+@firearm_tactical_357_revolver_1h_desc=<OLD!>Designed with the needs of Tactical teams\nin mind, the TR allows troopers to safely\nmaneuver and shoot in tight spaces without\nsacrificing magazine capacity, accuracy or\nrecoil control.\n\nThis also makes it particularly well suited\nfor use with a shield.
+@firearm_hk45_pistol_name=HK45 Pistol
+@firearm_hk45_pistol_desc=<OLD!>The powerful .45 ACP and all the modern\ndesign features, whats not to like? The HK\nboasts extreme accuracy and high magazine\ncapacity - for a 45 that is.\n\nNot the best pistol for recoil control and\nfollow-up shots, but a solid performer in\nany situation.
+@firearm_hk45sd_pistol_name=HK45-SD Pistol
+@firearm_hk45sd_pistol_desc=<OLD!>The slow moving .45 slug is the ideal\ncartridge to suppress, and an accurate\npistol doubles its value.\n\nA great conversation starter if there ever\nwas one.\n\nSound Travel Range: 6m
+@firearm_revolver_38_special_name=Revolver (.38 Special)
+@firearm_fs_ap_pistol_name=FS AP Pistol
+@firearm_fs_ap_pistol_desc=<OLD!>A handgun shooting the same armor piercing\nrounds as the P90 XPW, the FS will easily\ndefeat level IIIA body armor and shields.\n\nThe low bullet mass makes for controllable,\ntarget-pistol-like recoil but does not\nfavorize stopping power. Factor in the flat\nlong range trajectory and you might have a\ngreat specialist item.
+@firearm_magnum_44_revolver_name=Magnum 44 Revolver
+@firearm_magnum_44_revolver_desc=<OLD!>There's not much you can carry on duty more\npowerful than this Magnum 44 - at least if\nyou intend to keep your badge.\n\nSized right for quick shots at close range,\nthe 44 is powerful enough to quickly end\nfights and make a mess of the coroner's\nwork, but will leave you exposed when\nlonger shots are needed.
+@firearm_magnum_44_revolver_1h_name=Magnum 44 (One Hand)
+@firearm_magnum_44_revolver_1h_desc=<OLD!>There's not much you can carry on duty more\npowerful than this Magnum 44 - at least if\nyou intend to keep your badge.\n\nSized right for quick shots at close range,\nthe 44 is powerful enough to quickly end\nfights and make a mess of the coroner's\nwork, but will leave you exposed when\nlonger shots are needed.
+@firearm_mark_23_pistol_name=Mark 23 Pistol
+@firearm_mark_23_pistol_desc=<OLD!>The great .45 pistol of the late 90s, the\nMark 23 is extremely accurate, powerful\nand just too damn big.\n\nMore of a collectors item than a practical\nhandgun - unless your job description\nincludes crawling through hell and knocking\nheads at 50 yards, that is.
+@firearm_mark_23sd_pistol_name=Mark 23-SD Pistol
+@firearm_mark_23sd_pistol_desc=<OLD!>With its elevated sights and slow moving\nslugs, the Mark 23 is uniquely suited for\nthe role of silent sentry remover.\n\nSuperb accuracy makes for a first shot that\nalways counts and the weight actually helps\nwith controlling recoil for followup shots.\n\nSound Travel Range: 6m
+@firearm_sp01_shadow_pistol_name=SP01 Shadow Pistol
+@firearm_sp01_shadow_pistol_desc=<OLD!>A target-grade 9mm with the mag capacity\nfor those that just don't care for reloading,\nthe Shadow was built with the needs of Tac\nTeams and race shooters alike in mind:\n\nSpeed, Accuracy and Rate of Fire limited\nby shooter skill and training only.
+@firearm_veterinary_pistol_name=Veterinary Pistol
+@firearm_veterinary_pistol_desc=<OLD!>Built to humanely dispatch wounded animals\nbut bearing obvious World War 2 lineage, the\nVP is also a great 2-legged Pest Remover.\n\nThe ported barrel and bolt action operation\neliminate all practical sound report, along\nwith any dream of rapid fire.\n\nSound Travel Range: 1.5m
+
+# Rifles
+@firearm_mk18_name=Karabin Mk18
+@firearm_mkl8_desc=Mk18 zaistniało jako personalizowany karabin do walk w zwarciu i w pojazdach dla Navy SEALs, ale szybko trafił do szafek innych sił Armii.\n\nOperuje dobrze w przejściach i małych pokojach, ale niska prędkość pocisku uniemożliwia zdejmowanie przeciwników jednym strzałem na 15 metrach wzwyż.
+@firearm_m249spw_name=M249 SPW
+@firearm_m249spw_desc=Żołnierze polegają na kaemistach, którzy zapewniają olbrzymie wsparcie ogniowe, podczas gdy reszta drużyny się przemieszcza.\n\nM249 SPW zostało dostosowane wagowo, by umożliwić operatorowi wygodniejsze czyszczenie pomieszczeń, ale radzi sobie też podczas strzelania z dalszej pozycji.
+@firearm_m240l_name=M240L GPMG
+@firearm_m240l_desc=Duże i ciężkie M240 błyszczy w sytuacjach, gdzie potrzebny jest stały ostrzał, a jego ciężka amunicja dobrze poradzi sobie ze zdejmowaniem przeciwników. Nie spodziewaj się jednak biegania i strzelania z biodra - ta broń musi być ustabilizowana, by poprawnie działała.
+@firearm_mg338_name=XMG338 LMMG
+@firearm_mg338_desc=Poręczny lekki karabin maszynowy który pozwala na celne trafienia nawet na bardzo dużych odległościach - XMG338 przydaje się tam, gdzie potrzebna by była półcalówka.\n\nAmunicja Magnum nieźle kopie i sporo waży, więc ta dziecinka strzela tylko seriami.
+@firearm_m14ebr_name=M14 EBR
+@firearm_m14ebr_desc=Karabin pamiętający jeszcze erę wojny w Wietnamie rozwinął się i pełni teraz rolę karabinu wyborowego, nadal utrzymując swoją śmiertelną reputację.\n\nWysoce modyfikowalny dzięki dostosowywanej kolbie, M14 tworzy dziury 7.62mm w dowolnym miejscu, gdy tylko strzelec znajdzie odpowiednią pozycję.
+@firearm_m110a1_name=M110A1 SDMR
+@firearm_m110a1_desc=Niemiecka odpowiedź na problem półautomatycznych "snajperek". M110A1 jest bardzo celne, ale należy pamiętać, że to spadek po wersji szturmowej.\n\nPoradzi sobie w każdej sytuacji od snajperstwa do czyszczenia pomieszczeń, ale jego długość i waga raczej nie nadaje się do typowej walki na bliski dystans.
+@firearm_m16a4_name=Karabin M16A4
+@firearm_m16a4_desc=Zmodernizowana i dostosowana do 21 wieku broń pamiętająca czasy Wietnamu.\n\nCelna i śmiertelnie niebezpieczna na każdym dystansie, ale nie nadaje się do walki na bliski dystans - długość lufy często powoduje uderzanie we framugi drzwi i innych operatorów.
+@firearm_m16a4dmr_name=M16 SDM-R
+@firearm_m16a4dmr_desc=To nie do końca M16, ale jego wysoce celny kuzyn. Ma zmodyfikowany spust, mobilną lufę, dwójnóg, i co ważniejsze - lepsze statystyki od deweloperów.\n\nNie strzela tak szybko jak zwykłe M16, ale strzały są dużo śmiertelniejsze, ma też mniejszy odrzut niż karabiny 7.62mm.
+@firearm_mk48_name=Mk48 Mod 1 LMG
+@firearm_mk48_desc=Co się stanie, gdy powiększysz stare M249 SAW? Lekki karabin maszynowy 7.62 dla swojej drużyny!\n\nLekkie nie zawsze oznacza dobre - większa waga umożliwia kontrolę odrzutu, tak więc ustabilizuj tę dziecinkę na jakimś podłożu i zasyp przeciwników długimi seriami.
+@firearm_mk20ssr_name=Mk20 SSR
+@firearm_mk20ssr_desc=Czego Mk17 LB nie potrafi, Mk20 zrobi.\n\nPorządny członek snajperskiej rodziny Mk16/17, SSR da ci wystarczającą celność, póki będziesz pamiętać, że to broń wsparcia, nie szturmowa.
+@firearm_mk17_cqc_name=Mk17 CQC
+@firearm_mk17_cqc_desc=Wersja Mk17 do walki na bliski dystans ma krótką lufę, ale waga za wiele się nie zmieniła ze względu na amunicję 7.62x51.\n\nTak czy inaczej, w CQB zwykle nie ma czasu na dłuższe zastanowienie się lub dodatkowe strzały. Korzystając z Mk17 wszystko dzieje się raz.
+@firearm_mk17_std_name=Karabin Mk17
+@firearm_mk17_std_desc=Żegnamy stare, witamy nowe, prawda? Mk17 łączy w sobie wygodę M16 z porządnymi częściami i dobrą amunicją.\n\nCzego by w nim nie lubić\n\nWiększego odrzutu? Mniejszego magazynka? Dużej wagi?
+@firearm_mk17_lb_name=Mk17 Long Barrel
+@firearm_mk17_lb_desc=Wersja LB karabinu Mk17 nie jest karabinem wyborowym per se, ale wystarczy to ogłupiania przeciwników i sierżantów.\n\nAmunicja 7.62 uderza mocno i szybko kładzie na ziemię, podczas gdy kontrola na wzór karabinów AR i wielkość dają pewną swobodę w czyszczeniu pomieszczeń.
+@firearm_m4_m203_desc=Weź swój najbardziej zaufany karabin - stare, dobre M4 - i przyczep pod lufą cholerne ręczne działo.\n\nTracisz przez to nieco wygody w użytkowaniu i prędkości celowania, ale zyskujesz możliwość wysadzenia jakiegoś biedaka ukrytego za rogiem, w dodatku raniąc jego kolegów.
+@firearm_mk18_m203_desc=Mk18 jest wystarczająco lekkie i poręczne, by umożliwić wygodne umocowanie granatnika M203 przy zachowaniu tej samej wydajności w walce CQB.\n\nGdy odległości się zwiększają, granaty 40mm są bardzo dobrym zastępstem dla mało wydajnego kalibru 5.56 z krótkiej lufy.
+@firearm_m16_m203_desc=Dwie długie i ciężkie lufy są lepsze niż jedna, jak to mówił sierżant, a poza tym komu potrzebny jest sprint?\n\nZdominuj pole walki przy użyciu precyzyjnego ostrzału amunicją 5.56 i wspomagającymi granatami 40mm przy większej liczbie wrogów.
+
+# SMGs
+@firearm_mp5a_name=MP5A5 SMG
+@firearm_mp5a_desc=Kwintesencja uzbrojenia antyterrorystycznego w latach '80. MP5 utraciło już swoją przewagę przez współczesne karabiny i PDW z lepszą balistyką na średnich dystansach.\n\nBroń ta jest krótka, szybka i celna w bliskich starciach, wspaniałe narzędzie do odbijania zakładników, ale przeładowanie jest staromodne i powolne.
+@firearm_mp5sd_name=Mp5SD6 SMG
+@firearm_mp5sd_desc=Co otrzymasz, gdy weźmiesz celne MP5 i połączysz je z poddźwiękową amunicją i tłumikiem?\n\nNarzędzie do zabijania tak ciche, że jedynym dźwiękiem będzie nabój uderzający w przeszkodę. Najlepszy sposób do bycia w ukryciu gdy umierają wrogowie.\n\nSłyszalność: 2.5m
+
+
+# Shotguns
+@firearm_m1014_name=Strzelba M1014
+@firearm_m1014_desc=Strzelby bojowe nie są zwyczajowym wyposażeniem Rangerów, ale trochę ich w Zbrojowni zostało.\n\nM1014 to zaufany, półautomatyczny siewca śmierci strzelający śrutem, ale z amunicją szturmową sobie niezbyt radzi i jest zbyt długi na czyszczenie pomieszczeń.
+@firearm_breacher_name=Strzelba szturmowa
+@firearm_breacher_desc=Krótka i poręczna strzelba z chwytem pistoletowym, korzystająca z amunicji szturmowej. \n\nTa broń została stworzona do niszczenia kłódek i zamków bez szansy na rykoszet czy niechciane obrażenia.\n\nNiestety żadnego złego kolesia się nią nie zabije.
+
+# Enemy weapons
+@firearm_rpk74lmg_name=RPK-74 LMG (5.45mm / 45 nab.)
+@firearm_rpk74lmg_desc=
+@firearm_rpklmg_name=RPK LMG (7.62mm / 75 rds)
+@firearm_rpklmg_desc=
+
+
+
+@firearm_pm63_name=PM-63 (9mm / 25 nab.)
+@firearm_miniuzi_name=Mini Uzi (9mm / 32 nab.)
+@firearm_type56_name=AK-47 (7.62mm / 30 nab.)
+@firearm_aks74u_name=AKS-74U (5.45mm / 30 nab.)
+@firearm_sr3m_name=SR3-M (9mm AP / 20 nab.)
+@firearm_fal_name=FAL (7.62mm / 20 nab.)
+@firearm_RPG7_name=RPG-7 (93mm HEAT)
+@firearm_RPG26_name=RPG-26 (72.5mm HEAT)
+
+@firearm_mac_10_smg_name=Mac-10 SMG (Auto / 9mm)
+@firearm_mac_10_smg_desc=
+@firearm_mp5k_XPw_name=MP5K XPW (Auto / 9mm)
+@firearm_evo_3_smg_name=Evo 3 SMG
+@firearm_evo_3_smg_desc=<OLD!>Europeans love their SMGs and the rapid-\nfiring, compact Evo 3 is a great example.\n\nFast on the target and quick to fill it with\n9mm holes, it mixes European and American-\nstyle controls intelligently and can be\nrun and reloaded very efficiently.\n\nOverall one hell of a bang for your buck.
+@firearm_bren_a1_assault_rifle_name=Bren A1 Assault Rifle
+@firearm_bren_a1_assault_rifle_desc=<OLD!>A newcomer polymer assault rifle from\nCentral Europe, the Bren will do the job\nbut not break the bank.\n\nBetter than average long range accuracy is\nowed to the modular stock, but controls and\noverall layout make the Bren relatively\nslow in practical operation.
+@firearm_ump45_smg_name=UMP45 SMG
+@firearm_ump45_smg_desc=<OLD!>The UMP fires the reliable .45 ACP and does\nit with German accuracy, providing the\nhighest stopping power you can get in a\nSMG package.\n\nA bit large and unwieldy for most users,\nand the heavy recoil affects follow-up\nshots speed and accuracy.
+@firearm_mp5a3_sd_smg_name=Mp5A3-SD SMG
+@firearm_mp5a3_sd_smg_desc=<OLD!>Mounting a 7 inch suppressor on your Mp5A3\nmight not be the best way to maintain CQB\nmaneuverability, but will lower shot sound\nlevels by a decent number of decibels.\n\nThe weapon loses some accuracy but in\npractical terms effects are negligible.\n\nSound Travel Range: 10m
+@firearm_ump45_sd_smg_name=UMP45-SD SMG
+@firearm_ump45_sd_smg_desc=<OLD!>Mounting a suppressor on the UMP45 is\nstraightforward and efficient, as long as\nyou accept handling a 16 inch barrel SMG.\n\nVery deadly at close range and against bad\nguys not wearing armor.\n\nSound Travel Range: 5m
+@firearm_mp5sd3_smg_name=Mp5SD3 SMG
+@firearm_mp5sd3_smg_desc=<OLD!>The quietest submachinegun at your disposal,\nthe Mp5SD uses barrel ports and an integral\nsuppressor to lower the velocity of the\nround down to subsonic levels.\n\nYou'll still hear the sound of the bolt\ncycling, but you won't know it's a weapon.\n\nSound Travel Range: 2.5m
+@firearm_mp7sd_smg_name=MP7-SD SMG
+@firearm_mp7sd_smg_desc=<OLD!>The small and maneuverable Mp7 shoots tiny\nbullets, but the low recoil and flat, rifle-\nlike trajectory translate into quick and\naccurate bursts of fire even at long range.\n\nThose tiny bullets do punch through kevlar\nwith ease, even when suppressed.\n\nSound Travel Range: 4m
+@firearm_m4_carabine_name=Karabin M4
+@firearm_m4_m203_name=M4/M203 GL
+@firearm_m4_carabine_desc=M4 straciło trochę prędkości wylotowej i celności w zamian za łatwość obsługi, dzięki czemu zdeklasowało większe M16 w walce CQB.\n\nJego lufa o długości 14.5 cala cierpi na spadek obrażeń przy odległościach 30m+, ale może to zmienić wykorzystanie innej amunicji. Karabin wielozadaniowy.
+@firearm_m4_cqbr_name=M4 CQB-R (Auto / 5.56mm)
+@firearm_mpx_40_smg_name=MPX .40 SMG
+@firearm_mpx_40_smg_desc=<OLD!>A modern submachinegun with AR15-style\ncontrols, the MPX is fast in operation and\nvery maneuverable in close spaces.\n\nHigh Rate of Fire coupled with decent\nstopping power make this a reliable fight\nstopper until the bad guys start donning\nbody armor.
+@firearm_mp7_XPw_name=Mp7 XPW
+@firearm_mp7_XPw_desc=<OLD!>The small and maneuverable Mp7 shoots tiny\nbullets, but the low recoil and flat, rifle-\nlike trajectory translate into quick and\naccurate bursts of fire even at long range.\n\nThose tiny bullets punch through Low Threat\nvests with ease, but compared with pistol\ncaliber SMGs you are giving away some first\nshot stopping power.
+@firearm_p90_XPw_name=P90 XPW
+@firearm_p90_XPw_desc=<OLD!>A compact Personal Defense Weapon shooting\na high velocity intermediate round, the P90\nis great for Close Quarters Combat and will\npierce straight through level IIIA armor.\n\nThe flat trajectory of the 5.7mm is great\nfor mid-to-long range shots, but stopping\npower potential is less than that of SMGs\nshooting traditional calibers.
+@firearm_g36c_assault_rifle_name=G36C Assault Rifle
+@firearm_g36c_assault_rifle_desc=<OLD!>A favorite of European SWAT teams, the G36C\nis short, light and very maneuverable.\n\nThe short barrel comes at the expense of\nstopping power though, as the low muzzle\nvelocity cuts under the reliable frag-\nmentation threshold for 5.56 rounds.
+@firearm_mk16_XPw_name=Mk 16 XPW
+@firearm_mk16_XPw_desc=<OLD!>This ultra compact XPW is handy in close\nquarters or when concealment is needed.\n\nIts small size makes it quick to get into\naction but the skeleton stock is a poor\nshooting platform, so accuracy and recoil\ncontrol are sub-standard.\n\nNot recommended for hostage rescue work.
+@firearm_hk416d10_name=HK416D10 Carbine
+@firearm_hk416d10_desc=<OLD!>The German engineering take on the AR15,\nthe HK416 is a favorite of Tier 1 Special\nOperation Groups and armchair commandos\nworldwide.\n\nVery reliable and accurate, in the 10 inch\nbarrel version it's also maneuverable but\na little slow on the target due to the heavy\nrail.
+@firearm_commando_553_name=Commando 553
+@firearm_commando_553_desc=<OLD!>Another European carbine built to very\nhigh standards, the 553 is accurate and\nmaneuverable, but falls behind on stopping\npower due to the short barrel.\n\nGood balance makes it easy to reload and\nrecover from dropping the barrel in a tight\nspot.
+@firearm_vector_smg_name=Vector SMG
+@firearm_vector_smg_desc=<OLD!>The avant-garde Vector SMG masters the\npowerful .45 rounds by clever positioning\nof shooter hands and directing the bolt to\nrecoil downards.\n\nResulting recoil is very mild and allows\nimpressive 2 round bursts grouping, but the\nshort barrel makes for less spectacular\nfirst round accuracy.
+@firearm_sar18_bullpup_name=SAR-18 Bullpup
+@firearm_sar18_bullpup_desc=<OLD!>With an 18 inch barrel and an overall length\nof 27.5, the SAR is a great mix of accuracy,\nstopping power and maneuverabilty.\n\nThe placement of the magazine well to the\nrear slows down reloads considerably,\nthough, and weight is a bit on the high side.
+@firearm_ak47_rifle_name=AK-47 Rifle (Semi / 7.62mm)
+@firearm_ak47_drum_name=AK-47 Drum (Auto / 7.62mm)
+@firearm_sniper_rifle_name=SniperRifle
+@firearm_p90sd_XPw_name=P90-SD XPW
+@firearm_p90sd_XPw_desc=<OLD!>The P90 is a great submachinegun for most\nurban engagements, but suppressing it does\nnot cover the supersonic crack of its high\nvelocity rounds.\n\nUsing subsonic ammo would negate the issue,\nbut would also lose most platform traits.\n\nSound Travel Range: 10m
+@firearm_mpxsd_40_smg_name=MPX-SD .40 SMG
+@firearm_mpxsd_40_smg_desc=<OLD!>The integrally suppressed version of the\nMPX is a joy to operate in combat thanks to \nthe AR-15 style controls.\n\nSubsonic .40 rounds don't pack that much of\na punch, but with the right training will\nmake short work of bad guy groups.\n\nSound Travel Range: 3m
+@firearm_vectorsd_smg_name=Vector-SD SMG
+@firearm_vectorsd_smg_desc=<OLD!>Suppressing .45 SMGs is a no-brainer and\nthe Vector's can has excellent signature\nreduction and zero effect on accuracy.\n\nYou'll appreciate the deadly bursts on\ntargets at close to medium range, but watch\nout for armored bad guys.\n\nSound Travel Range: 4m
+@firearm_hk416d10sd_carabine_name=HK416D10-SD Carbine
+@firearm_hk416d10sd_carabine_desc=<OLD!>Attaching a suppressor to a Short Barrel\nRifle is not optimal but does reduce the\nsound signature a little bit while keeping\nthe long range accuracy and lethality.\n\nYou best keep the increased barrel length\nin mind when navigating interior spaces.\n\nSound Travel Range: 13m
+@firearm_honey_badger_name=Honey Badger
+@firearm_honey_badger_desc=<OLD!>A great mix of ballistic performance, small\nsize and excellent sound suppression, the\nHoney Badger might gain a permanent spot in\nthe hands of Tier 1 Special Forces.\n\nArmor penetration is not great though, only\nmarginally better than pistol-caliber SMGs.\n\nSound Travel Range: 3.5m
+@firearm_fal_mini_osw_name=FAL Mini OSW (Auto / 7.62mm)
+@firearm_mp9_smg_name=MP9 SMG (Auto / 6.5mm AP)
+@firearm_x635_XPw_name=X635 XPW
+@firearm_x635_XPw_desc=<OLD!>A XPW boasting carbine-like ballistics,\nthe X635 shoots a 6mm cartridge designed to\nperform best out of short barrels and\nhalve recoil compared to classic M4s.\n\nShort enough to go through doorframes with\nlittle fuss, this classic styled XPW keeps\nlong range accuracy with no practical loss\nin stopping power.
+@firearm_mcx300_carbine_name=MCX 300 Carbine
+@firearm_mcx300_carbine_desc=<OLD!>Mixing AR-like controls with folding stock\ncompatible internals and designed for the\npowerful 300 Blackout cartridge, the MCX\nhandles right for close quarter ops and\ntakes down targets reliably.\n\nA great performer up to medium range, but\nloses aiming speed as you go farther.
+@firearm_caliber_38special_name=.38 Special
+@firearm_caliber_9x19_name=9x19mm
+@firearm_caliber_9x19subsonic_name=9x19mm Subsonic
+@firearm_caliber_357mag_name=.357 Magnum
+@firearm_caliber_40sw_name=.40 S&W
+@firearm_caliber_40swsubsonic_name=.40 S&W Subsonic
+@firearm_caliber_44mag_name=.44 Magnum
+@firearm_caliber_45acp_name=.45 ACP
+@firearm_caliber_46x30_name=4.6x30mm
+@firearm_caliber_57x28_name=5.7x28mm
+@firearm_caliber_556x45_name=5.56x45mm
+@firearm_caliber_556GL40_name=5.56x45mm/40mm HE
+@firearm_caliber_6x35_name=6x35mm
+@firearm_caliber_6x25_name=6.5x25mm
+@firearm_caliber_762x39_name=7.62x39mm
+@firearm_caliber_762x51_name=7.62x51mm
+@firearm_caliber_338NM_name=.338 NorMag
+@firearm_caliber_300BLK_name=.300 BLK
+@firearm_caliber_300BLKsubsonic_name=.300 BLK Subsonic
+@firearm_caliber_12gauge_name=12 Gauge
+@firearm_caliber_bzzzt_name=bzzzt
+@firearm_operation_doubleactionrev_name=Dwutaktowy rewolwer
+@firearm_operation_doubleactiononly_name=Dwutaktowiec
+@firearm_operation_semiauto_name=Półautomat
+@firearm_operation_semi3rdburst_name=Półautomat, Seria 3x
+@firearm_operation_mp5navy_name=Półautomat, Seria, Automat
+@firearm_operation_semifull_name=Półautomat, Automat
+@firearm_operation_fullauto_name=Automat
+@firearm_operation_fullauto2burst_name=Automat, Seria 2x
+@firearm_operation_fullauto3burst_name=Automat, Seria 3x
+@firearm_operation_boltaction_name=Czterotaktowiec
+@firearm_operation_pumpaction_name=Pompka
+@firearm_operation_breakopen_name=Break Open
+@firearm_operation_singleshot_name=Jednostrzałowy
+
+# Shotguns
+@firearm_breacher_shotgun_name=Breacher Shotgun
+@firearm_breacher_shotgun_desc=<OLD!>The shortest pump shotgun available to you,\nit's quick to get into action and quick to\nsetup for door breaching.\n\nThe short length comes at a price though,\nas the magazine barely tackles one lock\nbefore running out of ammo.\n\n
+@firearm_m870_room_clearer_name=M870 Room Clearer
+@firearm_m870_room_clearer_desc=<OLD!>Sized just right for prolonged indoor\nadventures, the Room Cleaner comes with a\nhealthy magazine capacity and allows side-\nstepping through a door opening in ready\nposition.\n\nShot dispersion is still an issue so take\nextra care around hostages and fellow\nofficers.
+@firearm_m590_shotgun_name=M590 Shotgun
+@firearm_m590_shotgun_desc=<OLD!>The standard and dependable pump-action\nshotgun in Police inventory, the M590 comes\nwith great mag capacity but suffers in CQB\nspaces due to the long and unwieldy barrel.\n\nAs with all shotguns, keep in mind shot\ndispersion and target background.
+@firearm_joint_combat_shotgun_name=Joint Combat Shotgun
+@firearm_joint_combat_shotgun_desc=<OLD!>A Semi-Automatic shotgun in the familiar\ntube-fed design, the JCS is fun to shoot and\ngreat for pure short range firepower.\n\nNot the shortest boomstick around, though,\nso you'll need to support the breacher with\nanother trooper. Also, the mag goes empty\nfaster than you'd think.
+@firearm_m26_lss_name=M26 LSS
+@firearm_m26_lss_desc=<OLD!>Straight from the inventory of US Special\nForces, a magazine fed, bolt action shotgun.\n\nSurprisingly easy to charge but a little\nunwieldy in room clearing due to the awk-\nward hand positioning on the operating bolt,\nthe M26 is still a solid performer at close\nrange.
+@firearm_sawnoff_shotgun_name=Sawn-Off Shotgun (12 Ga)
+@firearm_ksg_shotgun_name=KSG Shotgun
+@firearm_ksg_shotgun_desc=<OLD!>A very avant-garde design for a pump-action\nshotgun, the KSG uses twin tubular magazines\nto hold a whooping 14 shells.\n\nThe bullpup form maximizes maneuverability\nand accuracy, at the expense of awkward\nreloads and access to the ejection port.\n\nCannot use Ejection Port Reload doctrine.
+@firearm_six12_shotgun_name=Six 12 Shotgun
+@firearm_six12_shotgun_desc=<OLD!>The Six 12 is really a large, double-action\nrevolver that fires shotgun shells.\n\nSimple and revolutionary at the same time,\nthe design makes for quick reloads as long\nas you can juggle with the cylinders.\n\nCannot use Ejection Port Reload doctrine.
+@firearm_six12sd_shotgun_name=Six 12-SD Shotgun
+@firearm_six12sd_shotgun_desc=<OLD!>The shorter and suppressed version of the\nSix 12, not really that silent but useful\nto open doors without waking up the entire\ncity block.\n\nSound Travel Range: 10m\n\nCannot use Ejection Port Reload doctrine.
+@firearm_s12k_tactical_shotgun_name=S12K Tactical Shotgun
+@firearm_s12k_tactical_shotgun_desc=<OLD!>Policing the streets of Nowhere City USA\nwhile carrying an AK, that won't be easy to\nsell to the top brass.\n\nStill, the S12 is a dependable, magazine-fed\nshotgun in assault rifle format. Just\nremember that the format in question has\nthe control levers in all the wrong places!
+
+
+#Ammo (descriptions are not shown in the game currently)
+@ammo_556FMJM855_name=M855 62gr Green Tip
+@ammo_556FMJM855_desc=Typowa amunicja w całej armii USA. Zapewnia dobrą fragmentację.
+@ammo_556FMJM855A1_name=M855A1 62gr EPR
+@ammo_556FMJM855A1_desc=Nowa amunicja armi, dostosowana do karabinów podobnych do M4.
+@ammo_556FMJMk318_name=Mk318 62gr SOST Ball
+@ammo_556FMJMk318_desc=Ta amunicja o otwartym czubku dobrze sobie radzi w CQB.
+@ammo_556FMJMk262_name=Mk262 77gr Match
+@ammo_556FMJMk262_desc=Amunicja dostosowana do walki na dużym dystansie.
+@ammo_762FMJM80_name=M80 147gr FMJ
+@ammo_762FMJM80_desc=
+@ammo_338FMJXM338_name=XM338 300gr FMJ
+@ammo_338FMJXM338_desc=Testowana z najnowszym KMem SOCOMu, zapewnia celność na dużych odległościach.
+@ammo_762FMJM80A1_name=M80A1 130gr Steel Tip
+@ammo_762FMJM80A1_desc=
+@ammo_762FMJM118LR_name=M118LR 175gr Match
+@ammo_762FMJM118LR_desc=
+@ammo_12GAM1030_name=Breaching Rounds
+@ammo_12GAM1030_desc=
+@ammo_45FMJM1911_name=45FMJM1911
+@ammo_45FMJM1911_desc=
+@ammo_919FMJM882_name=M882 124gr FMJ
+@ammo_919FMJM882_desc=Dobrze znana standardowa amunicja - nic nadzwyczajnego, ale ma moc obalającą.
+@ammo_919FMJM1152_name=M1152 115gr FMJ
+@ammo_919FMJM1152_desc=Nowa amunicja FMJ z płaskim czubkiem leci dalej, ale nieco zwiększa odrzut.
+@ammo_919JHPM1153_name=M1153 147gr JHP
+@ammo_919JHPM1153_desc=Ciężka, poddźwiękowa amunicja z drążonym czubkiem. Większe obrażenia, niższa celność.
+@ammo_919JHPM1153_suphgdesc=Poddźwiękowa amunicja HP zwiększa obrażenia i zmniejsza głośność strzału do 3.5m.
+@ammo_40FMJ180GR_name=40FMJ180GR
+@ammo_40FMJ180GR_desc=
+@ammo_12GA00BUCK_name=9 Pel 00 Buck 
+@ammo_12GA00BUCK_desc=Standard 9-pellet Double Ought buckshot, good for big game up to 20 yards.  
+
+#Scopes (descriptions are not shown in the game currently)
+@scope_ironsights_name=Muszka
+@scope_ironsights_desc=Zwykły celownik mechaniczny, fabryczny dla broni. Głupi i prosty, a więc dobry.
+@scope_rangersholo_name=Holo 1x
+@scope_rangersholo_desc=Celownik holograficzny z oznaczeniami ułatwiającymi strzelanie na średni dystans.
+@scope_rangersM68reddot_name=M68 Red Dot 1x
+@scope_rangersM68reddot_desc=Minimalistyczna optyka wyświetlająca kropkę. Szybka i celna.
+@scope_rangersspecterdr_name=Elcan DR 1/4x
+@scope_rangersspecterdr_desc=Celownik stworzony do walki na krótki i średni dystans, ale dość ciężki.
+@scope_rangersM150acog_name=ACOG 4x
+@scope_rangersM150acog_desc=Prosty celownik z powiększeniem do walki na średni dystans, ale nieco waży.
+@scope_rangerslpvo6x_name=LPVO 1-6x
+@scope_rangerslpvo6x_desc=Luneta radząca sobie wyśmienicie na dystansach od 25 metrów wzwyż.
+@scope_rangerslpvo8x_name=LPVO 1-8x
+@scope_rangerslpvo8x_desc=Optyka szturmowa najlepsza na dystansach większych niż 25 metrów.
+@scope_lromk6_3_18_name=LR Optic 3-18x
+@scope_lromk6_3_18_desc=Luneta snajperska do walki na dystansach 25-50 metrów.
+@scope_lromk4_name=LR Optic 3.5-10x
+@scope_lromk4_desc=Najpopularniejsza luneta, lekka i znośna na każdym dystansie.
+@scope_lropm5_25_name=LR Optic 5-25x
+@scope_lropm5_25_desc=Ciężka i sporawa luneta o najlepszej precyzji na 25 metrach i dalej.
+
+
+@scope_rangersMGO240_name=MG Optic 6x
+@scope_rangersMGO240_desc=Zdominuj pole walki na dystansie 25-50 metrów z tą celną, ale ciężką optyką.
+@scope_rangersMGOM145_name=M145 MG Optic 3.4x
+@scope_rangersMGOM145_desc=Zyskaj nieco precyzji na średnim dystansie przy dobrej swobodzie ruchów.
+
+
+#
+# Doctrine abilities
+#
+
+@doctrine_handguns_shortrange_name=Point Shooting
+@doctrine_handguns_shortrange_head=Increases Aiming Speed at Close Range
+@doctrine_handguns_shortrange_descr=\nTroopers use natural body mechanics and a partial sight picture\nto instinctively engage targets at Close Range.
+
+@doctrine_handguns_precision_name=Surgical Shooting
+@doctrine_handguns_precision_head=Increases Shooting Precision
+@doctrine_handguns_precision_descr=\nIncreases precision at all ranges,\nwith a suplimentary bonus applied at Close and Medium Range.
+
+@doctrine_handguns_quickdraw_name=Quick Draw
+@doctrine_handguns_quickdraw_head=Faster Handgun Deployment
+@doctrine_handguns_quickdraw_descr=\nThe troopers become adept at deployingthe handgun\nafter a hands-on evolution and maneuvering it around obstacles.
+
+@doctrine_handguns_doubletap_name=Double Tap
+@doctrine_handguns_doubletap_head=Close Range targets get 2 quick shots
+@doctrine_handguns_doubletap_descr=\nTargets at Close Range are engaged with a\nquick pair of sighted shots, maximizing probability of Kill.
+
+@doctrine_handguns_longrange_name=Long Range Drills
+@doctrine_handguns_longrange_head=Increased Aiming Speed and Accuracy
+@doctrine_handguns_longrange_descr=\nThe team drills on shooting their Handguns at Long Range.
+
+@doctrine_handguns_mozambique_name=Mozambique
+@doctrine_handguns_mozambique_head=Double Taps are followed by Headshot
+@doctrine_handguns_mozambique_descr=\nIf the Double Tap fails to stop a threat,\nthe trooper automatically continues with a headshot.
+
+@doctrine_handguns_car_name=Center Axis Relock
+@doctrine_handguns_car_head=Allows Point Blank shooting
+@doctrine_handguns_car_descr=\nUsing a close-to-body stance, troopers can manipulate\nand fire their handguns at hand to hand distances.
+
+@doctrine_longguns_shortrange_name=Close Range Engagements
+@doctrine_longguns_shortrange_head=Increases Aiming Speed at Close Range
+@doctrine_longguns_shortrange_descr=\nThe troopers drill on targets simulating short room spaces,\nfocusing on quick shots but maintaning accuracy.
+
+@doctrine_longguns_mediumrange_name=Medium Range Drills
+@doctrine_longguns_mediumrange_head=Improved Accuracy and Aiming Speed
+@doctrine_longguns_mediumrange_descr=\nThe troopers focus on providing quick and accurate fire\nover distances characteristic to offices and hallways.
+
+@doctrine_longguns_barricade_name=Barricade Shooting
+@doctrine_longguns_barricade_head=Improved Accuracy and Recoil in cover
+@doctrine_longguns_barricade_descr=\nThe trooper uses available cover\nto stabilize his weapon and better control recoil.
+
+@doctrine_longguns_transition_name=Transition
+@doctrine_longguns_transition_head=Automatically switch to sidearm
+@doctrine_longguns_transition_descr=\nWhen out of ammo on their primary and under direct threat,\nthe troopers switch to their sidearm.
+
+@doctrine_longguns_longrange_name=Long Range Drills
+@doctrine_longguns_longrange_head=Improves Long Range Accuracy and Speed
+@doctrine_longguns_longrange_descr=\nThe troopers focus on getting faster and better shots\nat distances similar to urban open spaces and courtyards.
+
+@doctrine_longguns_backbreaker_name=Back Breaker
+@doctrine_longguns_backbreaker_head=Increased lethality vs unaware targets
+@doctrine_longguns_backbreaker_descr=\nWhen engaging bad guys from the rear and not under fire themselves,\ntroopers automatically hit the vital zones.
+
+@doctrine_longguns_negatecover_name=Negate Cover
+@doctrine_longguns_negatecover_head=Increased precision vs targets in cover
+@doctrine_longguns_negatecover_descr=\nThe troopers drill on engaging targets partially obscured by cover.
+
+@doctrine_longguns_silentkill_name=Go Silent
+@doctrine_longguns_silentkill_head=Stealth Class Holds Fire
+@doctrine_longguns_silentkill_descr=\nA major upgrade in troops discipline allows Stealth Troopers\nto hold fire until they receive orders to take the shot.
+
+@doctrine_shotguns_recoil_name=Recoil Control
+@doctrine_shotguns_recoil_head=Increases ROF at medium/long range
+@doctrine_shotguns_recoil_descr=\nLearning to cope with the recoil of double-0 buckshot\nallows the trooper quicker follow-up shots.
+
+@doctrine_shotguns_fastpump_name=Fast Pump
+@doctrine_shotguns_fastpump_head=Increases ROF with pump shotguns
+@doctrine_shotguns_fastpump_descr=\nTiming his pump action to the rhythm of the recoil,\nthe trooper is able to chamber the next round faster.
+
+@doctrine_shotguns_emergencyreload_name=Ejection Port Reload
+@doctrine_shotguns_emergencyreload_head=Speeds Emergency Reloads
+@doctrine_shotguns_emergencyreload_descr=\nThe trooper learns to drop a shell directly into the ejection port\n of an empty shotgun, reloading it quicker.
+
+@doctrine_shotguns_oneshotbreach_name=One Shot Breach
+@doctrine_shotguns_oneshotbreach_head=Reduce Door Breach to one shot
+@doctrine_shotguns_oneshotbreach_descr=\nUsing specialized breaching ammunition and placing the muzzle\non the door lock, the trooper takes it down in one shot.
+
+@doctrine_shotguns_doortakedown_name=Door Hinge Takedown
+@doctrine_shotguns_doortakedown_head=Take the Door Down without a kick
+@doctrine_shotguns_doortakedown_descr=\nThe Trooper shoots the hinges off the door and lets it fall.\nPreferably in some bad guy's head.
+
+@doctrine_shotguns_car_name=Center Axis Relock
+@doctrine_shotguns_car_head=Allows Point Blank shooting
+@doctrine_shotguns_car_descr=\nUsing a bladed stance and pulling the shotgun under the\nstrong side shoulder, troopers maneuver better in close spaces.
+
+
+
+#
+# Entities
+#
+
+@entity_door_tooltip=Drzwi
+@entity_door_strong_tooltip=Wzmocnione drzwi
+@entity_door_strong_locked_tooltip=Wzmocnione drzwi (Z.)
+@entity_door_flimsy_tooltip=Cienkie drzwi
+@entity_door_glass_tooltip=Szklane drzwi
+@entity_door_flimsy_locked_tooltip=Cienkie drzwi (Z.)
+@entity_door_safe_tooltip=Drzwi sejfu
+@entity_door_gate_tooltip=Metalowa brama
+@entity_door_gate_locked_tooltip=Metalowa brama (Z.)
+@entity_door_gate_large_tooltip=Duża brama
+@entity_door_grating_tooltip=Kraty
+@entity_door_grating_locked_tooltip=Kraty (Z.)
+@entity_door_elevator_tooltip=Drzwi windy
+@entity_door_sliding_tooltip=Drzwi przesuwne
+@entity_door_sliding_tooltip2=Drzwi przesuwne
+@entity_door_sliding_blocked_tooltip=Drzwi (Z.)
+@entity_window=Okno
+@entity_drapes=Zasłona
+@entity_glass_wall=Szklana ściana
+@entity_window_blocker=Barykada okna
+@entity_chainlink_fence=Płot z łańcuchem
+@entity_fence=Płot
+@entity_rescuezone_tooltip=Strefa ratunkowa: Doprowadź tu zakładników, by ich uratować
+@entity_timebomb_tooltip=Time Bomb
+@entity_dopelarge_tooltip=Big Stash of Drugs. Evidence.
+@entity_dopesmall_tooltip=Drugs. Evidence.
+@entity_dopepapers_tooltip=Important looking documents.
+@entity_dopelaptop_tooltip=Laptop. Might contain evidence.
+@entity_dopePC_tooltip=PC Master Race. Evidence!
+@entity_dopepapersoptional_tooltip=Important looking documents.
+@entity_dopelaptopoptional_tooltip=Laptop. Might contain evidence.
+@entity_storeyswitch_up_tooltip=Use to get to the upper level
+@entity_storeyswitch_down_tooltip=Use to get to the lower level
+@entity_getawaycarcrashed_tooltip=Getaway Car. Suspects Inside.
+@entity_escapezone_tooltip=Escape Zone: Robbers escape if they reach this point
+@entity_robberyitem_tooltip=Door Kickers 2 Source Code!
+@entity_robberyitemgold_tooltip=They're going after that gold, Joe.
+@entity_robberycash_tooltip=Money makes the world go round.
+@entity_flashbangtarget_tooltip=Cel granatu
+@entity_stingertarget_tooltip=Cel stingera
+@entity_door_locked= (Z.)
+@entity_door_padlocked= (Z.)
+
+@entity_human_vip=VIP
+@entity_human_hostage=Zakładnik
+@entity_human_civilian=Cywil
+@entity_human_civilian_vis_1=Cywil, który zadzwonił
+@entity_human_suicidebomber=Samobójca
+@entity_human_executioner=Egzekutor
+@entity_human_friendly_vip=Sojuszniczy VIP
+@entity_human_friendly_vip_2=Dezerter
+@entity_human_agent01="Po prostu Fergie"
+
+
+
+
+#
+# Humans
+#
+
+@tooltip_enemy_vip=Cel misji. Aresztuj i doprowadź do strefy ewakuacyjnej.
+@tooltip_civilian=Żyją tu zwykli ludzie. Dobrzy żołnierze ich nie zabijają.
+@tooltip_civilian_visible_1="Znalazł bombę, gdy ukrywał się przed terrorystami."
+@tooltip_friendly_vip=Cel misji. Nawiąż kontakt by uzyskać kontrolę.
+@tooltip_friendly_vip_phone="Wyciągnij mnie stąd żywego, a wyśpiewam ci wszystko."
+@tooltip_friendly_vip_arrested=Wejdź w zasięg, by uzyskać kontrolę.
+@tooltip_friendly_suit=Heroiczny Joe
+@tooltip_hostage=Odbij i bezpiecznie odprowadź do strefy ewakuacyjnej.
+@tooltip_hostage_civ=Zwykli ludzie, których porwano. Ich życie jest twoim priorytetem.
+@tooltip_hostage_visible=Cel priorytetowy. Ten zakładnik zostanie wkrótce zabity.
+@tooltip_hostage_visible_known=Informatorzy zgłosili pobyt zakładnika w tym miejscu.
+@tooltip_hostage_visible_phone=Kryjący się cywil, rozmawia przez telefon.
+@tooltip_unarmed_bystander=Obserwator
+@tooltip_unarmed_bystander_visible=Obserwator
+@tooltip_friendly_sniper=Cel snajpera: przeciągnij lub wciśnij TAB
+
+
+#
+# Hardcoded texts
+#
+
+# scenario
+@scenario_type_clear=Zlikwiduj wszystkich
+@scenario_type_hostage=Uratuj zakładnika
+@scenario_type_bomb=Rozbrojenie bomby
+@scenario_type_abduction=Aresztuj cel
+@scenario_type_execution=Powstrzymaj egzekucję
+@scenario_type_vip_escort=Eskortuj VIPa
+@scenario_type_vip_extract=Wyprowadź VIPa
+
+@scenario_clear_win=Wszyscy przeciwnicy zostali wyeliminowani
+@scenario_hostage_win=Zakładnicy zostali uratowani
+@scenario_hostage_win_all=Wszyscy zakładnicy zostali uratowani
+@scenario_abduction_win=Cel został aresztowany
+@scenario_rescue_win=VIP został wyprowadzony
+@scenario_hostage_lose=Zakładnik został zabity
+@scenario_hostage_lose_all=Wszyscy zakładnicy zostali zabici
+@scenario_team_killed=Drużyna szturmowa została zabita!
+@scenario_target_killed=Cel został zabity
+@scenario_bomb_win=The entire location has been secured!
+@scenario_bomb_lose=Bomba wybuchła!
+
+@scenario_conditions_clear=Zlikwiduj wszystkich przeciwników -
+@scenario_conditions_hostage=Zakładnicy muszą przeżyć (lub zostać uratowani) -\n(Opcjonalne) Zlikwiduj wszystkich przeciwników -
+@scenario_conditions_bomb=Rozbrój bombę -\nWyeliminuj terrorystów -
+@scenario_conditions_abduction=Zatrzymaj cel -\n(Opcjonalne) Zlikwiduj wszystkich przeciwników -
+@scenario_conditions_execution=Powstrzymaj egzekutorów przed zabiciem zakładników -\nZlikwiduj wszystkich przeciwników -
+@scenario_conditions_vip_escort=Eskortuj VIPa do bezpiecznej strefy -\n(Opcjonalne) Zlikwiduj wszystkich przeciwników -
+@scenario_conditions_vip_extract=Znajdź i uratuj VIPa -\n(Opcjonalne) Zlikwiduj wszystkich przeciwników -
+
+@scenario_trooper_limit=%d/%d przydzielonych operatorów -
+
+@effect_suppressed=PRZYGWOŻDŻONY
+@effect_pinned=UZIEMIONY
+
+# campaign
+@campaign_unlock_level=Odblokuj mając poziom %d
+@campaign_in_progress_title=W trakcie kampanii
+@campaign_in_progress_line1=Czy na pewno chcesz zacząć nową kampanię?
+@campaign_in_progress_line2=(postępy w obecnej kampanii zostaną utracone)
+@campaign_restart_title=Zrestartować kampanię?
+@campaign_restart_line1=Czy na pewno chcesz zrestartować tę kampanię?
+@campaign_restart_line2=(postępy w obecnej kampanii zostaną utracone)
+@campaign_result_rating1=Abysmal
+@campaign_result_rating2=Poor
+@campaign_result_rating3=Satisfactory
+@campaign_result_rating4=Excellent
+@campaign_result_rating5=Outstanding
+@campaign_map_complete_status=%s (ukończono)
+@campaign_map_optional_status=%s (opcjonalne)
+
+# doctrine screen
+@doctrine_required_point=Requires 1 doctrine point
+@doctrine_required_points=Requires %d doctrine points
+@doctrine_required_abilities=Requires %d active abilities in this tree
+
+# mods screen
+@mods_conflict_title=Error - Mod conflict
+@mods_conflict=Can't do. Selected mod shares at least one file\n with '%s'. \nCheck log.txt file for details.
+
+# squad
+@squad_default_name=The Rookies of NCXP
+
+# statistics
+@stat_missiontime=Time spent in missions
+@stat_reloads=Reload count
+@stat_success_missions=Missions completed
+@stat_doorsbreached=Doors breached
+@stat_paths=Paths drawn
+@stat_saved_hostages=Hostages rescued
+@stat_enemies_stunned=Enemies stunned
+@stat_time_waiting=Time waiting for GO codes
+@stat_hostiles_killed=Hostiles pacified
+@stat_bullets=Bullets fired
+@stat_grenades=Grenades used
+@stat_distance_walked=Distance walked
+@stat_arrests=Arrests
+@stat_bombs_disarmed=Bombs disarmed
+
+# game
+@game_replay_desync_title=Błąd!
+@game_replay_desync_line=Replay desync! Playback will now stop.
+@game_reset_progress_line=Are you sure you want to reset all progress?\n(squad, unlocked items, map progress etc.)
+@game_import_failed_title=Error while importing save-games
+@game_import_failed_line1=Make sure the code is correct and
+@game_import_failed_line2=your Internet connection is online.
+@game_export_success_title=Savegames exported!
+@game_export_success_line=Use this code when importing to other devices:
+@game_export_failed_title=Error while exporting save-games
+@game_export_failed_line1=There was a problem uploading savegames,
+@game_export_failed_line2=please check your Internet connection
+@game_export_failed_line3=and firewall settings!
+@game_endscreen_stats_killed=KIA
+@game_injured=RANNY
+@game_healthy=ZDROWY
+@game_badge_locked=Badge unlocked at level %d
+@game_loadingscreen_press_any_key=Wciśnij dowolny klawisz, by kontynuować
+@game_loadingscreen_loading=Ładowanie...
+@game_initialloading_loading=Ładowanie...
+@game_initialloading_workshop=UXPating Steam Workshop mods...
+@game_ironman_restart_title=Are we an iron man or what?
+@game_ironman_restart_line1=Cannot restart mission while in iron man mode!
+@game_casualties_none=Brak
+@game_squad_level=Poziom drużyny %d
+@game_squad_level_uppercase=POZIOM DRUŻYNY %d
+@game_evidence_destroyed_tooltip=This evidence was destroyed.
+@game_waypoint_tooltip_path=RClick to add/delete waypoint
+@game_waypoint_tooltip_normal=RClick to change/delete action
+@game_waypoint_tooltip_detonate=Push to detonate!
+
+#
+# Texts used in textures. Texture must be manually localized by artist, using the .psd sources.
+#
+
+@game_texture_esczone=ESCAPE ZONE
+@game_texture_resczone=RESCUE ZONE
+@game_texture_tut1=CLICK & DRAG TO MOVE
+@game_texture_tut2=R-CLICK & DRAG TO ORIENTATE
+@game_texture_tut3=R-CLICK ON TROOPER FOR MENU
+@game_texture_tut4=USE PLANNING MODE (SPACE) TO START/STOP THE ACTION
+@game_texture_tut5=DRAG A PATH THROUGH DOOR & CHOOSE ENTRY METHOD
+@game_texture_tut6=CTRL+R-CLICK AND DRAG TO KEEP STRAFING
+@game_texture_aim=DRAG TO AIM
+@game_texture_campaign_win=CAMPAIGN COMPLETED
+@game_texture_campaign_fail=CAMPAIGN FAILED
+@game_texture_blowup=BLOW UP
+@game_texture_autodeploy=AUTO DEPLOY
+@game_texture_prevplan=PREV PLAN
+@game_texture_doctrinesquad=SQUAD DOCTRINE TREE
+@game_texture_doctrineunspent=Unspent doctrine points:
+@game_texture_doctrine_handguns=Handguns
+@game_texture_doctrine_shotguns=Shotguns
+@game_texture_doctrine_longguns=Long Guns
+@game_texture_menu=MENU
+@game_texture_deploy=DEPLOY MODE
+@game_texture_keepplan=KEEP PREVIOUS PLAN
+@game_texture_improved=IMPROVED RESULT
+@game_texture_unlock_campaign=CAMPAIGN MODE UNLOCKED
+@game_texture_unlock_class=NEW CLASS UNLOCKED
+@game_texture_snipersupport=SNIPER SUPPORT
+@game_texture_squadbadge=SQUAD BADGE
+@game_texture_promoted=PROMOTED
+@game_texture_replay=Replay
+@game_texture_replaypaused=Replay Paused
