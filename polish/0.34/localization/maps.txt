@@ -1,0 +1,209 @@
+﻿#
+# IMPORTANT
+# -Do not modify/localize %s, %d, %u or any other such constructs, leave them as they are.
+# -Do not modify \n (it moves the text following it to the next line).
+# -Text IDs ending in _ttip or _tooltip can be translated using any length, for all others try to keep the same length (though it depends from text to text).
+# -Keep every @id=text on one line
+#
+
+#
+# Single Player Mission Packs
+#
+
+@single_mispack_1_name=POWITANIE ŚWIEŻAKÓW
+@single_mispack_2_name=PROWADŹ PRZODEM
+@single_mispack_3_name=RÓB JAK DELTA
+@single_mispack_4_name=NIE WIDZIAŁEM, NIE SŁYSZAŁEM
+@single_mispack_5_name=MAŁE PROBLEMY
+@single_mispack_5x_name=MAŁE PROBLEMY 2
+@single_mispack_5xx_name=MAŁE PROBLEMY 3
+@single_mispack_5xxx_name=MAŁE PROBLEMY 4
+@single_mispack_6_name=NA RATUNEK
+@single_mispack_6x_name=NA RATUNEK 2
+@single_mispack_6xx_name=NA RATUNEK 3
+@single_mispack_7_name=HINDUSKA WIEŚ
+@single_mispack_8_name=CZERWONA ZIEMIA
+@single_mispack_9_name=OPERACJA ZDOBYWCA
+@single_mispack_10_name=POWIEW PRZESZŁOŚCI
+@single_mispack_11_name=TALIA KART
+@single_mispack_12_name=DO KOŃCA
+@single_mispack_13_name=ANI KROKU WSTECZ
+@single_mispack_undisclosed_name=<NADAL TAJNE>
+
+#
+# Maps from Mission Packs
+#
+
+# 01 FNGs Welcome
+
+@map_pathtosuckless=ŻEBY SSAĆ MNIEJ
+@map_wooddoorsareeasy=DREWNIANE DRZWI
+@map_practicemakesperfect=WSZYSCY RAZEM
+@map_doorkickers=DLATEGO WALCZYMY
+@map_rescueatdawn=RATUNEK O ŚWICIE
+@map_thejihadiliveshow=DŻIHAD NA ŻYWO
+@map_killingtime=CZAS ZABIJANIA
+
+# 02 Lead the Way
+
+@map_gatecrashers=BEZ PUKANIA
+@map_vbiedsareus=NASZE VBIEDY
+@map_aquaintlittleman=OSOBLIWY CZŁOWIEK
+@map_fireandmaneuver=STRZELAJ I IDŹ
+@map_safehousestrike=ATAK NA KRYJÓWKĘ
+@map_alhasanhasitall=AL-HASAN MA WSZYSTKO
+@map_vipersnest=GNIAZDO ŻMIJ
+@map_exterior05=PRAWDZIWI WYZNAWCY
+@map_opbase=TWARDE ORZECHY
+
+# 03 Do it like Delta
+
+@map_duplex=DUPLEX
+
+# 04 Never See Never Bee
+
+@map_cia1=KURS JAZDY
+@map_breakin=ZŁAM I ZNISZCZ
+@map_compound01=ZŁAP I ZABIERZ
+@map_countrysidejackpot=WIEJSKI SUKCES
+@map_thedealer=HANDLARZE ŚMIERCIĄ
+
+# 05 Tiny Troubles
+
+@map_noisyneighborsnuisance=GŁOŚNI SĄSIEDZI
+@map_theview=NA WIDOKU
+@map_ratwork=SZCZURZA ROBOTA
+@map_uninvitedguests=NIEPROSZENI GOŚCIE
+@map_doortodoor=OD DRZWI DO DRZWI
+@map_roomservice=SPRZĄTACZKI
+@map_pincerspower=SILNE SZCZYPCE
+@map_lonelyabode=SAMOTNY DOM
+@map_extratrouble=WIELKI WYBUCH W MAŁEJ KLITCE
+
+@map_hotroom=GORĄCY POKÓJ
+@map_knivesinthedark=NOCNI NOŻOWNICY
+@map_techsupport=WSPARCIE TECHNICZNE
+@map_traphouse=DOM-PUŁAPKA
+@map_flatmates=WSPÓŁLOKATORZY
+@map_scratchedcarpets=NIESPRAWIEDLIWE SZANSE
+
+@map_fuelstop=KONIEC GAZU
+@map_itreallystinks=NAPRAWDĘ ŚMIERDZI
+@map_theritual=RYTUAŁ
+@map_nightbird=NOCNY MAREK
+@map_covereddebris=POD GRUZAMI
+
+#  Deck of Aces
+
+@map_living_large=WALET KIER
+@map_large_penthouse=KRÓLOWA KARO
+@map_kingofspades=KRÓL PIK
+@map_tenofclubs=DZIESIĄTKA TREFL
+@map_twoofspades=PARA ÓSEMEK
+
+# 06 Extreme Rescues
+
+@map_crisisonroutekilo=SYTUACJA NA DRODZE KILO
+@map_againsttheodds=NA PRZEKÓR WSZYSTKIEMU
+@map_embassysiege=OBLĘŻENIE AMBASADY
+@map_maniacsmansion=POSIADŁOŚĆ SZALEŃCA
+@map_supermarket=WTYKA W KSIĘGOWOŚCI
+@map_exchange=WYMIANA
+@map_fancyrestaurant=NIESPODZIANKA DLA FERGIE
+@map_largeapartment=PUNKT WIDOKOWY
+@map_cardealership=WIELKA WYPRZEDAŻ 
+@map_rockyterrain=POD GÓRKĘ
+@map_mazerunners=PRZEZ LABIRYNT
+@map_speedislife=SZYBKIE ŻYCIE
+@map_nightcall=NOCNE WEZWANIE
+@map_doublerush=PODWÓJNY SZTURM
+@map_hallwayhell=KORYTARZOWE PIEKŁO
+
+# 07 Indian Country
+
+@map_kamilpashamarket=TARG W KAMIL PASHA
+@map_inthesouk=WIZYTA W SOUK
+@map_marketday=NIEDZIELA HANDLOWA
+@map_kingoftheslums=KRÓL BEZDOMNYCH
+@map_busdepot=ZAGROŻENIE BOMBOWE
+@map_urbanarea=KUMPLE W TRUDNYM POŁOŻENIU
+
+# 08 Red Earth
+
+@map_isolatedcompound=TEREN ZAMKNIĘTY
+@map_bakr=BAKR
+
+# 09 Operation Subjugator
+
+@map_phaseisurprise=FAZA I: ZASKOCZENIE
+@map_phaseiisafeguard=FAZA II: ODBICIE
+@map_phaseiiisecure=FAZA III: ZABEZPIECZENIE
+@map_phaseivsmash=FAZA IV: ZMIAŻDŻENIE
+
+# Give No Quarter
+
+@map_foreigninfluencers=OBCE WPŁYWY
+@map_universityassault=ATAK NA UNIWERSYTET
+@map_canyonambush=ZASADZKA
+@map_tinyswat=BEZCENNY ŁUP
+
+# 10 Still Classified
+
+@map_museum=MUZEUM
+@map_xlsadrcity=MIASTO SADR (XL)
+@map_diamondyard=DIAMENTOWY OGRÓD
+
+# 11 Blast from the Past
+
+@map_beachhouse=CODZIENNE PORZĄDKI
+@map_question=PYTANIE RETORYCZNE
+@map_isolatedcabin=HUCZĄCY LAS
+@map_venicehill=DESZCZOWE POPOŁUDNIE
+@map_grandavenuebank=WIARA NAD BOGACTWO
+@map_withyourshield=OSŁANIAĆ SIĘ CZY NIE OSŁANIAĆ
+@map_docks=BROŃ W PORCIE
+@map_skypub=WYŚCIG DO NIEBA
+@map_firebasenorth=PÓŁNOCNA BAZA
+
+
+# All the Way
+
+@map_bridget=SZTURM NA MOST
+@map_tolltakers=CELNICY
+@map_raptordown=HELIKOPTER W OGNIU
+
+
+# SICK MAPS
+
+
+@map_blockade=BLOKADA
+@map_apartment02hr=APARTAMENT 02 HR
+@map_walledcompoundsmall=MAŁY OGRODZONY TEREN
+@map_triplex=TRIPLEX
+@map_farmhouse01=WIEJSKI DOM 01
+@map_exterior01=ZEWNĘTRZE 01
+@map_exterior03=ZEWNĘTRZE 03
+@map_farmhouse02=WIEJSKI DOM 02
+@map_backalley=TYLNA ALEJKA
+@map_wip02=WIP 02
+@map_wip03=WIP 03
+@map_wip04=WIP 04
+@map_wip06=WIP 06
+@map_wip07=WIP 07
+@map_wip09=WIP 09
+@map_wip10=WIP 10
+@map_wip12=WIP 12
+@map_wip13=WIP 13
+@map_wip14=WIP 14
+@map_wip15=WIP 15
+@map_wip16=WIP 16
+@map_wip17=WIP 17
+
+
+
+#
+#Single Player Maps
+#
+
+@single_map_1_name=P.C. Map Name 1 
+@single_map_2_name=P.C. Map Name 2 

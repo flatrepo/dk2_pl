@@ -1,0 +1,98 @@
+﻿
+#
+# Mission Specific Briefings and Intel Info 
+#
+@briefing_pathtosuckless=Jednostka zwiadowcza Rangersów zlokalizowała mały warsztat Rebeliantów, z rozkojarzoną czujką na zewnątrz i podejrzanymi dźwiękami z wewnątrz.\n\nOczyść miejsce ze wszystkich wrogów.\n\nKlikaj na operatorach i przeciągaj, by tworzyć ich ścieżkę ruchu przez budynek.\n\nOperatorzy będą automatycznie atakować wrogów w ich polu widzenia.
+@briefing_wooddoorsareeasy=Wywiad zdołał ustalić położenie HVT w tym apartamencie, z uzbrojoną eskortą na miejscu.\n\nZlokalizuj, aresztuj i ewakuuj HVT.\n\nWróg ma przewagę liczebną, korzystaj więc z granatów błyskowych i wsparcia snajperskiego przy podejściu, a następnie sprawdzaj kolejne pokoje i czyść je, jeden po drugim.\n\nZachowaj ostrożność podczas używania ładunków wybuchowych, dokładne miejsce przebywania HVT nie jest jeszcze znane.
+@briefing_alltogethernow=Odizolowana komórka Rebaliantów w sile 5 do 6 ludzi uprzykrza życie mieszkańcom na położonym niedaleko rynku, muszą zostać wyeliminowani zgodnie z zasadą Hearts And Minds, uważajcie na melony.\n\nWyeliminuj lub aresztuj wszystkich przeciwników.\n\nTo nie jest sytuacja z zakładnikiem, ale cywile są obecni na miejscu, a układ rynku tworzy z tego miejsca specyficzny labirynt. Zalecamy podejście z wielu stron, może się przydać użycie Sygnałów do synchronizacji.
+@intel_alltogethernow_weapons=Nieuzbrojeni wrogowie mogą rzucić się po broń, jeśli dasz im szansę.
+@intel_alltogethernow_windows=Zablokowane okna można wyłamać ręcznie lub przy pomocy ładunku wybuchowego.
+
+@briefing_whywefight=Wywiad poinformował nas o parze zakładników przetrzymywanych w tej kryjówce rebeliantów. Spodziewamy się ciężkiego oporu, w tym weteranów i zamachowców-samobójców. Czas ma tu ogromne znaczenie.\n\nZlokalizuj i uratuj wszystkich zakładników.\n\nMisja odbędzie się w nocy, wykorzystaj więc to poprzed odcięcie świateł w budynku - ale nie zapomnij o założeniu noktowizji!
+@intel_whywefight_gratingdoor=Płoty i bramy z siatki nie blokują widoczności i wystawiają cię na wrogi ogień.
+@intel_whywefight_gate=Metalowe bramy są dużo trudniejsze w otwarciu normalnymi sposobami. Użyj ładunków wybuchowych, by szybko uzyskać przejście na drugą stronę.
+@briefing_rescueatdawn=Obserwacja z drona wykazała aktywność Rebeliantów w znanej nam placówce, w nocy dostarczono tam zakładnika, prawdopodobnie w ramach przystanku przed przekroczeniem pustkowii. Być może to zwykłe uszkodzenie w ich samochodzie, więc musicie działać szybko i zaatakować jeszcze dziś.\n\nZlokalizuj i uratuj zakładnika\n\nTo miejsce utrzymuje garnizon przynajmniej tuzina wojowników, paru więcej dotarło w ciągu nocy. Korzystaj z zaskoczenia, poruszaj się szybko i działaj brutalnie, by zyskać przewagę.
+@briefing_jihadiliveshow=Nasi dżihadyści zza płotu są w trakcie egzekucji, którą puszczają na żywo w telewizji - na szczęście nadal są zajęci gadaniem o tym i tamtym. To nie potrwa długo, musimy działać w tej chwili\n\nUratuj wszystkich zakładników i zneutralizuj wrogów.\n\nNa miejscu są 3 zakładnicy do uratowania, ale tylko jeden powinien być w pomieszczeniu egzekucyjnym - użycie ładunków wybuchowych powinno być względnie bezpieczne.\n\nMiejcie oczy szeroko otwarte i uważajcie na zamaskowanych egzekutorów - jeśli się o was dowiedzą, na pewno zabiją zakładników.
+@briefing_killingtime=To prosty szturm na tajną, wrogą placówkę - wbijcie się do środka i zmiażdżcie wszelki opór.\n\nOczyść kompleks ze wszystkich przeciwników.\n\nJesteśmy pewni, że nie ma tam cywili ani zakładników, a wrogowie to głównie niewyszkoleni rebelianci. Możecie ich zaskoczyć - musicie tylko być szybcy i współpracować.
+
+@briefing_gatecrashers=Zamierzamy uderzyć w kryjówkę Rebeliantów w hollywódzkim stylu - rozwalacie frontowe drzwi i wyskakujecie strzelając dookoła.\n\nWyeliminuj wszystkich przeciwników w placówce.\n\nWróg prawdopodobnie dowie się o tej nędznej próbie zaparkowania, więc przewaga zaskoczenia szybko się skończy - ale jeśli będziecie się ruszać szybko, możecie ich złapać kompletnie nieprzygotowanych.\n\nMożecie też skorzystać z bramy z tyłu, jeśli operatorzy są na tyle lekko ubrani, że mogą przeskoczyć parę płotków po drodze.
+@briefing_vbiedsareus=
+@briefing_aquaintlittleman=
+@briefing_fireandmaneuver=
+@briefing_safehousestrike=
+@briefing_alhasanhasitall=
+@briefing_vipersnest=
+@briefing_truebelievers=Podczas ostatniego najazdu znaleźliśmy różne dane na temat aktywności Rebeliantów, do jednego z miejsc, w którym znajduje się cel o wysokim znaczeniu, wysłaliśmy mały oddział.\n\nWeź szturmem to miejsce, aresztuj i ewakuuj cel.\n\nWierzymy, że przeciwnik jest niedoświadczony, ale przygotwany do walki w tym miejscu, więc sugeruję spokojniejsze podejście zamiast bieg na złamanie karku.\n\nUważaj na pojedynczych wrogów, którzy mogą cię obejść albo uciec tylnimi drzwiami - nie ma sensu szturmować pustego gniazda.
+@briefing_tuffnutcrackers=
+
+@briefing_trainingwheels=
+@briefing_breakanddestroy=
+@briefing_snatchandgrab=
+@briefing_marketday=Nasza komórka obserwacyjna potwierdziła miejsce dawno zaginionego Amerykanina. Musimy uderzyć i uratować go, nim zostanie przemieszczony.\n\nOdbij i ewakuuj zakładnika.\n\nJesteś w sercu wrogiego terytorium, w małej sile i bez wsparcia. Wrogowie mają zdecydowaną przewagę liczebność, potwierdzono też obecność cywili.\n\nZalecamy skryte podejście do celu i jego ewakuację zanim wróg odpowie siłą lub zabije zakładnika.
+@briefing_deathdealers=Wielomiesięczne starania w znalezieniu położenia zaginionych głowic bojowych wreszcie poskutkowały - "Fergie i spółka" są już w punkcie spotkania, by dokonać zakupu - ale nie mamy funduszy ani zgody na zbombardowanie Rebeliantów.\nMusicie pobrudzić sobie ręce i manualnie dokonać sabotażu tej broni.\n\nSabotuj lub wysadź wszystkie głowice bojowe.\n\nTo miejsce się roi od przeciwników, więc trzymajcie się planu i uciekajcie tak szybko, jak tylko się da.
+
+@briefing_foreigninfluencers="Zakazane Drzewo" - fanatyczna sekta Dżihadystów - zamierza ruszyć na Stolicę, by zaznaczyć swoją obecność i ściągnąć parę haraczy. My też powinniśmy wpaść i się z nimi przywitać!\n\nWyeliminuj wszystkich przeciwników.\n\nWiększość tych gości nie jest zbyt doświadczono, ale prędzej się wysadzą niż dadzą wziąć żywcem, więc trzymajcie odległość i uważajcie na szahidów.\n\nMisja pozwala na rozmieszczenie jednostek pod przykrywką, ale jest też możliwość wejścia przez kanalizację - o ile jednostka będzie odpowiednio mobilna.
+@briefing_universityassault=Tydzień temu świrusy z "Zakazanego Drzewa" zajęły budynek Uniwersytetu, a teraz zdecydowali, że zamiast palenia książek będą podcinać gardła - co oznacza, że musicie wejść tam w tej chwili.\n\nZlokalizuj i uwolnij wszystkich zakładników.\n\nNa terenie Uniwersytetu znajduje się 5 zakładników, ale tylko jednego mamy w polu widzenia - i niedługo zostanie zabity.\n\nSzkolny dziedziniec jest ufortyfikowany i dość problematyczny, ale w samym budynku może być jeszcze trudniej. Uważaj na IEDy, szahidów i innych, którzy się mogą rzucić na was z łapami.
+@briefing_canyonambush=Zaufanie złym ludziom i zdrada spowodowały, że jeden z naszych oddziałów znalazł się po złej stronie zasadzki, jest otoczony, a wróg ma przewagę liczebną.\n\nPrzeżyj i wyeliminuj wszystkich wrogów\n\nTwoje siły połączyły się z wymieszanymi jednostkami Sojuszniczej Milicji, ale nie wiemy, po czyjej stronie naprawdę są.\n\nSpodziewaj się ataku ze wszystkich stron, ale uważaj na CKMy rozstawione w punkcie kontrolnym.
+@briefing_preciouscargo=Wróg podbił naszą ziemię, zajął nasze domy i zniewolił nasze rodziny. Dysponujemy małym elementem antyterrorystycznym, którzy przebił się wgłąb wrogiego terytorium, są gotowi do uratowania członków rodzin z wrogiej niewoli.\n\nZabezpiecz i ewakuuj obie kobiety.\n\nWróg jest wokół nas, więc spodziewaj się, że wezwą wsparcie, jeśli podniesiecie alarm. Ci na miejscu nie poddadzą się bez walki i mogą spróbować zabić zakładników.
+
+
+@briefing_noisyneighbors=
+@briefing_theview=
+@briefing_ratwork=
+@briefing_uninvitedguests=
+@briefing_door2door=
+@briefing_roomservice=
+@briefing_pincerspower=
+@briefing_lonelyabode=
+@briefing_bigboomcondo=
+
+@briefing_hotroom=
+@briefing_knivesinthedark=
+@briefing_techsupport=
+@briefing_traphouse=
+@briefing_scratchedcarpets=Misja zorganizowana na prośbę jednego z naszych tłumaczy - grupa Dżihadystów porwała jego rodzinę i planuje uciąć im głowy w programie TV na żywo.\n\nUratuj wszystkich zakładników i wyeliminuj wszystkich wrogów.\n\nTo bardzo ekstremalny rajd, mamy zbyt mało operatorów do tak ciężkiej sytuacji, ale nie możemy dłużej czekać.\n\nWiemy, gdzie obecnie przebywa dwóch zakładników, ale gdzieś w tym miejscu jest jeszcze trzeci. Wszyscy muszą przeżyć.
+@briefing_flatmates=Kryjówka Agencji została spalona, a wróg za kilka sekund wyważy frontowe drzwi.\n\nEwakuuj bezpiecznie VIPa.\n\nNie mamy pojęcia, jak wielu Rebeliantów bierze udział w szturmie, prawdopodobnie więcej niż masz amunicji do dyspozycji.\n\nZajmij pozycje obronne, by odeprzeć pierwszych przeciwników, ale nie obijaj się - szala zwycięstwa nie przechyla się na twoją stronę.
+
+@briefing_jackofhearts=
+@briefing_queenofdiamonds=
+@briefing_kingofspades=Dość niecodzienna sytuacja - przybyliśmy aresztować oficera poprzedniego reżimu, ale on zamierza poddać się bez walki. Chyba nie jest fanem współczesnej rebelii. Albo woli pieniądze amerykańskich podatników od rebelianckiej egzekucji. Zadzwonił do nas z podsłuchiwanego telefonu, więc nasz Uber nie jest jedynym, który tam przyjedzie.\n\nBiedny gość jest już pod twoją kontrolą, ale obawia się, że lada chwila zostanie zaatakowany - i że nawet jego strażnicy się obrócili przeciwko niemu. Spodziewaj się towarzystwa, traktuj każdego na miejscu jak potencjalnego wroga.
+@intel_kingofspades_VIP=Ten człowiek współpracuje i chce zostać ewakuowany w bezpieczny sposób. Możesz kontrolować go jak zwykłego operatora, ale nie powierzaj mu broni.
+@briefing_tenofclubs=
+@briefing_twoofspades=Mamy podwójną randkę z parą celów o dużym znaczeniu, choć niższego szczebla. Ci goście byli dobrymi sąsiadami i kryli się podczas inwazji przekupując, sprzedając broń oraz zastraszając innych - do teraz.\n\nSchwytaj i ewakuuj oba cele.\n\nTa misja odbywa się w nocy, ale wróg spodziewa się problemów. Na miejscu są strażnicy, pułapki i wsparcie czekające pod telefonem. Rozpisz dobrze taktykę i nie odbierz sobie inicjatywy.
+
+@briefing_crisisonroutekilo=
+@briefing_againsttheodds=
+@briefing_embassysiege=
+@briefing_maniacsmansion=
+@briefing_countrysidejackpot=
+@briefing_ourmaninaccounting=
+@briefing_thehandover=
+@briefing_fergieparty=
+@briefing_vantagepoint=
+
+@briefing_firesale=
+@briefing_mazerunners=
+@briefing_speedislife=
+@briefing_nightcall=
+@briefing_doublerush=Hardkorowa misja ewakuacyjna już w nocy, panowie. Po obu stronach drogi znajdują się budynki obsadzone przez wroga, w obu przetrzymywani są dobrze strzeżeni zakładnicy.\n\nZlokalizuj i uratuj wszystkich 5 zakładników.\n\nWróg nie spodziewa się ataku, ale musisz zaatakować oba budynki w tym samym czasie, gdyż oba garnizony się widzą i mogą zapewniać sobie wsparcie ogniowe. Od ciebie zależy jak podzielić siły i w którym miejscu ma uderzyć mocniej.\n\nObecnie mamy wiedzę jedynie o 4 zakładnikach, uważaj więc z ładunkami wybuchowymi i znajdź piątego żywego.
+@briefing_hallwayhell=Rebelianci już od długiego czasu okupują ten budynek z czasów kolonialnych, ale wywiad nie był na tyle konkretny, by wcześniej nam o tym powiedzieć. Teraz wiemy, że wrogowie mają zakładników, tak więc akcja rusza dziś.\n\nZlokalizuj i uratuj wszystkich zakłaadników\n\nWiemy, że na miejscu jest 10 zakładników, ale pozycję znamy jedynie kilku z nich. Musisz metodycznie przeczesać ten posterunek i wszystkich znaleźć.\n\nWróg myśli, że jest poza naszym zasięgiem i nie są gotowi na szturm, ale zaskoczenie mogą nadrobić liczbami i umiejętnościami. Spodziewaj się nieprzyjemnego zderzenia z Najemnikami i ich fanatycznymi przyjaciółmi. Szahidzi także tu są.
+
+@briefing_kamilpasha=Obserwator Koalicji zajmujący się szukaniem broni masowego razenia przyciągnął na siebie zbyt wiele uwagi w złej części miasta. Mamy rozkaz bezpiecznie go ewakuować i przemówić mu do rozsądku.\n\nNawiąż kontakt z VIPem i go ewakuuj.\n\nWywiad sugeruje, że wróg wysłał już na miejsce bojówkę i Underhill ma 30 sekund życia - chyba, że dotrzesz do niego pierwszy.
+@briefing_kingoftheslums=
+@briefing_bombthreat=
+@briefing_blockade=
+@briefing_urbanarea="Wujek Zero-Jeden", kozacy z agencji, która nie istnieje, wpadli w kłopoty podczas ewakuacji po ich misji. Jeden z nich został zabity, dwaj pozostali się okopali i potrzebują eskorty.\n\nSpotkaj się z sojusznikami i ewakuuj wszystkich.\n\nOkolica będzie cały czas zagrażać bezpieczeństwu, wróg ma nielimitowane posiłki do wykorzystania. Oddział ratowniczy nie jest zbyt liczny, musisz wywalczyć sobie drogę do celu i ewakuować się, zanim przeciwnik cię przytłoczy.
+
+@briefing_opsubjphase1=
+@briefing_opsubjphase2=
+@briefing_opsubjphase3=
+@briefing_opsubjphase4=
+
+@briefing_bridgeassault=
+@briefing_tolltakers=
+@briefing_raptordown=Bezzałogowy ptaszek JSOC spadł na terytorium wroga, a bliskość populacji cywilnej uniemożliwia spuszczenie bomby na drona. Musicie tam wejść i zniszczyć krytyczną technologię, zanim Rebelianci przemycą ją do naszych nie-do-końca-kolegów za granicą.\n\nZniszcz elektronikę drona i ewakuuj bezpiecznie oddział.\n\nTo środek hinduskiego kraju, szkoła w okolicy stanowi twierdzę Rebeliantów, musisz to wziąć pod uwagę.\n\nSpodziewaj się wrogich posiłków z północy, najlepiej będzie jeśli ich zablokujesz i nie spędzisz tam więcej czasu, niż trzeba. Szybka akcja, minimalna reakcja, błyskawiczna ewakuacja.
+
+@intel_generic_hostages=Tajne źródła wywiadu podają pozycję zakładnika w tym miejscu.
+@intel_generic_hostages_unsure=Prawdopodobne miejsce pobytu zakładników.
+@intel_generic_bomb=Jeśli jest tu bomba, to to byłoby miejsce, w której zostałaby podłożona.

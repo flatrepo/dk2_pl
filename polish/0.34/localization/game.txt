@@ -1,0 +1,1162 @@
+#
+# IMPORTANT
+# -Do not modify/localize %s, %d, %u or any other such constructs, leave them as they are.
+# -Do not modify \n (it moves the text following it to the next line).
+# -Text IDs ending in _ttip or _tooltip can be translated using any length, for all others try to keep the same length (though it depends from text to text).
+# -Keep every @id=text on one line
+#
+
+#
+# Units
+#
+@unit_rangers_name=KOMANDOSI
+@unit_rangers_assault=SZTURMOWIEC
+@unit_rangers_marksman=STRZELEC WYBOROWY
+@unit_rangers_support=WSPARCIE
+@unit_rangers_grenadier=GRENADIER
+@unit_rangers_medic=MEDYK
+@unit_rangers_description=Elitarna jednostka specjalna wykorzystująca liczebność i wyszkolenie do pokonania wroga.
+
+@unit_cia_name=CIA
+@unit_cia_undercover=POD PRZYKRYWKĄ
+@unit_cia_blackops=TAJNY AGENT
+@unit_cia_description=Paramilitarni oficerowie wywiadu do działań specjalnych na tyłach przeciwnika.
+
+@unit_nowheraki_name=ANTYTERRORYŚCI
+@unit_nowheraki_assault=SZTURMOWIEC
+@unit_nowheraki_leader=DOWÓDCA
+@unit_nowheraki_sapper=SAPER
+@unit_nowheraki_militia=MILICJANT
+@unit_nowheraki_description=Lokalne siły antyterrorystyczne policji walczące za przyszłość kraju i swoich bliskich nawet do śmierci.
+
+
+#
+# Trooper Ranks
+#
+
+@trooper_rank_0=Szeregowy
+@trooper_rank_1=Starszy szeregowy
+@trooper_rank_2=Starszy szeregowy specjalista
+@trooper_rank_3=Kapral
+@trooper_rank_4=Starszy kapral
+@trooper_rank_5=Plutonowy
+@trooper_rank_6=Sierżant
+@trooper_rank_7=Starszy sierżant
+@trooper_rank_8=Młodszy chorąży
+@trooper_rank_9=Chorąży
+@agent_rank_0=Oficer polowy I
+@agent_rank_1=Oficer polowy II
+@agent_rank_2=Oficer polowy III
+@agent_rank_3=Starszy oficer I
+@agent_rank_4=Starszy oficer II
+@agent_rank_5=Starszy oficer III
+@agent_rank_6=Specjalista I
+@agent_rank_7=Specjalista II
+@agent_rank_8=Specjalista III
+@agent_rank_9=Oficer prowadzący
+@nowheraki_rank_0=Rekrut
+@nowheraki_rank_1=Posterunkowy
+@nowheraki_rank_2=Kapral
+@nowheraki_rank_3=Młodszy sierżant
+@nowheraki_rank_4=Sierżant
+@nowheraki_rank_5=Starszy sierżant
+@nowheraki_rank_6=Młodszy chorąży
+@nowheraki_rank_7=Chorąży
+@roster_rank_0=Niedośw. oddział
+@roster_rank_1=Niedośw. oddział 2
+@roster_rank_2=Niedośw. oddział 3
+@roster_rank_3=Niedośw. oddział 4 
+@roster_rank_4=Niedośw. oddział 5
+@roster_rank_5=Dośw. oddział
+@roster_rank_6=Dośw. oddział 2
+@roster_rank_7=Dośw. oddział 3
+@roster_rank_8=Dośw. oddział 4
+@roster_rank_9=B. dośw. oddział
+@roster_rank_10=B. dośw. oddział 2
+@roster_rank_11=B. dośw. oddział 3
+@roster_rank_12=B. dośw. oddział 4
+@roster_rank_13=Elitarny oddział 1
+@roster_rank_14=Elitarny oddział 2
+@roster_rank_15=Elitarny oddział 3
+
+
+#
+# Equipment (data/equipment/*.xml)
+#
+
+@grenade_smokesingle_name=1x Granat dymny
+@grenade_smoke_name=2x Granat dymny
+@grenade_smoke_desc=Standardowy granat dymny Armii, budowana przez niego 5-metrowa chmura blokuje widoczność i tworzy zamieszanie, jednocześnie ostrzegając wrogów o zagrożeniu.\n\nUżywaj dymu do maskowania swojego podejścia i zajęcia lepszej pozycji. Pamiętaj, dym NIE CHRONI przed wrogim ostrzałem.\n\nCzas zapłonu: Od razu\nCzas spalania: 14s
+@grenade_flashbangsingle_name=1x Granat błyskowy
+@grenade_flashbang_name=2x Granat błyskowy
+@grenade_flashbang_kit_name=3x Granat błyskowy
+@grenade_flashbang_desc=Nieśmiercionośny granat, ogłuszy i oślepi każdego w promieniu 3 metrów od wybuchu dając ci kilka sekund bezpieczeństwa. Nie będzie miał wpływu na twoich operatorów, bo trenujemy ich wystarczająco ciężko.\n\nUżywaj Granatów błyskowych do odwracania uwagi przeciwników w strategicznych miejscach.\n\nCzas zapłonu: Od razu\nStrefa rażenia: 2m\nMaks. strefa rażenia: 3.5m
+@grenade_stingersingle_name=1x Granat kulkowy
+@grenade_stinger_name=2x Granat kulkowy
+@grenade_stinger_desc=Granat wybuchający mnóstwem "nieszkodliwych" gumowych kuler, które uderzają w ludzi i zmuszają ich do ukrycia się - o ile mogą jeszcze chodzić.\n\nUżywaj Granatów kulkowych do odstraszania cywili i problematycznych ludzi, oczyszczając tym samym linię ognia, ale z rozsądkiem.\n\nCzas zapłonu: 1s\nStrefa ogłuszenia: 4m\nStrefa rażenia: 1m
+@grenade_fragsingle_name=1x Granat odłamkowy
+@grenade_frag_name=2x Granat odłamkowy
+@grenade_frag_desc=Standardowy granat, od którego wybuchają ludzie. Załatwi każdego w zasięgu metalowych odłamków. Nikomu nie wybacza, nic go nie obchodzi.\n\nUżywaj Granatów odłamkowych by eliminować wrogów za osłonami, ale uważaj na cywili.\n\nCzas zapłonu: 1s\nStrefa rażenia: 2m\nMaks. strefa rażenia: 4m
+@grenade_molotov_name=1x Koktajl mołotowa
+@grenade_molotov_desc=Koktajl pokoju. Można nim podpalać miejsca, przez które nie chcesz przechodzić.\n\nUżywaj Koktajli do wypłaszania wrogów zza osłon.\n\nCzas zapłonu: 1.5s\nStrefa rażenia: 3m
+@slap_charge_name=1x Ładunek przylepny
+@slap_charge_desc=Mały, przylepny ładunek wybuchowy, który przykleja się na drzwi, by wysadzić zamek. Strefa rażenia jest niewielka, więc stanowi bezpieczne rozwiązanie w większości sytuacji.\n\nUżywaj go do szybkiego wchodzenia w zamknięte miejsca, by zachować element zaskoczenia. Można nim też wyburzać okna.\n\nCzas założenia: 2.5s
+@nws_doorcharge_name=1x Ładunek wyważający
+@nws_doorcharge_kit_name=4x Ładunek wyważający
+@nws_doorcharge_desc=Średniej wielkości ładunek wybuchowy do wysadzania drzwi. Generuje odłamki i strefę nadciśnienia za drzwiami, więc nie jest bezpieczny, gdy po drugiej stronie są sojusznicy lub cywile.\n\nCzas założenia: 5s\nStrefa rażenia: 3.5m\nStrefa ranienia: 7m
+@gear_torch_name=1x Palnik termiczny
+@gear_torch_desc=Samodzielny, jednorazowy palnik* przepalający się przez kłódki, metalowe drzwi i płoty.\n\nGeneruje światło i dźwięk, które ostrzegą przeciwnika, więc najlepiej używać go, gdy ciche wejście nie jest ważne.\n\nCzas trwania: 3s\n\n*to nie miecz świetlny!
+@slap_charge_kit_name=3x Ładunek przylepny
+@grenade_smoke_kit_name=3x Granat dymny
+@grenade_frag_kit_name=3x Granat odłamkowy
+@bombvest_name=Pas szahida
+@breaching_charge_name=1x Ładunek burzący
+@breaching_charge_desc=Przejmij inicjatywę i zyskaj element zaskoczenia za jednym razem wysadzając ścianę i przeskakując przez wyrwę.\n\nUżywaj go do usuwania fragmentów ścian i innych przeszkód, wraz z przeciwnikami po drugiej stronie. Uważaj na cywili i zakładników.\n\nCzas założenia: 6s\nStrefa rażenia: 4m\nStrefa ranienia: 6m
+@nws_demo_charge_name=3x Ładunek burzący
+@nws_demo_charge_desc=Saperzy uwielbiają wysadzać rzeczy, w szczególności ściany. Ten zestaw zawiera 3 przygotowane ładunki burzące, każdy z nich zdolny to wysadzenia fragmentu ściany. Strefa wybuchu będzie dość sensowna, ale nadciśnienie może zagrozić osobom w pobliżu.\n\nCzas założenia: 3s\nStrefa rażenia: 2m\nStrefa ranienia: 5m
+@helmet_rangers_ach_name=Hełm Low-Cut
+@helmet_rangers_ach_desc=Standardowy hełm Armii na misjach w Nowheraki. LCH w standardzie ochrony IIIA chroni najważniejsza część głowy, bez ograniczania widoczności i mobilności.\n\nMa 15% szans na zatrzymanie krytycznego postrzału z pistoletów i pistoletów maszynowych.
+@helmet_nws_ach_desc=Nadwyżkowy hełm Armii, zazwyczaj wydawany na kursie saperskim.\n\nJest dość ciężki, ale koledzy antyterroryści chcieliby chociaż jedną sztukę.\n\nMa 14% szans na zatrzymanie krytycznego postrzału z pistoletów i pistoletów maszynowych.
+@helmet_rangers_ihps_name=Hełm nowej generacji
+@helmet_rangers_ihps_desc=Dostępny w ramach testów w niewielkiej liczbie, hełm nowej generacji wykorzystuje nowoczesną technologię w celu zwiększenia strefy ochronnej poziomu III, z minimalną zmianą wagi.\n\nMa 20% szans na zatrzymanie krytycznego postrzału z karabinów AK i im podobnych, wyłączając amunicję typu AP.
+@helmet_rangers_fast_name=Hełm High-Cut
+@helmet_rangers_fast_desc=Nowy hełm wprowadzony do służby wraz z Regimentem Komandosów, High-Cut zapewnia nieco mniejszą ochronę kosztem lepszej mobilności.\n\nOchrona balistyczna to jedynie poziom II, ale nadal zatrzyma większość postrzałów z pistoletów i pistoletów maszynowych.\n\n10% szans na zatrzymanie krytycznego postrzału.  
+@helmet_rangers_fastrf_name=Ulepszony High-Cut
+@helmet_rangers_fastrf_desc=Poprawiona wersja hełmu High-Cut, jego waga została nieco zwiększona na rzecz III poziomu ochrony balistycznej.\n\n10% szans na zatrzymanie krytycznego postrzału z pistoletów, pistoletów maszynowych i większości karabinów.
+@helmet_rangers_fastmandible_name=Ciężki High-Cut
+@helmet_rangers_fastmandible_desc=Modułowy projekt hełmu High-Cut pozwolił na zamocowanie dodatkowej osłony dla szczęki operatora.\n\nDodatkowa osłona nie wpływa na celność lub pole widzenia, ale nieco zmniejsza prędkość reakcji.\n\nCo najważniejsze, zwiększa strefę ochrony poziomu II - 14% szans na zablokowanie krytycznego postrzału z pistoletów i pistoletów maszynowych.
+@helmet_CIA_fast_name=Hełm balistyczny
+@helmet_CIA_fast_desc=Hełm sił specjalnych chroniący przed postrzałami i wybuchami, tym samym tracąc na mobilności.\n\nPowłoka poziomu IIIA ma szansę na powstrzymanie krytycznego postrzału z pistoletów i pistoletów maszynowych.\n\nPozwala też na montaż Gogli noktowizyjnych.
+@helmet_CIA_bump_name=Kask ochronny
+@helmet_CIA_bump_desc=Sportowy kask jest doskonałym sposobem na ochronienie głowy przed uderzeniem w niewidoczny w nocy próg drzwi czy gałąź.\n\nLekki i komfortowy, nie spowalnia ruchów i pozwala na montaż Gogli noktowizyjnych.\n\nNie zapewnia ochrony balistycznej.
+@helmet_CIA_localhat_name=Tradycyjna czapka
+@helmet_CIA_localhat_desc=Czapka w stylu popularnym wśród pasterzy i wojowników, na pewno dopełni twój strój na kolejne wydarzenie cosplayowe.
+@helmet_CIA_basiccap_name=Bejsbolówka
+@helmet_CIA_basiccap_desc=Pozwala na ukrycie się wśród miejscowych z wyglądem typowego, dobrze zbudowanego Amerykanina, fana ekstremalnych sportów.
+@helmet_NWS_basiccap_name=Bejsbolówka
+@helmet_NWS_basiccap_desc=Trzyma promienie słońca, kawałki gruzu i łuski z dala od twoich oczu. Bardzo dobrze wygladająca czapka antyterrorystów.\n\nNie zapewnia ochrony balistycznej, ale też nie spowalnia w działaniu.
+@hat_santa_name=Czapka mikołaja
+@hat_santa_desc=Hoł, hoł, hoł, chyba paru Nowherakijczyków było niegrzecznych w tym roku...
+
+@nvg_rangers_pvs14_name=Noktowizja PVS-14
+@nvg_rangers_pvs14_desc=Podstawowa, jednookularowa noktowizja montowana na hełmie, korzysta z dobrodziejstwa technologii trzeciej generacji by wyświetlać ostry i czysty obraz w ciemności, ale spowalnia ruch przez zmniejszone pole widzenia i brak głębi.\n\nUmożliwia wykrywanie przeciwników w ciemności bez zdradzania swojej pozycji - aż do otwarcia ognia.
+@nvg_rangers_pvs31_name=Noktowizja PVS-31
+@nvg_rangers_pvs31_desc=Zaawansowana dwuokularowa noktowizja montowana na hełmie, zapewnia większe pole widzenia i sensowną głębię, wiec można z niej korzystać praktycznie bez kary do mobilności.\n\nUmożliwia wykrywanie przeciwników w ciemności bez zdradzania swojej pozycji - aż do otwarcia ognia.
+
+@armor_rangers_basicvest_name=Kamizelka SAPI
+@armor_rangers_basicvest_desc=Zwykła modularna kamielka kuloodporna wydana Regimentowi, czego się spodziewałeś? Przebieralni Flanelowego Tatusia?\n\nDo kamizelki dołączona jest para płyt Poziomu III z przodu i z tyłu, w pozostałych miejscach zapewnia odrobinę ochrony przed kalibrem pistoletowym.\n\nPamiętaj - ufanie pancerzowi to loteria, żyjesz jedynie dzięki swojej taktyce!
+@armor_rangers_levelIVaddon_name=Kamizelka ESAPI
+@armor_rangers_levelIVaddon_desc=Płyty kuloodporne z kamizelki zostały zastąpione nieco cięższą ochroną Poziomu IV, która chroni przed amunicją przeciwpancerną i snajperską.\n\nPłyty chronią tylko twój przód i tył, pozostałe "ja" osłania jedynie materiał kamizelki.
+@armor_rangers_levelIVsides_name=Pełna kamizelka ESAPI
+@armor_rangers_levelIVsides_desc=Standardowa kamizelka z płytami ESAPI z przodu, z tyłu i po bokach.\n\nKosztem komfortu i mobilności zyskujesz ochronę przed amunicją przeciwpancerną z każdej strony.
+@armor_rangers_extended_name=Pełna kamizelka SAPI
+@armor_rangers_extended_desc=Kiedy transporter wyrzuca cię tuż pod drzwiami przeciwnika, nie ma sensu ubierać się lekko, za to każde drzwi na miejscu stanowią argument za wzięciem mocniejszego pancerza!\n\nKamizelka wzbogacona o płyty boczne, osłonę pachwin, ramion i szyi, o dobrej mobilności nie ma mowy.\n\nKamizelka raczej zatrzyma każdy pocisk z przodu, ale amunicja snajperska i przeciwpancerna może spenetrować ją z pozostałych stron.
+@armor_rangers_jumpable_name=Szturmówka Poziomu III
+@armor_rangers_jumpable_desc=Kiedy musisz ruszać się szybciej niż przeciwnik, ale nadal chcesz być chroniony przed postrzałem, ta minimalistyczna kamizelka szturmowa będzie dobrym wyborem.\n\nPara płyt poziomu trzeciego będzie chronić twoje bebechy przed Kałasznikowami, ale twoje boki są kompletnie odsłonięte.\n\nPowtarzaj sobie "Chowaj się, chodź szybko, strzelaj pierwszy, umieraj ostatni" jak mantrę, a przeżyjesz do końca misji.
+@armor_rangers_jump_swimmeriv_name=Szturmówka Poziomu IV
+@armor_rangers_jump_swimmeriv_desc=Kamizelka ze specjalnie wyciętymi "pływackimi" kuloodpornymi płytami poziomu IV zapewnia ochronę przed amunicją snajperską i przeciwpancerną - bez dużej straty mobilności, gdyż jest specjalnie wyprofilowana dla lepszego manewrowania i komfortu.\n\nPlatforma szturmowa nadal nie zapewnia ochrony od boków, więc jeśli masz otrzymać postrzał, módl się, by wróg umiał celować i trafił cię w środek!
+@armor_rangers_noplates_name=Brak wypełnienia
+@armor_rangers_noplates_desc=Kamizelka bez płyt kuloodpornych, chronić cię będzie jedynie kevlarowy materiał, oby sierżant nie zauważył jakim głupcem jesteś.\n\nTwoja mobilność się zdecydowanie zwiększy, ale pamiętaj, rebelianci korzystają z amunicji, która z łatwością cię spenetruje.\n\nWeterani mówią, że najlepszą ochroną jest nie dać się trafić, więc ruszaj się szybko i załatw wroga, nim ten załatwi ciebie.
+@armor_no_armour_name=Brak kamizelki
+@armor_cia_tacvestIII_name=Kamizelka taktyczna III
+@armor_cia_tacvestIII_desc=Wysokiej jakości kamizelka kuloodporna z pełną osłoną poziomu III z przodu, z tyłu i pod ramionami.\n\nPowinna zatrzymać większość postrzałów z karabinów, ale pamiętaj, że masz się ruszać, a nie przyjmować kulki. Nawet jeśli twoje organy są chronione, nadal jesteś z mięsa.\n\nJeśli strzela do ciebie snajper, musisz szybko zasuwać, by przeżyć.
+@armor_cia_tacvestIV_name=Kamizelka taktyczna IV
+@armor_cia_tacvestIV_desc=Kiedy robi się naprawdę gorąco ale misja nadal trwa, pełna ochrona IV poziomu może ocalić ci życie.\n\nZatrzyma większość pocisków, w tym postrzały z karabinów wyborowych SVD czy maszynowych PK, ale niech to nie da ci poczucia bezpieczeństwa. Głowa nadal wystaje poza strefę kamizelki.
+@armor_cia_concealableII_name=Miękka kamizelka II
+@armor_cia_concealableII_desc=Cienka kamizelka kuloodporna, którą można bezpiecznie ukryć pod warstwą ubrań, przeciwnik nawet tego nie zauważy.\n\nKamizelka zatrzyma typową amunicję pistoletową nawet z bliska, ale lepiej nie dać się trafić.\n\nKarabiny i duże pistolety maszynowe nadal przebiją się na wylot.
+@armor_cia_concealableIIIAlimited_name=Miękka kamizelka IIIA
+@armor_cia_concealableIIIAlimited_desc=Gdy trzeba działać w ukryciu, czas między udaną infiltracją a brutalną wymianą ognia mierzy się w sekundach. Umiejętności strzeleckie pomagaja przeżyć, ale znaczenie ma też planowanie i pancerz.\n\nTę kamizelkę można schować pod ubraniem, a płyty poziomu IIIA chronią przód i tył korpusu przed amunicją pistoletową i pistoletów maszynowych.
+@armor_cia_concealableIIIA_name=Miękki pancerz IIIA
+@armor_cia_concealableIIIA_desc=Najtwardsza miękka kamizelka jaką można ukryć, zapewnia pełną ochronę przed kalibrem pistoletowym i trzyma ciepło w gorące dni.
+@armor_nws_frontplate_name=Pojedyncza płyta SAPI
+@armor_nws_frontplate_desc=Płyta kuloodporna bliżej nieznanego pochodzenia w bliżej nieznanej kamizelce - zawsze miej ją przodem do wroga.\n\nPłyta otrzymała certyfikat SAPI jakiś czas temu - więc powinna powstrzymać większość postrzałów z AK i innych karabinów.\n\nNie zatrzyma amunicji przeciwpancernej, ale w pewnych sytuacjach lepiej mieć trochę pancerza niż wcale.
+@armor_nws_basicvest_name=Podwójna płyta SAPI
+@armor_nws_basicvest_desc=Masz szczęście, udało ci się znaleźć dwie płyty SAPI w całkiem niezłym stanie.\n\nPowstrzymają ogień karabinowy z przodu i z tyłu, ale boki nie są chronione, no i amunicja snajperska oraz ppanc. stanowią zagrożenie.
+@armor_nws_extended_name=Kamizelka saperska
+@armor_nws_extended_desc=Ta rozszerzona kamizelka kuloodporna to nagroda za ukończenie kursu saperskiego, należy ją nosić ze względu na niebezpieczne warunki pracy.\n\nKamizelka zapewnia ochronę przed amunicją karabinową z przodu i z tyłu, a także do pewnego stopnia po bokach.\n\nStracisz w niej sporo mobilności, ale saperzy są zbyt wartościowi, by ich nie opancerzać.
+@armor_nws_lvl4front_name=ESAPI + SAPI
+@armor_nws_lvl4front_desc=Ochrona przed amunicją snajperską jest ciężka do zdobycia, ale twoi amerykańscy koledzy znaleźli parę sztuk.\n\nTa kamizelka powstrzyma każdy postrzał z przodu, ale tył i boki wytrzymają maksymalnie postrzał z karabinu.
+@armor_enemy_softarmor_name=Ukryty miękki pancerz
+@armor_enemy_heavyarmor_name=Minimalistyczna kamizelka
+
+@shield_nws_lvl3_name=Tarcza poziomu III
+@shield_nws_lvl3_desc=Zwykła, prostokątna tarcza blokując większość postrzałów od przodu, ale nie zatrzyma amunicji ppanc.\n\nTarcze balistyczne nie są popularne na bliskim wschodzie, ale mogą pomóc w sytuacjach z zabarykadowanymi strzelcami lub podczas przechodzenia przez niebezpieczne miejsca.
+@shield_nws_lvl4_name=Tarcza poziomu IV
+@shield_nws_lvl4_desc=Specjalnie dostarczona przez Koalicję, tarcza IV poziomu może powstrzymać nawet amunicję ppanc. z karabinu SVD.\n\nTaka ochrona przychodzi z dużo większą wagą, więc sama strefa ochronna tarczy jest mniejsza i musisz uważać, by nie odsłaniać swojej flanki.\n\nTarcze pozwalają na przejście niebezpiecznych stref lub na podchodzenie do pojedynczych wrogów, ale pamiętaj o osłanianiu tarczownika innymi operatorami. Obserwuj flanki.
+
+
+@armor_no_armour_desc=<OLD!>Who needs armor when bearing a big shield?\n\nNo investment needed but you DO need to pull\nsome strings if you intend to go out naked.
+@armor_low_thread_armor_name=Skryty pancerz
+@armor_low_thread_armor_desc=<OLD!>Soft armor vest covering the officer's\nvital zones with all around Level IIIA\nprotection.\n\nWill reliably stop impacts from handgun\nand submachinegun threats, but cannot match\nrifle projectiles.
+@armor_assaulter_vest_name=Kamizelka strzelca
+@armor_assaulter_vest_desc=<OLD!>Add a pair of Level III Hard Armor plates\nto the vest, protecting the officer's vital\norgans.\n\nWill stop rifle impacts coming from\nthe front and back quarters, while other\ndirections are protected from pistol\ncaliber threats.
+@armor_raider_vest_name=Kamizelka szturmowa
+@armor_raider_vest_desc=<OLD!>Minimalistic all-or-nothing Level III plate\ncarrier that trades protection for mobility\nby removing all side armor.\n\nWill stop rifle caliber threats from the\nfront and rear, but leaves the side quarters\ncompletely vulnerable.
+@armor_front_plate_only_name=Przedni pancerz
+@armor_front_plate_only_desc=<OLD!>'I don't know about you, Grimesy, I don't\nplan to get shot in the back, running away'\n\nRemove the Level III plate in the back of\nyour armor to save some weight and regain\nsome mobility.
+@armor_extended_protection_name=Rozszerzona ochrona
+@armor_extended_protection_desc=<OLD!>For when you need to pass the gates of fire.\n\nA full featured armor set, covering the\nofficer's vitals, groin, neck and shoulders\nwith Level III and IIIA armor.\n\nWill stop rifle impacts coming from all\ndirections.
+@support_gear_spy_camera_name=Kamera szpiegowska
+@support_gear_spy_camera_desc=Niewielka kamera mieszcząca się pod większością drzwi (można nią też patrzeć przez narożnik!), umożliwia widzenie tego, co niewidoczne.\n\nTwoi żołnierze automatycznie obrócą się w stronę "czerwonych duchów" - ostatnich znanych pozycji przeciwników. Taka informacja pozwala na szybsze oczyszczanie pokoi, bezpieczniejsze, bez większego ryzyka.\n\nUżywaj kamery do badania niebezpiecznych miejsc - jeśli jest na to czas.
+@support_gear_lockpic_name=Wytrych
+@utility_pouch_tazer_name=Paralizator
+@utility_pouch_tazer_desc=<OLD!>A reloadable less lethal weapon that sends\na pair of electrodes flying into the target\nand electroshocks him into submission.\n\nThe target will become unconscious but the\neffects wear off in 10 seconds, time you\nshould use to handcuff the suspect.\n\nMaximum shooting range: 7m
+@utility_pouch_lockpick_machine_name=Automatyczny wytrych
+@utility_pouch_lockpick_machine_desc=Agenci CIA potrafią otwierać zamki w zupełnej ciszy, ale to zajmuje czas - możesz więc użyć tego automatu i przyspieszyć proces.\n\nGwarantowane otwarcie większości zamków w mniej niż 4 sekundy!
+@utility_dynamic_hammer_name=Młot dynamiczny
+@utility_dynamic_hammer_desc=\n       "Uniósł swój młot wysoko\n       i wołał Odyna na znak"\n\nTwój stary może wyglądał głupio, gdy boksował się do heroicznej heavymetalowej muzyki, ale coś jest we wchodzeniu do akcji z wielkim młotem - nawet takim z przyszłości.\n\nUżywaj młota dynamicznego do otwierania zamkniętych drzwi jednym ciosem. Nie, nie możesz nim atakować ludzi.
+@utility_bolt_cutter_name=Przecinak
+@utility_bolt_cutter_desc=<OLD!>Przecinak pozwala na szybkie usuwanie kłódek i otwieranie bram.\n\nBardzo użyteczne narzędzie, które warto mieć przy sobie, gdy wychodzisz na miasto w prawdziwym świecie.
+@utility_breaching_kit_name=Zestaw wyważający
+@utility_breaching_kit_desc=Jasne, czemu nie dać młota dynamicznego i przecinaka jednemu gościowi.\n\nWiesz któremu, nie? Wszyscy go znamy, on na to zasługuje.
+@equipment_protect0=Długi staż w pracy
+@equipment_protect1=Pistolety, pistolety maszynowe
+@equipment_protect2=Pistolety, pistolety maszynowe, karabiny
+
+@disguise_poncho_name=Ponczo
+@disguise_poncho_desc=Zostań Mężczyzną Bez Imienia, albo lepie, Bez Broni - zakładając koc wokół ramion. Jest ciepły i stylowy, do tego wspiera lokalną ekonomię - bo wtedy nie będziesz musiał zrzucać bomb.\n\nChowa twoje uzbrojenie, więc możesz się przemieszczać niezauważenie i dodaje 5 punktów do Widoczności, ale gdy już się odkryjesz, walczysz do końca.
+
+# Pistols
+@firearm_tt_33_name=TT-33 (7.62mmP / 8 nab.)
+
+@firearm_mps45sup_name=M&P 45C z tłumikiem
+
+@firearm_g19_name=Pistolet G19
+@firearm_g19_desc=Zaprojektowany z myślą o byciu lekkim i niewidocznym, ale to nadal broń.\n\Łatwo go dobyć, szybko się nim celuje, strzela często i z minimalnym odrzutem. Na średnim i długim dystansie traci na celności przez projekt muszki i spustu.
+@firearm_g19sup_name=G19 z tłumikiem
+@firearm_g19hp_desc=Zaprojektowany z myślą o byciu lekkim i niewidocznym, ale to nadal broń. Szybko się nim celuje, strzela często i z minimalnym odrzutem\n\nWersja z muszką i lufą dostosowaną do tłumika, przez co nieznacznie traci na szybkości dobycia w zamian za lepszą celność na długim dystansie.
+@firearm_g19hpsup_desc=Zamontuj krótki tłumik na swoim G19. Nie jest najcichszy z rodziny 9mm, ale nadrabia manewrowością i jest wystarczający do ogłupiania przeciwnika.\n\nUżywaj amunicji poddźwiękowej dla lepszego efektu\n\nStrefa słyszalności: 7.5m
+@firearm_g19cust_name=Spersonalizowany G19
+@firearm_g19cust_desc=Kompaktowy i popularny G19 z magazynkiem powiększonym o 5 naboi, lepszą muszką i spustem, nową lufą z kompensatorem odrzutu i miejscem na montaż optyki.\n\nTo pistolet prawdziwego strzelca, celny, z minimalnym odrzutem, nowoczesną optyką i bez pierdół, których nie potrzebujesz.
+@firearm_g19x_name=Pistolet G19X
+@firearm_g19x_desc=Pozostałość po testach broni bocznej w Armii, to oryginalna austriacka produkcja: pełny korpus 9mm połączony z lufą i zamkiem swojego mniejszego brata.\n\nSzybki w dobyciu, lekki na biodrze, G19X nie traci na pojemności magazynka i szybkostrzelności, ale średniej jakości spust pogarsza celność na długim dystansie.
+@firearm_g17_name=Pistlolet G17
+@firearm_g17_desc=Oryginalny, popularny polimerowy pistolet, nadal daje radę i wygrywa walki.\n\nPistolet ten siedzi w dłoni nisko i celuje się nim naturalnie, przez co szybko się nim celuje, prawie bez odrzutu, a naboje wypluwa szybko - o ile jesteś w stanie poradzić sobie z ciężkim spustem.
+@firearm_g2240_name=Pistolet G22
+@firearm_g2240_desc=Ktoś kiedyś uznał, że amunicja 9mm ma za mało mocy, ale .45 jest zbyt potężna.\n\nG22 znajduje się w szczęśliwym kompromisie w postaci amunicji .40 S&W - bez znacznej straty w pojemności magazynka. Dobrze sobie radzi na krótkim i średnim dystansie.
+@firearm_m17_name=Pistolet M17
+@firearm_m17_desc=Najnowszy przydziałowy pistolet Armii, ten pełny 9-milimetrowiec strzela celnie i dobrze się go obsługuje, przeładowanie także jest bardzo proste.\n\nCierpi jednak na problem z poprawnym wycelowaniem na długim dystansie przez grubaśną muszkę.
+@firearm_m18_name=Pistolet M18
+@firearm_m18_desc=Kompaktowa wersja M17, ma taką samą pojemność magazynka i strzela podobnie, tracąc jedynie odrobinę na celności na średnim dystansie w zamian za prędkość dobycia i wycelowania.\n\nJeśli potrzebujesz jedynie broni awaryjnej, gdy główna przestaje strzelać, to jest bardzo dobry wybór.
+@firearm_m9_name=Pistolet M9
+@firearm_m9_desc=Oryginalna "Niesamowita Dziewiątka", która wprowadziła samopowtarzalne 9mm na rynek światowy - ulubiony pistolet Johna McClane'a nie może być zły, nie?\n\nM9 to doskanała broń boczna na krótkim dystansie, a jej celność pozwala nawet na oddanie paru dobrych strzałów na większą odległość.
+@firearm_m9sup_name=M9 z tłumikiem
+@firearm_m9sup_desc=Siła ognia jest super, ale próbowałeś kiedykolwiek działać po cichu z taśmami 7.62? Broń boczna z tłumikiem pozwala zachować dyskrecję.\n\nM9 jest kompatybilny z "puszką", ale muszka jest zasłonięta i nie możesz celować.\n\nStrefa słyszalności: 7m
+@firearm_1911_pistol_name=Pistolet 1911
+@firearm_1911_pistol_desc=Ktoś pociągnął sznurki w sztabie i znalazło się pudełko pełne Browningów.\n\nCeluje się beznadziejnie a magazynek ma małą pojemność, ale nie ma nic lepszego niż porządny nabój .45 ACP do odebrania życia komuś, kto chce odebrać je tobie.
+@firearm_1911modern_pistol_desc=To nie jest pistolet twojego dziadka ani kontrabanda, ale spersonalizowany pistolet 1911 przez byłego kwatermistrza.\n\nWysoka precyzja i dobry spust czynią z tego pistoletu świetną broń - choć jest ciężki i duży.
+@firearm_hk45ct_pistol_name=Pistolet Mk24 Mod 0
+@firearm_hk45ctsup_pistol_name=Mk24 z tłumikiem
+@firearm_hk45ct_pistol_desc=Najnowszy pistolet kalibru .45, który specjalis zaadoptowali ale z nim nie chodzą, Mk24 zapewnie świetną celność i moc obalającą.\n\nNieprecyzyjny przez położenie lufy, pierwszy strzał jest najtrudniejszy przez spust. Ale wystarczy przykręcić do niego puszkę i zamienia się w świetne narzędzie.
+@firearm_hk45ctSup_pistol_desc=Naboje .45 są ciche, nie powodują naddźwiękowego wybuchu ostrzegającego przeciwnika, pierwszy strzał zazwyczaj robi swoje.\n\nWaga tłumika pomaga z odrzutem, więc szybkość ognia na krótkim i średnim dystansie jest zwiększona.\n\nStrefa słyszalności: 5.5m
+@firearm_hs45_pistol_name=Pistolet HS-45
+@firearm_hs45_pistol_desc=Jedno z mniej logicznych zamówień przez rząd Nowheraki, HS-45 jest celnym pistoletem z magazynkiem o pojemności 13 naboi .45.\n\nProblem w tym, że amunicja ta jest ciężko dostępna, więc twoja znajomość tej broni i częstotliwość strzelania bardzo na tym cierpią.
+
+
+@firearm_tss4_pistol_name=MkIV Kundlobójca
+@firearm_tss4_pistol_desc=Pistolet kalibru .22LR, który nie za bardzo sprawdza się w warunkach bojowych, ale jest cichym narzędziem do zabijania.\n\nDobry na krótkim dystansie, ale wystarczy się oddalić i położy najwyżej szczura lub... ech, psa.\n\nStrefa słyszalności: 2m
+
+
+@firearm_g17_pistol_1h_name=Pistolet G17 (1 ręka)
+@firearm_g17_pistol_1h_desc=<OLD!>A high capacity 9mm sidearm, the perfect\ncompanion when you know how to hit the\nsoft spots.\n\nLow in the hand and shooting 'just' 9mm, the\nG17 offers great recoil control to deliver\nmultiple shots.
+@firearm_p226_pistol_name=P226 Pistol
+@firearm_p226_pistol_desc=<OLD!>The P226 is an accurate combat pistol but\nloses some recoil control due to its high\nbore axis.\n\nIn any case, good enough for the Navy SEALs\nshould be good enough for you.
+@firearm_p226_pistol_1h_name=P226 Pistol (One Hand)
+@firearm_p226_pistol_1h_desc=<OLD!>The P226 is an accurate combat pistol but\nloses some recoil control due to its high\nbore axis.\n\nIn any case, good enough for the Navy SEALs\nshould be good enough for you.
+@firearm_mp_40_pistol_name=M&P 40 Pistol
+@firearm_mp_40_pistol_desc=<OLD!>A modern semi-automatic in .40 caliber, the\nM&P doesn't recoil as much as a .45 but has\n45 percent chance to stop the threat\non 1st hit.\n\nIn the hands of a skilled shooter it's a\ngreat mix of stopping power, shootability\nand magazine capacity.
+@firearm_mp_40_pistol_1h_name=M&P 40 (One Hand)
+@firearm_mp_40_pistol_1h_desc=<OLD!>A modern semi-automatic in .40 caliber, the\nM&P doesn't recoil as much as a .45 but has\n45 percent chance to stop the threat on\n1st hit.\n\nIn the hands of a skilled shooter it's a\ngreat mix of stopping power, shootability\nand magazine capacity.
+@firearm_686_plus_revolver_name=686 PLUS Revolver
+@firearm_686_plus_revolver_desc=<OLD!>Having no moving slide, revolvers offer\nthe distinct advantage of being able to\nmaneuver and shoot in very tight spaces,\nwithout maiming yourself or getting a jam.\n\nHowever, the real reason to get a Magnum\nrevolver is so you can ask some poor soul:\n\n       'Do you feel lucky, punk?'
+@firearm_686_plus_revolver_1h_name=686 PLUS (One Hand)
+@firearm_686_plus_revolver_1h_desc=<OLD!>Having no moving slide, revolvers offer\nthe distinct advantage of being able to\nmaneuver and shoot in very tight spaces,\nwithout maiming yourself or getting a jam.\n\nThis also applies to using shields, and the\nrevolver can even be shot when literally\ntouching the shield viewport.
+@firearm_tazer_1h_name=Tazer (One Hand)
+@firearm_tazer_1h_desc=<OLD!>A reloadable less lethal weapon that sends\na pair of electrodes flying into the target\nand electroshocks him into submission.\n\nThe target will become unconscious but the\neffects wear off in 10 seconds, time you\nshould use to handcuff the suspect.\n\nMaximum shooting range: 7m.
+@firearm_p226sd_pistol_name=P226-SD Pistol
+@firearm_p226sd_pistol_desc=<OLD!>The suppressed version of the P226, loses\nsome practical accuracy as the sights are\nharder to see over the can.\n\nStrefa słyszalności: 9m
+@firearm_vp9_pistol_name=VP-9 Pistol
+@firearm_vp9_pistol_desc=<OLD!>The Nec-plus-ultra of 9mm handguns, the\nVP-9 is extremely accurate and reliable.\n\nThe slightly high bore axis has close to\nzero practical effect on recoil and leads\nto very quick follow-up shots.
+@firearm_vp9_pistol_1h_name=VP-9 Pistol (One Hand)
+@firearm_vp9_pistol_1h_desc=<OLD!>The Nec-plus-ultra of 9mm handguns, the\nVP-9 is extremely accurate and reliable.\n\nThe slightly high bore axis has close to\nzero practical effect on recoil and leads\nto very quick follow-up shots.
+@firearm_xd4_ported_pistol_name=XD4 Ported Pistol
+@firearm_xd4_ported_pistol_desc=<OLD!>The XD4 Ported tames the powerful .40\ncartridge by venting gas vertically at the\nfront of the barrel.\n\nGreat for recoil-control and getting back\non target but the V-Shaped vertical flash\nwill burn your night vision and your 'stache.\n\nCannot be safely shot in the CAR stance.
+@firearm_xd4_ported_pistol_1h_name=XD4 Ported (One Hand)
+@firearm_xd4_ported_pistol_1h_desc=<OLD!>The XD4 Ported tames the powerful .40\ncartridge by venting gas vertically at the\nfront of the barrel.\n\nGreat for recoil-control and getting back\non target but the V-Shaped vertical flash\nwill burn your night vision and your 'stache.
+@firearm_tactical_357_revolver_name=Tactical .357 Revolver
+@firearm_tactical_357_revolver_desc=<OLD!>Designed with the needs of Tactical teams\nin mind, the TR allows troopers to safely\nmaneuver and shoot in tight spaces without\nsacrificing magazine capacity, accuracy or\nrecoil control.
+@firearm_tactical_357_revolver_1h_name=Tactical .357 (One Hand)
+@firearm_tactical_357_revolver_1h_desc=<OLD!>Designed with the needs of Tactical teams\nin mind, the TR allows troopers to safely\nmaneuver and shoot in tight spaces without\nsacrificing magazine capacity, accuracy or\nrecoil control.\n\nThis also makes it particularly well suited\nfor use with a shield.
+@firearm_hk45_pistol_name=HK45 Pistol
+@firearm_hk45_pistol_desc=<OLD!>The powerful .45 ACP and all the modern\ndesign features, whats not to like? The HK\nboasts extreme accuracy and high magazine\ncapacity - for a 45 that is.\n\nNot the best pistol for recoil control and\nfollow-up shots, but a solid performer in\nany situation.
+@firearm_hk45sd_pistol_name=HK45-SD Pistol
+@firearm_hk45sd_pistol_desc=<OLD!>The slow moving .45 slug is the ideal\ncartridge to suppress, and an accurate\npistol doubles its value.\n\nA great conversation starter if there ever\nwas one.\n\nStrefa słyszalności: 6m
+@firearm_revolver_38_special_name=Revolver (.38 Special)
+@firearm_fs_ap_pistol_name=FS AP Pistol
+@firearm_fs_ap_pistol_desc=<OLD!>A handgun shooting the same armor piercing\nrounds as the P90 PDW, the FS will easily\ndefeat level IIIA body armor and shields.\n\nThe low bullet mass makes for controllable,\ntarget-pistol-like recoil but does not\nfavorize stopping power. Factor in the flat\nlong range trajectory and you might have a\ngreat specialist item.
+@firearm_magnum_44_revolver_name=Magnum 44 Revolver
+@firearm_magnum_44_revolver_desc=<OLD!>There's not much you can carry on duty more\npowerful than this Magnum 44 - at least if\nyou intend to keep your badge.\n\nSized right for quick shots at close range,\nthe 44 is powerful enough to quickly end\nfights and make a mess of the coroner's\nwork, but will leave you exposed when\nlonger shots are needed.
+@firearm_magnum_44_revolver_1h_name=Magnum 44 (One Hand)
+@firearm_magnum_44_revolver_1h_desc=<OLD!>There's not much you can carry on duty more\npowerful than this Magnum 44 - at least if\nyou intend to keep your badge.\n\nSized right for quick shots at close range,\nthe 44 is powerful enough to quickly end\nfights and make a mess of the coroner's\nwork, but will leave you exposed when\nlonger shots are needed.
+@firearm_mark_23_pistol_name=Mark 23 Pistol
+@firearm_mark_23_pistol_desc=<OLD!>The great .45 pistol of the late 90s, the\nMark 23 is extremely accurate, powerful\nand just too damn big.\n\nMore of a collectors item than a practical\nhandgun - unless your job description\nincludes crawling through hell and knocking\nheads at 50 yards, that is.
+@firearm_mark_23sd_pistol_name=Mark 23-SD Pistol
+@firearm_mark_23sd_pistol_desc=<OLD!>With its elevated sights and slow moving\nslugs, the Mark 23 is uniquely suited for\nthe role of silent sentry remover.\n\nSuperb accuracy makes for a first shot that\nalways counts and the weight actually helps\nwith controlling recoil for followup shots.\n\nStrefa słyszalności: 6m
+@firearm_sp01_shadow_pistol_name=SP01 Shadow Pistol
+@firearm_sp01_shadow_pistol_desc=<OLD!>A target-grade 9mm with the mag capacity\nfor those that just don't care for reloading,\nthe Shadow was built with the needs of Tac\nTeams and race shooters alike in mind:\n\nSpeed, Accuracy and Rate of Fire limited\nby shooter skill and training only.
+@firearm_veterinary_pistol_name=Veterinary Pistol
+@firearm_veterinary_pistol_desc=<OLD!>Built to humanely dispatch wounded animals\nbut bearing obvious World War 2 lineage, the\nVP is also a great 2-legged Pest Remover.\n\nThe ported barrel and bolt action operation\neliminate all practical sound report, along\nwith any dream of rapid fire.\n\nStrefa słyszalności: 1.5m
+
+# Rifles
+@firearm_mk18_name=Karabinek Mk18
+@firearm_mk18Sup_name=Mk18 z tłumikiem
+@firearm_mkl8_desc=Krótki Mk18 zaczynał jako personalizowany karabinek Marynarki do walki w pomieszczeniach i w pojazdach, ale szybko trafił do szafek Armii.\n\nJest idealny do ciasnych korytarzy i małych pokoi, ale niska prędkość wylotowa ogranicza jego skuteczny zasięg do 15 metrów.
+@firearm_mk18Sup_desc=Tłumik zmniejsza rozbłysk, dźwięk wystrzału i ogłupia niezorientowanych przeciwników.\n\nNie ma poddźwiękowej amunicji 5.56 która działałaby dobrze, więc nie jest to cicha broń - ale dodatkowa waga pomaga w redukcji odrzutu.\n\nStrefa słyszalności: 45m
+@firearm_m249_name=M249 LMG
+@firearm_m249_desc=
+@firearm_m249spw_name=M249 SPW
+@firearm_m249spwSup_name=M249 z tłumikiem
+@firearm_m249spw_desc=Karabin maszynowy przygważdża wroga, a pozostała część oddziału wykonuje manewry.\n\nM249 SPW został specjalnie dostosowany by być na tyle lekkim, by umożliwić czyszczenie budynków, ale najlepiej sobie radzi rozstawiony na dwójnogu.
+@firearm_m249spwSup_desc=Tłumik zmniejsza rozbłysk, dźwięk wystrzału i ogłupia niezorientowanych przeciwników.\n\nNie ma poddźwiękowej amunicji 5.56 która działałaby dobrze, więc nie jest to cicha broń - ale dodatkowa waga pomaga w redukcji odrzutu.\n\nStrefa słyszalności: 55m
+@firearm_m240l_name=M240L GPMG
+@firearm_m240l_desc=Wielka i ciężka wersja M240 lśni, gdy strzela ogniem zaporowym, a jego ciężka amunicja skutecznie zabija przeciwników.\n\nNie próbuj z nim biegać i strzelać z biodra - wymaga stabilnego rozstawienia na dwójnogu, by być przydatnym.
+@firearm_mg338_name=XM338 LMMG
+@firearm_mg338Sup_name=XM338 z tłumikiem
+@firearm_mg338_desc=Średni karabin maszynowy umożliwiający trafienia z ekstremalnych odległości, XMG338 jest przydatny tam, gdzie w innym wypadku rozstawionoby ciężką "pięćdziesiątkę".\n\nAmunicja Magnum mocno kopie i dużo waży, więc ta dziecinka strzela celnie jedynie krótkimi seriami.
+@firearm_mg338Sup_desc=Nie ma poddźwiękowej amunicji .338 która działałaby dobrze, więc nie jest to cicha broń - ale dodatkowa waga pomaga w redukcji odrzutu.\n\nStrefa słyszalności: 75m
+@firearm_m14ebr_name=M14 EBR
+@firearm_m14ebr_desc=Duch M14 z wojny w Wietnamie żyje obecnie w tym karabinie wyborowym i nadal towarzyszy mu śmiertelna reputacja.\n\nDzięki dostosowywalnej kolbie karabin zostawia dziury o średnicy 7.62mm w precyzyjnych miejscach, jak tylko strzelec się dobrze ułoży.
+@firearm_m110a1_name=M110A1 SDMR
+@firearm_m110a1Sup_name=M110A1 z tłumikiem
+@firearm_m110a1_desc=Bardzo celny półautomat o niemieckim "szturmowym" pochodzeniu.\n\nJest dobry zarówno do strzelania na daleki dystans jak i do czyszczenia pomieszczeń, choć jego wielkość i waga dyskretnie sugerują, że lepiej nie pchać się z nim w ciasne miejsca.
+@firearm_m110a1Sup_desc=Tłumik zmniejsza rozbłysk, dźwięk wystrzału i ogłupia niezorientowanych przeciwników.\n\nNie ma poddźwiękowej amunicji 7.62x51 która działałaby dobrze, więc nie jest to cicha broń - ale dodatkowa waga pomaga w redukcji odrzutu.\n\nStrefa słyszalności: 47m
+@firearm_m16a4_name=Karabinek M16A4
+@firearm_m16a4_desc=Karabinek z Wietnamu - teraz w zmodernizowanej XXI-wiecznej wersji.\n\nCelny i zabójczy na każdym dystansie, ale długa lufa zaczepia o framugi drzwi i innych Komandosów.\n\nNie dawaj go pierwszemu w formacji.
+@firearm_m16a4nws_desc=Nadwyżkowy złom którego amerykański MON już nie używa, ale nie jest taki zły.\n\nDużo celniejszy od waszych AK i zabójczy na większości dystansów, pozwala na montaż zwiększającej celność optyki, ale M16 jest nieco za długi do walki w pomieszczeniach.
+@firearm_m16a4mil_desc=Nadwyżkowy złom z Armii, zakup z czarnego rynku, kto wie skąd to masz?\n\nJest dużo celniejszy od typowego kałacha, ale Milicja nie odbyła treningu pozwalającego na wykorzystanie potencjału tej broni, nie dysponuje też optyką dla niego.
+@firearm_m16a2_name=Karabinek M16A2
+@firearm_m16a2_desc=<NEEDS CHANGES FOR SWAT>The Vietnam-era "Mattel Gun" - now in the modernized, all-railed version for the 21st century warfighter.\n\nAccurate and deadly at all ranges, but ill-suited for CQB work - as the barrel tends to bump into doorframes and fellow Rangers.\n\nJust don't give it to your pointman. 
+@firearm_m16a4dmr_name=Karabin SDM
+@firearm_m16a4dmr_desc=SDM nie jest typowym M16, ale jego celniejszym kuzynem. Ma nowy spust, luźną lufę, dwójnóg i, oczywiście, lepsze statystyki.\n\nNie strzela tak szybko jak M16, ale ma mniejszy odrzut niż karabiny w kalibrze 7.62 i mocniej trafia.
+@firearm_mk48_name=Mk48 Mod 1 LMG
+@firearm_mk48Sup_name=Mk48 z tłumikiem
+@firearm_mk48_desc=Powiększone M249 w amunicji 7.62mm.\n\n"Lekki" nie zawsze oznacza "dobry" - waga zmniejsza odrzut, więc ustaw się z tą bronią za osłoną, z dwójnogiem, i wal seriami po przeciwnikach.
+@firearm_mk48Sup_desc=Tłumik zmniejsza rozbłysk i dźwięk wystrzału, ogłupia niezorientowanych przeciwników którzy coś usłyszą\n\nNie ma poddźwiękowej amunicji 7.62x51 która działałaby dobrze, więc nie jest to cicha broń - ale dodatkowa waga pomaga w redukcji odrzutu.\n\nStrefa słyszalności: 60m
+@firearm_mk20ssr_name=Mk20 SSR
+@firearm_mk20ssrSup_name=Mk20 z tłumikiem
+@firearm_mk20ssr_desc=Czego Mk17 LB nie potrafi, zrobi to Mk20.\n\nKarabin wyborowy rodziny Mk16/17, zapewnie doskonałą celność tak długo, jak jest rozstawiony w stabilnym miejscu.
+@firearm_mk20ssrSup_desc=Tłumik zmniejsza rozbłysk i dźwięk wystrzału, ogłupia niezorientowanych przeciwników którzy coś usłyszą\n\nNie ma poddźwiękowej amunicji 7.62x51 która działałaby dobrze, więc nie jest to cicha broń - ale dodatkowa waga pomaga w redukcji odrzutu.\n\nStrefa słyszalności: 37m
+
+@firearm_mk17_cqc_name=Mk17 CQC
+@firearm_mk17_cqcSup_name=Mk17 CQC z tłumikiem
+@firearm_mk17_cqc_desc=Wersja CQC do "walki w zwarciu" ma krótką lufę, ale nie traci zbyt wiele na wadze przez swój kaliber.\n\nNa szczęście na bliskim dystansie rzadko jest czas na zastanowienie lub dodatkowe strzały, dwa razy go podnosić nie trzeba.
+@firearm_mk17_cqcSup_desc=Tłumik zmniejsza rozbłysk i dźwięk wystrzału, ogłupia niezorientowanych przeciwników którzy coś usłyszą\n\nNie ma poddźwiękowej amunicji 7.62x51 która działałaby dobrze, więc nie jest to cicha broń - ale dodatkowa waga pomaga w redukcji odrzutu.\n\nStrefa słyszalności: 50m
+@firearm_mk17_std_name=Karabin Mk17
+@firearm_mk17_stdSup_name=Mk17 z tłumikiem
+@firearm_mk17_std_desc=Nowe musi zastąpić stare, prawda? Mk17 łączy obsługę M16 z dobrymi częściami i ciężką amunicją.\n\nCzego tu nie lubić?\n\nWiększego odrzutu? Mniejszego magazynka? Dużej wagi?
+@firearm_mk17_stdSup_desc=Tłumik zmniejsza rozbłysk i dźwięk wystrzału, ogłupia niezorientowanych przeciwników którzy coś usłyszą\n\nNie ma poddźwiękowej amunicji 7.62x51 która działałaby dobrze, więc nie jest to cicha broń - ale dodatkowa waga pomaga w redukcji odrzutu.\n\nStrefa słyszalności: 48m
+@firearm_mk17_lb_name=Mk17 LB
+@firearm_mk17_lbSup_name=Mk17 LB z tłumikiem
+@firearm_mk17_lb_desc=Mk17 z długą lufą to nie karabin wyborowy, ale niewiele mu brakuje.\n\nAmunicja 7.62 uderza mocno i przygważdża do ziemi, a obsługa z rodziny AR-15 daje odpowiednią manewrowość.
+@firearm_mk17_lbSup_desc=Tłumik zmniejsza rozbłysk i dźwięk wystrzału, ogłupia niezorientowanych przeciwników którzy coś usłyszą\n\nNie ma poddźwiękowej amunicji 7.62x51 która działałaby dobrze, więc nie jest to cicha broń - ale dodatkowa waga pomaga w redukcji odrzutu.\n\nStrefa słyszalności: 40m
+@firearm_m4_m203_desc=Weź swą ulubioną laskę - karabinek M4 - i doczep ręczne działo pod lufą.\n\nBroń traci na manerowości i celowaniu, ale granatnik umożliwia rozwalenie wroga za ochroną i zranienie jego kolegów w okolicy.
+@firearm_mk18_m203_desc=Mk18 jest lekki i poręczny do tego stopnia, że podlufowy M203 nie zabiera wiele z jego wydajności w zwarciu.\n\nKiedy odległości rosną, granaty 40mm są nie do pobicia i rekompensują słabości 5.56.
+@firearm_m16_m203_desc=Sierżant mówił, że dwie ciężkie lufy są lepsze od jednej, poza tym biegać nie trzeba!\n\nZdominuj przeciwnika precyzyjnym ogniem na średnim dystansie i granatnikiem 40mm we wszystkich innych sytuacjach.
+@firearm_mk17_std_eglm_name=MK17/EGLM
+@firearm_mk17_std_eglm_desc=
+
+@firearm_AT4_name=Wyrzutnia M136 AT4
+@firearm_AT4_desc=Jednorazowa wyrzutnia pozwalająca na wysadzanie grup wrogów, drzwi i ścian.\n\nPotrzebuje chwili na przygotowanie i może zranić kogoś, kto jednak powinien przeżyć.\n\nJeśli kiedykolwiek pojawią się działajace pojazdy, ta dziecinka się przyda!\n\nCzas przygotowania: 4s\nStrefa rażenia: 3m
+@firearm_MK14_name=MK14 Mod 0 GP
+@firearm_MK14enemy_name=MK14 GP (40mm / 6 nab.)
+@firearm_MK14_desc=no desc yet, wip weapon
+
+
+# SMGs
+@firearm_mp5k_name=PM MP5K 
+@firearm_mp5kSup_name=MP5K z tłumikiem
+@firearm_mp5k_desc=Utnij lub usuń wszystko z MP5 i dostajesz Kurza, gwiazdę tajnych operacji.\n\nPistolet maszynowy łatwy w ukryciu, z dobrą celnością na krótkim dystansie, ale brak kolby powoduje duży odrzut podczas szybkiego strzelania.
+@firearm_mp5kSup_desc=Pistolet maszynowy MP5K jest krótki nawet z tłumikiem, a dodatkowa waga zmniejsza odrzut.\n\nZwykła amunicja 9mm jest naddźwiękowa, więc zmień ją na poddźwiękową by zmniejszyć głośność.\n\nStrefa słyszalności: 9m
+@firearm_mp5kpdw_name=PM MP5K PDW
+@firearm_mp5kpdwSup_name=MP5K PDW z tłumikiem
+@firearm_mp5kpdw_desc=MP5 ze składaną kolbą został wyprodukowany specjalnie do przechowywania w ukryciu i jest bardzo dobry w walce w pomieszczeniach.\n\nGdy tylko zaczniesz strzelać będzie robić dziury w przeciwnikach, tylko nie z daleka, i nie jeśli mają kamizelki.
+@firearm_mp5kpdwSup_desc=Pistolet maszynowy MP5K jest krótki nawet z tłumikiem, a dodatkowa waga zmniejsza odrzut.\n\nZwykła amunicja 9mm jest naddźwiękowa, więc zmień ją na poddźwiękową by zmniejszyć głośność.\n\nStrefa słyszalności: 8m
+@firearm_mp5a_name=PM MP5A5
+@firearm_mp5aSup_name=MP5A5 z tłumikiem
+@firearm_mp5a_desc=Legendarna broń antyterrorystów z lat 80., MP5 przegrało ze współczesną bronią w kwestii średniego zasięgu.\n\nKrótka, bardzo szybka i celna broń na krótkim dystansie, idealna do odbijania zakładników, ale przeładowuje się go wolno - i oldskulowo!
+@firearm_mp5aSup_desc=Pistolet maszynowy MP5K jest krótki nawet z tłumikiem, a dodatkowa waga zmniejsza odrzut.\n\nZwykła amunicja 9mm jest naddźwiękowa, więc zmień ją na poddźwiękową by zmniejszyć głośność.\n\nStrefa słyszalności: 8m
+@firearm_mp5sd_name=PM MP5SD6
+@firearm_mp5sd_desc=MP5 z lufą dostosowaną do amunicji subsonicznej i z wbudowanym tłumikiem\n\nZabójcze narzędzie cichsze od pocisku uderzającego w cel, idealne, gdy dźwięk decyduje o zwycięstwie.\n\nStrefa słyszalności: 2.5m
+@firearm_mp7_name=PM MP7A1 PDW
+@firearm_mp7Sup_name=MP7A1 PDW z tłumikiem
+@firearm_mp7_desc=MP7 jest krótkim pistoletem maszynowym strzelającym małą karabino-podobną amunicją. Minimalny odrzut, celne serie nawet na średnim dystansie.\n\nW zależności od amunicji przebija miękkie pancerze, ale moc obalająca i śmiertelność pojedynczego naboju pozostawia do życzenia.
+@firearm_apc9k_name=PM APC9 K 
+@firearm_apc9kSup_name=APC9 K z tłumikiem
+@firearm_apc9k_desc=Szwedzkiej produkcji pistolet maszynowy. Krótki, poręczny i wygodny - bardziej broń ochrony osobistej niż frontowa, ale w sam raz do walki w pomieszczeniach.\n\nJest celny na krótkim i średnim dystansie, ma możliwość dołączenia celownika.
+
+# Shotguns
+@firearm_m500pp_name=Strzelba M500-MEK
+@firearm_m500pp_desc=!!!Placeholder text, the weapon is not yet fully in the game
+@firearm_m1014_name=Strzelba M1014
+@firearm_m1014_desc=Strzelby bojowe nie są w regularnym wyposażeniu Komandosów, ale parę z nich się ostało.\n\nM1014 to półautomatyczna maszyna do zabijania plująca śrutem, ale nie nadaje się do wyłamywania drzwi i jest za długa do czyszczenia pomieszczeń.
+@firearm_breacher_name=Strzelba szturmowa
+@firearm_breacher_desc=Krótka i poręczna strzelba z chwytem pistoletowym, naładowana specjalną amunicją wyburzającą.\n\nSpecjalnie zaprojektowana do niszczenia kłódek i drzwi z minimalną szansą na rykoszet.\n\nBezużyteczna w walce.
+@firearm_shotguntango_name=Strzelba Cruiser (12GA / 5 nab.)
+
+# Enemy weapons
+@firearm_rpk74lmg_name=RPK-74 LMG (5.45mm / 45 nab.)
+@firearm_rpk74lmg_desc=
+@firearm_rpk16slmg_name=RPK-16 LMG (5.45mm / 95 nab.)
+@firearm_rpk16slmg_desc=
+@firearm_rpklmg_name=RPK LMG (7.62mm / 75 nab.)
+@firearm_rpknws_name=RPK LMG
+@firearm_rpknws_desc=AKM w wersji karabinu maszynowego o długiej lufie, zapewnia wysoką celność na większym dystansie i umożliwia prowadzenie ognia zaporowego - bez dużo większej wagi\n\nJest za długi do walki w pomieszczeniach, więc trzymaj go z tyłu i rozstawiaj na dwójnogu.
+@firearm_rp46mg_name=RP46 LMG (7.62mmR / 200 nab.)
+@firearm_rp46mg_desc=
+@firearm_pkpmg_name=PKP LMG (7.62mmR / 100 nab.)
+@firearm_pkpmgcia_name=PKP Pieczenieg LMG
+@firearm_pkpmg_desc=Odmiana rosyjskiego PKMa używana przez Specnaz. Lekki, oldskulowy karabin plujący amunicją 7.62.\n\nStrzela daleko i mocno, idealny do przygważdżania wroga.\n\nPamiętaj, by rozstawiać go na dwójnogu dla zwiększonej stabilności.
+
+@firearm_pm63_name=PM-63 (9mm / 25 nab.)
+@firearm_pm63cia_name=PM-63 RAK
+@firearm_pm63cia_desc=Stara broń ochrony osobistej załogantów Układu Warszawskiego, PM-63 jest bardzo dostępny na czarnym rynku i wygląda jak zwykły pistolet.\n\nBroń dostosowana do walki na krótkim dystansie, niecelna, celownik mechaniczny przesuwa się wraz z zamkiem, ale to siewca naboi mieszczący się w kieszeni.
+@firearm_miniuzi_name=Mini Uzi (9mm / 32 nab.)
+@firearm_miniuzitango_name=Mini Uzi z tłumikiem (9mm / 32 nab.)
+@firearm_miniuzicia_name=PM Mini Uzi
+@firearm_miniuzicia_desc=Popularny wśród osób potrzebujących dyskrecji i automatycznego ognia. To broń nieco przestarzała, zrobiona ze stali i z otwartym zamkiem, przez co niezbyt celna.\n\nDoskonale działa na krótkim dystansie, odrzut jest niwelowany przez wagę.
+@firearm_miniuzinws_desc=Mini Uzi bez kolby ma lepszą manerwowość i można go obsługiwać jedną ręką kosztem mniejszej celności.\n\nNie służy do wygrywania pojedynków, ale jako alternatywa dla pistoletu może siać zniszczenie.
+@firearm_m4tango_name=M4 / 4x (5.56mm / 30 nab.)
+@firearm_type56_name=AK-47S (7.62mm / 30 nab.)
+@firearm_akm_name=AKM (7.62mm / 30 nab.)
+@firearm_akmkobra_name=AKM / Red Dot (7.62mm / 30 nab.)
+@firearm_type56cia_name=Składany AK-47
+@firearm_type56cia_desc=AK47 ze składaną kolbą jest łatwiejszy do ukrycia, ale traci na celności.\n\nKolba blokuje możliwość zamontowania celownika, ale nie ma sobie równych, gdy strzela trybem ciągłym na bliskim dystansie.
+@firearm_type56nws_desc=AK47 ze składaną kolbą jest lżejszy, ale traci na celności.\n\nKolba blokuje możliwość zamontowania celownika, ale nie ma sobie równych, gdy strzela trybem ciągłym na bliskim dystansie.
+@firearm_akmcia_name=Karabin AKM
+@firearm_akmcia_desc=Standardowy karabin rebeliantów na całym świecie, działa bez względu na warunki.\n\nNie jest zbyt celny na dużym dystansie i przeładowuje się wolno, ale wyróżnia go to, że jest karabinem należącym do zakorkowanych ulic Nowheraki.
+@firearm_akmnws_desc=Twól wieloletni karabin AKM, ufasz mu najbardziej.\n\nStała kolba pozwala na precyzyjne strzelanie na średnim dystansie, ale celowanie nie jest zbyt szybkie i długo się go przeładowuje.\n\nJest też dość ciężki.
+@firearm_akm_gl_name=AKM/GP34
+@firearm_akm_gl_desc=Sprawdzony w boju AKM z granatnikiem podlufowym, główne narzędzie do prowadzenia zespołu i przygważdżania wroga siłą ognia.\n\nGranaty 40mm są dobre do czyszczenia trudnych punktów, nawet jeśli ta sowiecka amunicja wybucha słabiej niż amerykański odpowiednik.
+@firearm_aks74u_name=AKS-74U (5.45mm / 30 nab.)
+@firearm_aks74uemir_name=AKS-74U (5.45mm / 45 nab.)
+@firearm_aks74ucia_name=Karabinek AKS-74U
+@firearm_aks74uciaSup_name=AKS-74U z tłumikiem
+@firearm_aks74ucia_desc=Zaprojektowany jako broń osobista dla sił sowieckich i symbol władzy na Bliskim Wschodzie, AKSU to bardzo dobry, poręczny karabin automatyczny.\n\nZbalansowany w walce na bliskim dystansie i w pomieszczeniach, ale krótka lufa i celownik wpływają na moc obalającą i zasięg.
+@firearm_aks74uciaSup_desc=Nie możesz całkowicie wyciszyć karabinka w kalibrze 5.45mm, chyba że znajdziesz nieznajdywalną amunicję poddźwiękową, ale tłumik pomaga zmylić wroga, ukryć płomień i kontrolować odrzut.
+@firearm_arm14_name=Karabinek AK-47M SF
+@firearm_arm14_desc=Kopia AKS-U kalibru 7.62x39 wykorzystywana przez siły specjalne, idealna do szybkiego poruszania się i walki w zamknięciu.\n\nKrótka lufa i celownik wpływają negatywnie na zasięg, więc zainwestuj w optykę.
+@firearm_vulcan_name=Karabin Vulcan
+@firearm_vulcanSup_name=Vulcan z tłumikiem
+@firearm_vulcan_desc=Wschodnioeuropejski wariant AK w wersji bullpup. Vulcan korzysta z magazynków typowych dla reszty karabinów, ale zmniejszona długość broni pomaga w walce w pomieszczeniach. Do tego możesz montować zachodnie celowniki!\n\nPrzeładowania nadal trochę trwa, więc nie daj się złapać bez magazynka.
+@firearm_vulcanSup_desc=Vulcan nadal należy do rodziny AK, więc nie ma do niego amunicji poddźwiękowej.\n\nPlusem jest to, że nawet z tłumikiem nadal jest bronią krótką, poręczną i idealną do walki w budynkach.
+@firearm_ak105alpha_name=AK-105 Alpha (5.45mm / 30 nab.)
+@firearm_ak105tango_name=AK-105 / 1-6x (5.45mm / 30 nab.)
+@firearm_ak105alphacia_desc=Zaprojektowany według najnowszych trendów rosyjskich sił specjalnych, ale ulepszony na modłę amerykańską. Kałach ze składaną kolbą i szynami na zachodnią optykę.\n\nKarabin ten denerwuje purystów i jest dość ciężki, ale strzela prosto i jest nie do pobicia na średnim dystansie.
+@firearm_ak105alphaciaSup_desc=Nie możesz całkowicie wyciszyć karabinka w kalibrze 5.45mm, chyba że znajdziesz nieznajdywalną amunicję poddźwiękową, ale tłumik pomaga zmylić wroga i ukryć płomień.
+@firearm_ak105alphacia_name=AK-105 Alpha
+@firearm_ak105alphaciaSup_name=AK-105 z tłumikiem
+@firearm_sr3m_name=SR3-M (9mm AP / 20 nab.)
+@firearm_fal_name=FAL (7.62mm / 20 nab.)
+@firearm_falnws_name=Karabin FAL
+@firearm_falnws_desc=
+@firearm_falmil_desc=Nazywany "prawą ręką wolnego świata", belgijski FAL jest bardzo popularny na czarnym rynku, ale wymaga umiejętności by nim dobrze operować.\n\nStrzela mocno, daleko i mógłby być karabinem wyborowym, jednak ciężko o amunicję i optykę.
+
+
+@firearm_RPG7_name=RPG-7 (93mm HEAT)
+@firearm_RPG7nws_name=Wyrzutnia RPG-7
+@firearm_RPG7nws_desc=Wyrzutnia RPG-7
+@firearm_RPG26_name=RPG-26 (72.5mm HEAT)
+@firearm_RPG26cia_name=Wyrzutnia RPG-26
+@firearm_RPG26cia_desc=Jednostrzałowa wyrzutnia RPG-26 jest leżejsza i mniejsza od AT5, ale ma też słabszy granat.\n\nNadal poradzi sobie z rozwalaniem ścian, drzwi i grup przeciwników.\n\nPasuje też do twojego miejscowego wdzianka.\n\nCzas przygotowania: 3s\nStrefa rażenia: 2m
+@firearm_RPG26nws_desc=Jednostrzałowy granatnik RPG-26 to lekka wyrzutnia, znana każdemu w tym kraju.\n\nDa radę z rozwalaniem ścian, drzwi i grup wrogów, czasem też zlikwiduje cel misji.\n\nCzas przygotowania: 2.5s\nStrefa rażenia: 2m
+@firearm_SVD_name=SWD-63 (7.62mmR / 10 nab.)
+@firearm_SVDcia_name=SWD-63 Dragunow
+@firearm_SVDcia_desc=Rosyjski karabin wyborowy popularny na ulicach, więc nie powinien wzbudzać większych podejrzeń.\n\nJest długi i ciężki, ale całkiem operowalny, do tego wystarczająco celny by trafiać na dalekim dystansie - pociski trafiają mocno i przebijają płyty poziomu III.
+@firearm_SVDnws_desc=Rosyjski karabin wyborowy o dużej precyzji, ale większość żołnierzy nie wie, jak z niego poprawnie korzystać.\n\nJest długi i strzela potężną amunicją, więc rozstaw go dla stabilizacji, zyskasz nawet dodatkowe 50m zasięgu.
+@firearm_SVUnws_name=SWU-AS Bullpup
+@firearm_SVUnws_desc=
+@firearm_VSS_name=WSS (9mm AP Silent / 10 nab.)
+@firearm_VSScia_name=WSS Wintorez
+@firearm_VSScia_desc=Korzysta z bardzo ciężkiej amunicji poddźwiękowej i ma zintegrowany tłumik, co czyni go cichym i potężnym karabinem wyborowym średniego zasięgu.\n\nJeśli coś cię zaskoczy, możesz strzelać ogniem ciągłym!\n\nStrefa słyszalności: 3.5m
+
+@mountedweap_dshk_name=DSzK (12.7mm AP / 50 nab.)
+
+@firearm_mac_10_smg_name=Mac-10 SMG (Auto / 9mm)
+@firearm_mac_10_smg_desc=
+@firearm_mp5k_pdw_name=MP5K PDW (Auto / 9mm)
+@firearm_evo_3_smg_name=Skorpion Evo 3
+@firearm_evo_3_smg_desc=<OLD!>Europeans love their SMGs and the rapid-\nfiring, compact Evo 3 is a great example.\n\nFast on the target and quick to fill it with\n9mm holes, it mixes European and American-\nstyle controls intelligently and can be\nrun and reloaded very efficiently.\n\nOverall one hell of a bang for your buck.
+@firearm_bren_a1_assault_rifle_name=Bren A1 Assault Rifle
+@firearm_bren_a1_assault_rifle_desc=<OLD!>A newcomer polymer assault rifle from\nCentral Europe, the Bren will do the job\nbut not break the bank.\n\nBetter than average long range accuracy is\nowed to the modular stock, but controls and\noverall layout make the Bren relatively\nslow in practical operation.
+@firearm_ump45_smg_name=UMP45 SMG
+@firearm_ump45_smg_desc=<OLD!>The UMP fires the reliable .45 ACP and does\nit with German accuracy, providing the\nhighest stopping power you can get in a\nSMG package.\n\nA bit large and unwieldy for most users,\nand the heavy recoil affects follow-up\nshots speed and accuracy.
+@firearm_mp5a3_sd_smg_name=Mp5A3-SD SMG
+@firearm_mp5a3_sd_smg_desc=<OLD!>Mounting a 7 inch suppressor on your Mp5A3\nmight not be the best way to maintain CQB\nmaneuverability, but will lower shot sound\nlevels by a decent number of decibels.\n\nThe weapon loses some accuracy but in\npractical terms effects are negligible.\n\nStrefa słyszalności: 10m
+@firearm_ump45_sd_smg_name=UMP45-SD SMG
+@firearm_ump45_sd_smg_desc=<OLD!>Mounting a suppressor on the UMP45 is\nstraightforward and efficient, as long as\nyou accept handling a 16 inch barrel SMG.\n\nVery deadly at close range and against bad\nguys not wearing armor.\n\nStrefa słyszalności: 5m
+@firearm_mp7sd_smg_name=MP7-SD SMG
+@firearm_mp7sd_smg_desc=<OLD!>The small and maneuverable Mp7 shoots tiny\nbullets, but the low recoil and flat, rifle-\nlike trajectory translate into quick and\naccurate bursts of fire even at long range.\n\nThose tiny bullets do punch through kevlar\nwith ease, even when suppressed.\n\nStrefa słyszalności: 4m
+@firearm_m4_carabine_name=Karabinek M4
+@firearm_m4Sup_carabine_name=M4 z tłumikiem
+@firearm_m4_m203_name=M4/M203 GP
+@firearm_m4_m203Sup_name=M4/M203 z tłumikiem
+@firearm_mk18_m203_name=Mk18/M203 GP
+@firearm_mk18_m203Sup_name=Mk18/M203 z tłumikiem
+@firearm_m16a4_m203_name=M16/M203 GP
+@firearm_m4_carabine_desc=Powoli zastępuje w obowiązkach większe M16, ma mniejszą celność i zasięg ale wyższą manewrowośc\n\nKrótka lufa zmniejsza śmiertelny zasięg do 30m, ale zmiana amunicji może mu posłużyć.\n\nTo wielozadaniowy karabinek szturmowy.
+@firearm_m4nws_desc=Powoli zastępuje w obowiązkach większe M16, ma mniejszą celność i zasięg ale wyższą manewrowośc\n\nKrótka lufa zmniejsza śmiertelny zasięg do 30m, ale pozwala na wygodniejszą obsługę w ciasnych pomieszczeniach.
+@firearm_m4Sup_carabine_desc=Tłumiki zmniejszają płomień wylotowy, tłumią dźwięk i ogłupiają aprzeciwników.\n\nNie ma poddźwiękowej amunicji 5.56, która by dobrze działała, więc karabin nie jest kompletnie cichy - ale większa waga pomaga z odrzutem.\n\nStrefa słyszalności: 40m
+@firearm_m4_cqbr_name=M4 CQB-R (Auto / 5.56mm)
+@firearm_mpx_40_smg_name=PM MPX .40
+@firearm_mpx_40_smg_desc=<OLD!>A modern submachinegun with AR15-style\ncontrols, the MPX is fast in operation and\nvery maneuverable in close spaces.\n\nHigh Rate of Fire coupled with decent\nstopping power make this a reliable fight\nstopper until the bad guys start donning\nbody armor.
+@firearm_p90_pdw_name=P90 PDW
+@firearm_p90_pdw_desc=<OLD!>A compact Personal Defense Weapon shooting\na high velocity intermediate round, the P90\nis great for Close Quarters Combat and will\npierce straight through level IIIA armor.\n\nThe flat trajectory of the 5.7mm is great\nfor mid-to-long range shots, but stopping\npower potential is less than that of SMGs\nshooting traditional calibers.
+@firearm_g36c_assault_rifle_name=G36C Assault Rifle
+@firearm_g36c_assault_rifle_desc=<OLD!>A favorite of European SWAT teams, the G36C\nis short, light and very maneuverable.\n\nThe short barrel comes at the expense of\nstopping power though, as the low muzzle\nvelocity cuts under the reliable frag-\nmentation threshold for 5.56 rounds.
+@firearm_mk16_pdw_name=Mk 16 PDW
+@firearm_mk16_pdw_desc=<OLD!>This ultra compact PDW is handy in close\nquarters or when concealment is needed.\n\nIts small size makes it quick to get into\naction but the skeleton stock is a poor\nshooting platform, so accuracy and recoil\ncontrol are sub-standard.\n\nNot recommended for hostage rescue work.
+@firearm_hk416d10_name=HK416D10 Carbine
+@firearm_hk416d10_desc=<OLD!>The German engineering take on the AR15,\nthe HK416 is a favorite of Tier 1 Special\nOperation Groups and armchair commandos\nworldwide.\n\nVery reliable and accurate, in the 10 inch\nbarrel version it's also maneuverable but\na little slow on the target due to the heavy\nrail.
+@firearm_commando_553_name=Commando 553
+@firearm_commando_553_desc=<OLD!>Another European carbine built to very\nhigh standards, the 553 is accurate and\nmaneuverable, but falls behind on stopping\npower due to the short barrel.\n\nGood balance makes it easy to reload and\nrecover from dropping the barrel in a tight\nspot.
+@firearm_vector_smg_name=Vector SMG
+@firearm_vector_smg_desc=<OLD!>The avant-garde Vector SMG masters the\npowerful .45 rounds by clever positioning\nof shooter hands and directing the bolt to\nrecoil downards.\n\nResulting recoil is very mild and allows\nimpressive 2 round bursts grouping, but the\nshort barrel makes for less spectacular\nfirst round accuracy.
+@firearm_sar18_bullpup_name=SAR-18 Bullpup
+@firearm_sar18_bullpup_desc=<OLD!>With an 18 inch barrel and an overall length\nof 27.5, the SAR is a great mix of accuracy,\nstopping power and maneuverabilty.\n\nThe placement of the magazine well to the\nrear slows down reloads considerably,\nthough, and weight is a bit on the high side.
+@firearm_ak47_rifle_name=Karabin AK-47 (Semi / 7.62mm)
+@firearm_ak47_drum_name=AK-47 bębnowy (Auto / 7.62mm)
+@firearm_sniper_rifle_name=SniperRifle
+@firearm_p90sd_pdw_name=P90-SD PDW
+@firearm_p90sd_pdw_desc=<OLD!>The P90 is a great submachinegun for most\nurban engagements, but suppressing it does\nnot cover the supersonic crack of its high\nvelocity rounds.\n\nUsing subsonic ammo would negate the issue,\nbut would also lose most platform traits.\n\nStrefa słyszalności: 10m
+@firearm_mpxsd_40_smg_name=MPX-SD .40 SMG
+@firearm_mpxsd_40_smg_desc=<OLD!>The integrally suppressed version of the\nMPX is a joy to operate in combat thanks to \nthe AR-15 style controls.\n\nSubsonic .40 rounds don't pack that much of\na punch, but with the right training will\nmake short work of bad guy groups.\n\nStrefa słyszalności: 3m
+@firearm_vectorsd_smg_name=Vector-SD SMG
+@firearm_vectorsd_smg_desc=<OLD!>Suppressing .45 SMGs is a no-brainer and\nthe Vector's can has excellent signature\nreduction and zero effect on accuracy.\n\nYou'll appreciate the deadly bursts on\ntargets at close to medium range, but watch\nout for armored bad guys.\n\nStrefa słyszalności: 4m
+@firearm_hk416d10sd_carabine_name=HK416D10-SD Carbine
+@firearm_hk416d10sd_carabine_desc=<OLD!>Attaching a suppressor to a Short Barrel\nRifle is not optimal but does reduce the\nsound signature a little bit while keeping\nthe long range accuracy and lethality.\n\nYou best keep the increased barrel length\nin mind when navigating interior spaces.\n\nStrefa słyszalności: 13m
+@firearm_honey_badger_name=Honey Badger
+@firearm_honey_badger_desc=<OLD!>A great mix of ballistic performance, small\nsize and excellent sound suppression, the\nHoney Badger might gain a permanent spot in\nthe hands of Tier 1 Special Forces.\n\nArmor penetration is not great though, only\nmarginally better than pistol-caliber SMGs.\n\nStrefa słyszalności: 3.5m
+@firearm_fal_mini_osw_name=FAL Mini OSW (Auto / 7.62mm)
+@firearm_mp9_smg_name=MP9 SMG (Auto / 6.5mm AP)
+@firearm_x635_pdw_name=X635 PDW
+@firearm_x635_pdw_desc=<OLD!>A PDW boasting carbine-like ballistics,\nthe X635 shoots a 6mm cartridge designed to\nperform best out of short barrels and\nhalve recoil compared to classic M4s.\n\nShort enough to go through doorframes with\nlittle fuss, this classic styled PDW keeps\nlong range accuracy with no practical loss\nin stopping power.
+@firearm_mcx300_carbine_name=MCX 300 Carbine
+@firearm_mcx300_carbine_desc=<OLD!>Mixing AR-like controls with folding stock\ncompatible internals and designed for the\npowerful 300 Blackout cartridge, the MCX\nhandles right for close quarter ops and\ntakes down targets reliably.\n\nA great performer up to medium range, but\nloses aiming speed as you go farther.
+@firearm_caliber_22lr_name=.22 Long Rifle
+@firearm_caliber_38special_name=.38 Special
+@firearm_caliber_9x18_name=9x18mm PM
+@firearm_caliber_9x19_name=9x19mm
+@firearm_caliber_9x39_name=9x39mm
+@firearm_caliber_9x39AP_name=9x39mm AP
+@firearm_caliber_9x19subsonic_name=9x19mm Poddźwiękowa
+@firearm_caliber_9x39subsonic_name=9x39mm Poddźwiękowa
+@firearm_caliber_357mag_name=.357 Magnum
+@firearm_caliber_40sw_name=.40 S&W
+@firearm_caliber_40swsubsonic_name=.40 S&W Poddźwiękowa
+@firearm_caliber_44mag_name=.44 Magnum
+@firearm_caliber_45acp_name=.45 ACP
+@firearm_caliber_46x30_name=4.6x30mm
+@firearm_caliber_545x39_name=5.45x39mm
+@firearm_caliber_57x28_name=5.7x28mm
+@firearm_caliber_556x45_name=5.56x45mm
+@firearm_caliber_556GL40_name=5.56x45mm/40mm HE
+@firearm_caliber_556GL40_shortname=5.56x45mm/40mm
+@firearm_caliber_76239GL40_name=7.62x39mm/40mm HE
+@firearm_caliber_762GL40_name=7.62x51mm/40mm HE
+@firearm_caliber_6x35_name=6x35mm
+@firearm_caliber_6x25_name=6.5x25mm
+@firearm_caliber_762x25_name=7.62x25mm
+@firearm_caliber_762x39_name=7.62x39mm
+@firearm_caliber_762x51_name=7.62x51mm
+@firearm_caliber_762x54_name=7.62x54mmR
+@firearm_caliber_338NM_name=.338 NorMag
+@firearm_caliber_300BLK_name=.300 BLK
+@firearm_caliber_300BLKsubsonic_name=.300 BLK Poddźwiękowa
+@firearm_caliber_127x108_name=12.7x108mm
+@firearm_caliber_12gauge_name=12 Gauge
+@firearm_caliber_40mm_name=40mm Low Velocity
+@firearm_caliber_72mmHEAT_name=72.5mm HEAT
+@firearm_caliber_84mmHEAT_name=84mm HEAT
+@firearm_caliber_93mmHEAT_name=93mm HEAT
+@firearm_caliber_bzzzt_name=bzzzt
+@firearm_operation_doubleactionrev_name=Rewolwer Samonapinający
+@firearm_operation_doubleactiononly_name=Tylko Samonapinanie
+@firearm_operation_semiauto_name=Półaut.
+@firearm_operation_semi3rdburst_name=Półaut., Potrójna seria
+@firearm_operation_mp5navy_name=Półaut., Seria, Automat.
+@firearm_operation_semifull_name=Półaut., Automat.
+@firearm_operation_fullauto_name=Automat.
+@firearm_operation_fullauto2burst_name=Automat., Podwójna seria
+@firearm_operation_fullauto3burst_name=Automat., Potrójna seria
+@firearm_operation_boltaction_name=Powtarzalny
+@firearm_operation_pumpaction_name=Pompka
+@firearm_operation_breakopen_name=Break Open
+@firearm_operation_singleshot_name=Jednostrzałowy, przeładowywalny
+@firearm_operation_singleshotthrow_name=Jednostrzałowy
+
+# Shotfuns
+@firearm_breacher_shotgun_name=Breacher Shotgun
+@firearm_breacher_shotgun_desc=<OLD!>The shortest pump shotgun available to you,\nit's quick to get into action and quick to\nsetup for door breaching.\n\nThe short length comes at a price though,\nas the magazine barely tackles one lock\nbefore running out of ammo.\n\n
+@firearm_m870_room_clearer_name=M870 Room Clearer
+@firearm_m870_room_clearer_desc=<OLD!>Sized just right for prolonged indoor\nadventures, the Room Cleaner comes with a\nhealthy magazine capacity and allows side-\nstepping through a door opening in ready\nposition.\n\nShot dispersion is still an issue so take\nextra care around hostages and fellow\nofficers.
+@firearm_m590_shotgun_name=M590 Shotgun
+@firearm_m590_shotgun_desc=<OLD!>The standard and dependable pump-action\nshotgun in Police inventory, the M590 comes\nwith great mag capacity but suffers in CQB\nspaces due to the long and unwieldy barrel.\n\nAs with all shotguns, keep in mind shot\ndispersion and target background.
+@firearm_joint_combat_shotgun_name=Joint Combat Shotgun
+@firearm_joint_combat_shotgun_desc=<OLD!>A Semi-Automatic shotgun in the familiar\ntube-fed design, the JCS is fun to shoot and\ngreat for pure short range firepower.\n\nNot the shortest boomstick around, though,\nso you'll need to support the breacher with\nanother trooper. Also, the mag goes empty\nfaster than you'd think.
+@firearm_m26_lss_name=M26 LSS
+@firearm_m26_lss_desc=<OLD!>Straight from the inventory of US Special\nForces, a magazine fed, bolt action shotgun.\n\nSurprisingly easy to charge but a little\nunwieldy in room clearing due to the awk-\nward hand positioning on the operating bolt,\nthe M26 is still a solid performer at close\nrange.
+@firearm_sawnoff_shotgun_name=Sawn-Off Shotgun (12 Ga)
+@firearm_ksg_shotgun_name=KSG Shotgun
+@firearm_ksg_shotgun_desc=<OLD!>A very avant-garde design for a pump-action\nshotgun, the KSG uses twin tubular magazines\nto hold a whooping 14 shells.\n\nThe bullpup form maximizes maneuverability\nand accuracy, at the expense of awkward\nreloads and access to the ejection port.\n\nCannot use Ejection Port Reload doctrine.
+@firearm_six12_shotgun_name=Six 12 Shotgun
+@firearm_six12_shotgun_desc=<OLD!>The Six 12 is really a large, double-action\nrevolver that fires shotgun shells.\n\nSimple and revolutionary at the same time,\nthe design makes for quick reloads as long\nas you can juggle with the cylinders.\n\nCannot use Ejection Port Reload doctrine.
+@firearm_six12sd_shotgun_name=Six 12-SD Shotgun
+@firearm_six12sd_shotgun_desc=<OLD!>The shorter and suppressed version of the\nSix 12, not really that silent but useful\nto open doors without waking up the entire\ncity block.\n\nStrefa słyszalności: 10m\n\nCannot use Ejection Port Reload doctrine.
+@firearm_s12k_tactical_shotgun_name=S12K Tactical Shotgun
+@firearm_s12k_tactical_shotgun_desc=<OLD!>Policing the streets of Nowhere City USA\nwhile carrying an AK, that won't be easy to\nsell to the top brass.\n\nStill, the S12 is a dependable, magazine-fed\nshotgun in assault rifle format. Just\nremember that the format in question has\nthe control levers in all the wrong places!
+
+
+#Ammo
+@ammo_918FMJ_name=57-N-181S Steel Core
+@ammo_918FMJ_desc=Standardowy nabój 9.18mm, dobre osiągi na dystansi 50 metrów.
+@ammo_545FMJ7N10_name=7N10 56gr FMJ
+@ammo_545FMJ7N10_desc=Standardowy nabój AK-74, łączy niezłą moc obalającą i zdolność penetrowania pancerzy.
+@ammo_545FMJ7N10Sup_desc=Standardowy nabój AK-74, łączy niezłą moc obalającą i zdolność penetrowania pancerzy.\n\nStrefa słyszalności: 46m 
+@ammo_545FMJ7N10AlphaSup_desc=Standardowy nabój AK-74, łączy niezłą moc obalającą i zdolność penetrowania pancerzy.\n\nStrefa słyszalności: 43m 
+@ammo_545FMJ7N24_name=7N24 57gr Super-AP
+@ammo_545FMJ7N24_desc=
+@ammo_545FMJ7N39_name=7N39 53gr Black Ring
+@ammo_545FMJ7N39_desc=
+@ammo_545HP_name=55gr Hollow Point
+@ammo_545HP_desc=Niestandardowa amunicja hollow-point poświęca zdolności penetracyjne dla większej mocy obalającej. Gdy zwiększasz dystans, nabój traci swoją możliwość grzybkowania - i związane z tym plusy.
+@ammo_545HPSup_desc=Niestandardowa amunicja hollow-point poświęca zdolności penetracyjne dla większej mocy obalającej. Gdy zwiększasz dystans, nabój traci swoją możliwość grzybkowania - i związane z tym plusy.\n\nStrefa słyszalności: 44m  
+@ammo_545HPAlphaSup_desc=Niestandardowa amunicja hollow-point poświęca zdolności penetracyjne dla większej mocy obalającej. Gdy zwiększasz dystans, nabój traci swoją możliwość grzybkowania - i związane z tym plusy.\nStrefa słyszalności: 42m  
+@ammo_545FMJ7U1_name=7U1 80gr Poddźwiękowy
+@ammo_545FMJ7U1Sup_desc=Superciężki, supercichy sowiecki nabój poddźwiękowy, który poprawnie działa tylko w karabinie z tłumikiem.\n\nNiezła moc obalająca na bliskim dystansie, ale słabnie wraz z odległością.\n\nStrefa słyszalności: 6m 
+@ammo_545FMJ7U1AlphaSup_desc=Superciężki, supercichy sowiecki nabój poddźwiękowy, który poprawnie działa tylko w karabinie z tłumikiem.\n\nNiezła moc obalająca na bliskim dystansie, ale słabnie wraz z odległością.\n\nStrefa słyszalności: 4m 
+@ammo_939FMJSP5_name=SP-5 259gr FMJ
+@ammo_939FMJSP5_desc=Standardowy nabój poddźwiękowy do precyzyjnego strzelania na średnim dystansie.\n\nStrefa słyszalności: 3.5m
+@ammo_939APSP6_name=SP-6 241gr AP
+@ammo_939APSP6_desc=Nabój ze zwiększoną penetracją pancerzy pozwalający na przebijanie miękkiego pancerz i kamizelek poziomu III.\n\nStrefa słyszalności: 5m
+@ammo_762FMJM43_name=M43 123gr FMJ
+@ammo_762FMJM43_desc=Sowiecki nabój z nadwyżki, dość średni, ale zadaje konkretne obrażenia.
+@ammo_762R7N1_name=7N1 152gr FMJ
+@ammo_762R7N1_desc=Stary sowiecki nabój snajperski. Precyzyjny i śmiertelnie niebezpieczny, ale nie radzi sobie z jakimkolwiek pancerzem.
+@ammo_762RAP7N13_name=7N13 145gr AP
+@ammo_762RAP7N13_desc=Specjalistyczna amunicja przeciwpancerna, penetruje kamizelki poziomu III.
+@ammo_762R7N14_name=7N14 151gr FMJ
+@ammo_762R7N14_desc=Nowy, rosyjski nabój jest bardzo precyzyjny i może penetrować kamizelki III poziomu na krótkim dystansie.
+@ammo_762R57N323_name=57N323 148gr FMJ
+@ammo_762R57N323_desc=Standardowa amunicja do rosyjskich karabinów maszynowych. Trafia mocno i dobrze przygważdża.
+
+
+@ammo_46HPLE_name=LE 31gr Hollow Point
+@ammo_46HPLE_desc=Nabój hollow point wydajny, gdy przeciwnik nie ma pancerza. Dobrze grzybkuje i ma doskonałą moc obalającą na dystansie poniżej 15m.
+@ammo_46HPLESup_desc=Nabój hollow point wydajny, gdy przeciwnik nie ma pancerza. Dobrze grzybkuje i ma doskonałą moc obalającą na dystansie poniżej 15m.\n\nStrefa słyszalności: 35m 
+@ammo_46DM11AP_name=DM11 31gr AP
+@ammo_46DM11AP_desc=Standardowy nabój do MP7, zoptymalizowany pod kątem zasięgu i przebijalności. Spenetruje kamizelki III poziomu z przyłożenia, a miękki pancerz z dowolnej odległości.
+@ammo_46DM11APSup_desc=Standardowy nabój do MP7, zoptymalizowany pod kątem zasięgu i przebijalności. Spenetruje kamizelki III poziomu z przyłożenia, a miękki pancerz z dowolnej odległości.\n\nStrefa słyszalności: 35m 
+@ammo_46DM21AP_name=
+@ammo_46DM21AP_desc=
+@ammo_46DM31AP_name=
+@ammo_46DM31AP_desc=
+@ammo_46SUBS77_name=77gr Poddźwiękowy
+@ammo_46SUBS77_desc=Ciężki poddźwiękowy nabój.
+@ammo_46SUBS77Sup_desc=Ciężki poddźwiękowy nabój.\n\nStrefa słyszalności: 3m 
+@ammo_46HE40FMJ_name=High-E 40gr FMJ
+@ammo_46HE40FMJ_desc=Cięższy nabóój FMJ przekazuje więcej energii celowi na bliskym dystansie, tym samym dając większą moc obalającą. Przebije też miękki pancerz.
+@ammo_46HE40FMJSup_desc=Cięższy nabóój FMJ przekazuje więcej energii celowi na bliskym dystansie, tym samym dając większą moc obalającą. Przebije też miękki pancerz.\n\nStrefa słyszalności: 30m 
+
+@ammo_22LR40GR_name=SG 40gr FMJ
+@ammo_22LR40GR_desc=Standardowy nabój .22LR na małą zwierzynę, FMJ o wadze 40g.
+@ammo_556FMJM855_name=M855 62gr Green Tip
+@ammo_556FMJM855_desc=Podstawowy nabój o stalowym rdzeniu wykorzystywany przez Armię. Całkiem dobra fragmentacja jak na amunicję do karabinu.
+@ammo_556FMJM855A1_name=M855A1 62gr EPR
+@ammo_556FMJM855A1_desc=Nowy nabój Armii, zoptymalizowany pod kątem zadawanych obrażeń z karabinów typu M4.
+@ammo_556FMJMk318_name=Mk318 62gr SOST Ball
+@ammo_556FMJMk318_desc=Nabój typu "otwarty czubek-końcowa penetracja" sprawdzający się w skróconych lufach używanych do walki na krótkim dystansie.
+@ammo_556FMJMk262_name=Mk262 77gr Match
+@ammo_556FMJMk262_desc=Nabój o otwartym czubku dostosowany dla celności i ogólnej wydajności na długim dystansie.
+@ammo_762FMJM80_name=M80 147gr FMJ
+@ammo_762FMJM80_desc=Standardowy pełnopłaszczowy nabój Armii używany w broni kalibru 7.62mm.
+@ammo_338FMJXM338_name=XM338 300gr FMJ
+@ammo_338FMJXM338_desc=Testowany z nowymi karabinami maszynowymi SOCOM, oferuje sensowną wydajność na ekstremalnym dystansie.
+@ammo_762FMJM80A1_name=M80A1 130gr Steel Tip
+@ammo_762FMJM80A1_desc=
+@ammo_762FMJM118LR_name=M118LR 175gr Match
+@ammo_762FMJM118LR_desc=
+@ammo_12GAM1030_name=Breaching Rounds
+@ammo_12GAM1030_desc=
+@ammo_45FMJM1911_name=M1911 230gr FMJ
+@ammo_45FMJM1911_desc=To ta sama, ciężka amunicja, z której twój dziadek strzelał do Japończyków na Wzgórzu Austen. Stara technologia, ale efektywna.
+@ammo_45FMJM1911Sup_desc=To ta sama, ciężka amunicja, z której twój dziadek strzelał do Japończyków na Wzgórzu Austen. Stara technologia, ale efektywna.\n\nStrefa słyszalności: 5.5m   
+@ammo_45JHP230GR_name=230gr JHP
+@ammo_45JHP230GR_desc=
+@ammo_45JHP230GRP_name=230gr JHP +P
+@ammo_45JHP230GRP_desc=
+@ammo_45JHP185GR_name=185gr JHP
+@ammo_45JHP185GR_desc=Nowoczesny nabój .45, daje nieco więcej mocy obalającej na krótkim dystansie, ale traci ten efekt na dystansie średnim ze względu na niższą wagę pocisku.
+@ammo_45JHP185GRSup_desc=Nowoczesny nabój .45, daje nieco więcej mocy obalającej na krótkim dystansie, ale traci ten efekt na dystansie średnim ze względu na niższą wagę pocisku.\n\nStrefa słyszalności: 6.5m   
+@ammo_45JHP160GR_name=+P 160gr HP
+@ammo_45JHP160GR_desc=Nabój o wysokiej prędkości wylotowej uderza niczym młot i łatwo pozbywa się wrogów na krótkich odległościach, może też przebijać miękki pancerz.\n\nOdrzut jest jednak dużo większy, więc strzały należy oddawać rzadziej.
+@ammo_45JHP160GRSup_desc=Nabój o wysokiej prędkości wylotowej uderza niczym młot i łatwo pozbywa się wrogów na krótkich odległościach, może też przebijać miękki pancerz.\n\nOdrzut jest jednak dużo większy, więc strzały należy oddawać rzadziej.\n\nStrefa słyszalności: 14m   
+
+@ammo_919FMJM882_name=M882 124gr FMJ
+@ammo_919FMJM882_desc=Sprawdzony w boju nabój Armii - średni, lecz o wystarczającej mocy obalającej.
+@ammo_919FMJM882shortsup_desc=Sprawdzony w boju nabój Armii - średni, lecz o wystarczającej mocy obalającej.\n\nStrefa słyszalności: 7.5m
+@ammo_919FMJM882sup_desc=Sprawdzony w boju nabój Armii - średni, lecz o wystarczającej mocy obalającej.\n\nStrefa słyszalności: 7m
+@ammo_919FMJM882Sup1_desc=Sprawdzony w boju nabój Armii - średni, lecz o wystarczającej mocy obalającej.\n\nStrefa słyszalności: 8m
+@ammo_919FMJM882Sup2_desc=Sprawdzony w boju nabój Armii - średni, lecz o wystarczającej mocy obalającej.\n\nStrefa słyszalności: 9m
+@ammo_919FMJM882SupSD_desc=Sprawdzony w boju nabój Armii - średni, lecz o wystarczającej mocy obalającej.\n\nStrefa słyszalności: 2.5m
+@ammo_919FMJM1152_name=M1152 115gr FMJ
+@ammo_919FMJM1152_desc=Nowy typ amunicji FMJ z płaskim czubkiem, który zwiększa prędkość wylotową kosztem nieco większego odrzutu.
+@ammo_919FMJM1152shortsup_desc=Nowy typ amunicji FMJ z płaskim czubkiem, który zwiększa prędkość wylotową kosztem nieco większego odrzutu.\n\nStrefa słyszalności: 10m 
+@ammo_919FMJM1152sup_desc=Nowy typ amunicji FMJ z płaskim czubkiem, który zwiększa prędkość wylotową kosztem nieco większego odrzutu.\n\nStrefa słyszalności: 8.5m 
+@ammo_919FMJM1152Sup1_desc=Nowy nabój pełnopłaszczowy z płaskim czubkiem, który leci bo dużo prostszej trajektorii kosztem większego odrzutu i zwiększonej sygnatury dźwiękowej.\n\nStrefa słyszalności: 11m 
+@ammo_919FMJM1152Sup2_desc=Nowy nabój pełnopłaszczowy z płaskim czubkiem, który leci bo dużo prostszej trajektorii kosztem większego odrzutu i zwiększonej sygnatury dźwiękowej.\n\nStrefa słyszalności: 12m 
+@ammo_919FMJM1152SupSD_desc=Nowy nabój pełnopłaszczowy z płaskim czubkiem, który leci bo dużo prostszej trajektorii kosztem większego odrzutu i zwiększonej sygnatury dźwiękowej.\n\nStrefa słyszalności: 5.5m 
+@ammo_919JHPM1153_name=M1153 147gr JHP
+@ammo_919JHPM1153_desc=Ciężki, poddźwiękowy nabój hollow point o zwiększonych obrażeniach, ale niższej celności na długim dystansie.
+@ammo_919JHPM1153shortsup_desc=Ciężki, poddźwiękowy nabój hollow point o zwiększonych obrażeniach i niższej sygnaturze dźwiękowej dzięki zlikwidowaniu naddźwiękowego huku.\n\nStrefa słyszalności: 4.5m 
+@ammo_919JHPM1153Sup1_desc=Ciężki, poddźwiękowy nabój hollow point o zwiększonych obrażeniach i niższej sygnaturze dźwiękowej dzięki zlikwidowaniu naddźwiękowego huku.\n\nStrefa słyszalności: 4.5m 
+@ammo_919JHPM1153Sup2_desc=Ciężki, poddźwiękowy nabój hollow point o zwiększonych obrażeniach i niższej sygnaturze dźwiękowej dzięki zlikwidowaniu naddźwiękowego huku.\n\nStrefa słyszalności: 5.5m 
+@ammo_919JHPM1153_suphgdesc=Poddźwiękowy nabój typu hollow point o zwiększonych obrażeniach i jeszcze mniejszej sygnaturze dźwiękowej.\n\nStrefa słyszalności: 3.5m 
+@ammo_919JHPM1153SupSD_desc=Poddźwiękowy nabój typu hollow point o zwiększonych obrażeniach i jeszcze mniejszej sygnaturze dźwiękowej.\n\nStrefa słyszalności: 2.5m 
+@ammo_919FMJ108GRHP_name=108gr FMJ HP
+@ammo_919FMJ108GRHP_desc=Nabój typu High-Performance który poświęca moc obalającą w zamian za wyższą prędkość wylotową, penetruje miękki pancerz na bliskim dystansie.
+@ammo_919FMJ108GRHPshortsup_desc=Nabój typu High-Performance który poświęca moc obalającą w zamian za wyższą prędkość wylotową, penetruje miękki pancerz na bliskim dystansie, ale nie jest cichy, nawet z tłumikiem.\n\nStrefa słyszalności: 12m 
+@ammo_919FMJ108GRHPSup1_desc=Nabój typu High-Performance który poświęca moc obalającą w zamian za wyższą prędkość wylotową, penetruje miękki pancerz na bliskim dystansie, ale nie jest cichy, nawet z tłumikiem.\n\nStrefa słyszalności: 14m 
+@ammo_919FMJ108GRHPSup2_desc=Nabój typu High-Performance który poświęca moc obalającą w zamian za wyższą prędkość wylotową, penetruje miękki pancerz na bliskim dystansie, ale nie jest cichy, nawet z tłumikiem.\n\nStrefa słyszalności: 14m 
+@ammo_919FMJ108GRHPSupSD_desc=Nabój typu High-Performance tracący na mocy obalającej kosztem wyższej prędkości wylotowej. MP5SD dodatkowo zmniejsza tę prędkość, by nabój nabierał prędkość poddźwiękową, więc ten typ nie ma za bardzo sensu.\n\nStrefa słyszalności: 8m 
+@ammo_40FMJ180GR_name=180gr FMJ
+@ammo_40FMJ180GR_desc=
+@ammo_40JHP180GR_name=180gr JHP
+@ammo_40JHP180GR_desc=
+@ammo_40JHP165GR_name=165gr JHP
+@ammo_40JHP165GR_desc=
+@ammo_12GA00BUCK_name=9 PEL 00 Buck 
+@ammo_12GA00BUCK_desc=Standardowy dziewięcio-kulkowy nabój śrutowy, dobry na dwunożną zwierzynę w odległości do 15 metrów.
+
+#Scopes
+@scope_ironsights_name=Celownik mechaniczny
+@scope_ironsights_desc=Celownik mechaniczny dołączony do broni jest wystarczający do trafiania w cel, ale prędkość wycelowania i szansa na trafienie krytyczne spadają, gdy dystans się zwiększa.
+@scope_ironsightspistol_desc=Po prostu używaj celownika, który masz w pistolecie. Nie kombinuj - i szybko nim operuj!
+@scope_ironsightspistolnochoice_desc=Jesteś skazany na celownik mechaniczny tego pistoletu, ale i tak to powinna być twoja broń awaryjna.
+@scope_ironsightspistol1911_desc=Jesteś skazany na celownik mechaniczny pistoletu, ma zbyt niski profil by sensownie z niego korzystać.
+@scope_ironsightspistolm17_desc=Ten pistolet jest przygotowany pod montaż celownik red dot, ale w budżet jednostki mówi, że jesteś skazany na celownik mechaniczny.
+@scope_ironsightsAK_desc=Muszka i szczerbinka kałacha jest niezbyt wygodna, ale jeśli chcesz wyglądać jak lokals...
+@scope_ironsightsAKAlpha_desc=Serio, jeśli uważasz, że "karabin jest spoko" z samym celownikiem mechanicznym, może po prostu weź sobie AKMa?
+@scope_rangersholo_name=Celownik holograficzny [1x]
+@scope_rangersholo_desc=Magicznie wyświetla celownik na celu, z oznaczeniami opadu pocisku dostosowanymi do strzelania na średnim dystansie.
+@scope_pistolreddot_name=Mikro Red Dot [1x]
+@scope_pistolreddot_desc=Popraw swój czas namierzania celu dzięki tak małemu celownikowi red dot, że nawet można go zamontować na pistolecie.
+@scope_rangersM68reddot_name=M68 Red Dot [1x]
+@scope_rangersM68reddot_desc=Minimalistyczny celownik, który wyświetla czerwoną kropkę pośrodku wizjera. Szybki i celny na krótkich i średnich dystansach.
+@scope_rangersspecterdr_name=Celownik Specter [1/4x]
+@scope_rangersspecterdr_desc=Excellent optic suited for close-in AND medium range work, though a little heavy. 
+@scope_rangersM150acog_name=M150 ACOG [4x]
+@scope_rangersM150acog_desc=Prosta luneta z powiększeniem do strzelania na średnim dystansie, z niewielką karą do wagi.
+@scope_rangerslpvo6x_name=Luneta LPVO [1-6x]
+@scope_rangerslpvo6x_desc=Niskopoborowa, regulowana luneta z powiększeniem, która świetnie się sprawdza na dystansach do 25m, a nawet dalej.
+@scope_rangerslpvo8x_name=Luneta LPVO [1-8x]
+@scope_rangerslpvo8x_desc=Dobra, wielozadaniowa luneta szturmowa, która świetnie sprawdza się na dystansach powyżej 25m.
+@scope_lromk6_3_18_name=Luneta LR MK6 [3-18x]
+@scope_lromk6_3_18_desc=Luneta strzelca wyborowego do strzelania na dystansie 25-50m, znośna w każdym innym przedziale.
+@scope_lromk4_name=Luneta LR MK6 [3.5-10x]
+@scope_lromk4_desc=Podstawowa luneta, lekka i działa dobrze na każdym dystansie.
+@scope_lropm5_25_name=Luneta LR MK6 [5-25x]
+@scope_lropm5_25_desc=Ciężka i nieco toporna luneta, której precyzyjność sprawdza się na dystansie od 25m w górę.
+
+@scope_pkas_name=Celownik PKAS [1x]
+@scope_pkas_desc=Rosyjski celownik typu red dot dla karabinów AK, zwiększa celność i prędkość wycelowania na krótkim i średnim dystansie. Na dalszych odległościach precyzja także jest większa, ale nacelowanie zajmuje więcej czasu.
+@scope_pkav_name=Celownik PKAV [1x]
+@scope_pkav_desc= 
+@scope_obzor_name=PK1 Obzor [1x]
+@scope_obzor_desc= 
+@scope_kobra_name=Kolimator Kobra [1x]
+@scope_kobra_desc= 
+@scope_po35_name=Luneta PO [3.5x]
+@scope_po35_desc=Bardzo ciężka optyka średniego zasięgu dla karabinów AK, zwiększa szybkostrzelność dzięki sporemu polu widzenia. Miernik odległości także poprawia celność na długim dystansie.
+@scope_pso1_name=Luneta PSO-1 [4x]
+@scope_pso1m2_name=Luneta PSO-1M2 [4x]
+@scope_pso1_desc=Standardowa rosyjska luneta strzelca wyborowego, zwiększa celność na średnim i dalekim dystansie dzięki prostemu, ale wydajnemu miernikowi odoległości, ale niewielkie powiększenie uniemożliwia celne strzelanie na dużych odległościach.\n\nTa wersja jest zaprojektowana do współpracy z karabinem SWD.
+@scope_pso1m2_desc=Standardowa rosyjska luneta strzelca wyborowego, zwiększa celność na średnim i dalekim dystansie dzięki prostemu, ale wydajnemu miernikowi odoległości, ale niewielkie powiększenie uniemożliwia celne strzelanie na dużych odległościach.\n\nTa wersja jest zaprojektowana do współpracy z karabinami AK i WSS.
+@scope_pso39_name=Luneta PSO [3-9x]
+@scope_pso39_desc=Rosyjskiej roboty optyka dalekiego zasięgu z miernikiem odległości, jest dość ciężka i niewygodna, ale zawsze umożliwia trafienie w cel. Po prostu przygotowanie trwa chwilę.
+
+@scope_rangersMGO240_name=Luneta MGO240 [6x]
+@scope_rangersMGO240_desc=Zdominuj pole bitwy w zasięgu 25-50m dzięki tej porządnej, ale ciężkiej lunecie karabinu maszynowego.
+@scope_rangersMGOM145_name=Luneta MGO145 [3.4x]
+@scope_rangersMGOM145_desc=Zyskaj nieco na celności na średnim dystansie nie tracąc na prędkości zmiany celów.
+
+
+#
+# Doctrine abilities
+#
+
+@doctrine_handguns_shortrange_name=Punktowe Strzelanie
+@doctrine_handguns_shortrange_head=Zwiększa prędkość celowania na bliskim dystansie
+@doctrine_handguns_shortrange_descr=\nOperatorzy korzystają z naturalnych odruchów ciała i częściowej obserwacji przez celownik mechaniczny\nby pistoletem instynktownie atakować cele na krótkim dystansie.
+
+@doctrine_handguns_precision_name=Chirurgiczna Precyzja
+@doctrine_handguns_precision_head=Zwiększa precyzję strzelania
+@doctrine_handguns_precision_descr=\nZwiększa precyzję strzelania z pistoletu na każdym dystansie,\nz niewielkim bonusem na krótkim i średnim dystansie.
+
+@doctrine_handguns_quickdraw_name=Szybkie Dobycie
+@doctrine_handguns_quickdraw_head=Szybsze powracanie do celowania
+@doctrine_handguns_quickdraw_descr=\nOperatorzy szybciej wracają do celowania pistoletem po\nminięciu przeszkody lub zmianie celu.
+
+@doctrine_handguns_doubletap_name=Podwójny Strzał
+@doctrine_handguns_doubletap_head=Cele na bliskim dystansie otrzymują dwa szybkie postrzały
+@doctrine_handguns_doubletap_descr=\nCele na krótkim dystansie zostają postrzelone z pistoletu \ndwukrotnie, zwiększając szansę na zabicie.
+
+@doctrine_handguns_longrange_name=Ćwiczenia Dalekiego Zasięgu
+@doctrine_handguns_longrange_head=Zwiększa celność i prędkość wycelowania
+@doctrine_handguns_longrange_descr=\nOddział ćwiczy strzelanie z pistoletów na dalekie odległości.
+
+@doctrine_handguns_mozambique_name=Mozambik
+@doctrine_handguns_mozambique_head=Dwa szybkie postrzały i trzeci w głowę
+@doctrine_handguns_mozambique_descr=\nJeśli podwójny strzał pistoletem nie eliminuje zagrożenia,\noperator automatycznie oddaje trzeci strzał w głowę.
+
+@doctrine_handguns_car_name=Z Przyłożenia
+@doctrine_handguns_car_head=Pozwala na strzelanie z przyłożenia
+@doctrine_handguns_car_descr=\nTrzymając pistolet tuż przy ciele, operatorzy mogą\nmanerwować i strzelać na dystansie walki wręcz.
+
+@doctrine_longguns_shortrange_name=Walka W Zwarciu
+@doctrine_longguns_shortrange_head=Zwiększa szybkość wycelowania na krótkim dystansie
+@doctrine_longguns_shortrange_descr=\nOperatorzy ćwiczą w małych pomieszczeniach\nskupiając się na szybkich strzałach z dobrą celnością.
+
+@doctrine_longguns_mediumrange_name=Walka Na Średnim Dystansie
+@doctrine_longguns_mediumrange_head=Zwiększa celność i prędkość wycelowania
+@doctrine_longguns_mediumrange_descr=\nOperatorzy skupiają się na szybkim i celny ostrzale\nna dystansach typowych dla biur i korytarzy.
+
+@doctrine_longguns_barricade_name=Strzelanie Zza Osłony
+@doctrine_longguns_barricade_head=Poprawa celności i odrzutu za osłoną
+@doctrine_longguns_barricade_descr=\nOperatorzy korzystają z dostępnej osłony\nby stabilizować broń podczas strzelania.
+
+@doctrine_longguns_transition_name=Płynna Zmiana
+@doctrine_longguns_transition_head=Automatyczne przełączanie na broń boczną
+@doctrine_longguns_transition_descr=\nGdy operatorowi skończy się amunicja w broni głównej, a jest\nzagrożony, przełączy się na swoją broń boczną.
+
+@doctrine_longguns_longrange_name=Walka Na Dalekim Dystansie
+@doctrine_longguns_longrange_head=Poprawia celność i prędkość wycelowania
+@doctrine_longguns_longrange_descr=\nOperatorzy skupiają się na szybszych i lepszych strzałach\noddawanych na dystansach podobnych do parków czy boisk.
+
+@doctrine_longguns_backbreaker_name=Łamacz Pleców
+@doctrine_longguns_backbreaker_head=Zwiększone obrażenia zadawane nieświadomym wrogom
+@doctrine_longguns_backbreaker_descr=\nOperatorzy atakujący wrogów od tyłu, gdy sami nie są ostrzeliwani\nzadają większe obrażenia.
+
+@doctrine_longguns_negatecover_name=Ignorowanie Osłon
+@doctrine_longguns_negatecover_head=Zwiększona precyzja wobec celów za osłoną
+@doctrine_longguns_negatecover_descr=\nOperatorzy będą skutecznie atakować przeciwników za osłonami.
+
+@doctrine_longguns_silentkill_name=Po Cichu
+@doctrine_longguns_silentkill_head=Ukryci żołnierze nie strzelają
+@doctrine_longguns_silentkill_descr=\nDyscyplina pozwalająca ukrytym operaatorom\nna wstrzymanie ognia aż otrzymają rozkaz.
+
+@doctrine_shotguns_recoil_name=Kontrola Odrzutu
+@doctrine_shotguns_recoil_head=Zwiększa częstotliwość strzałów na średnim/dalekim dystansie
+@doctrine_shotguns_recoil_descr=\nOperatorzy uczą się niwelować odrzut strzelb,\ntym samym częściej oddając dalsze strzały.
+
+@doctrine_shotguns_fastpump_name=Szybka Pompka
+@doctrine_shotguns_fastpump_head=Zwiększa częstotliwość strzałów strzelb pompkowych
+@doctrine_shotguns_fastpump_descr=\nOperator dostosowuje przeładowanie pompki do rytmu odrzutu\ntym samym szybciej oddając następny strzał.
+
+@doctrine_shotguns_emergencyreload_name=Ładowanie Od Góry
+@doctrine_shotguns_emergencyreload_head=Przyspiesza awaryjne ładowanie
+@doctrine_shotguns_emergencyreload_descr=\nOperatorzy ładują strzelby zaczynając od okna wyrzutowego,\nw ten sposób przyspieszając proces ładowania.
+
+@doctrine_shotguns_oneshotbreach_name=Otwieranie Jednym Strzałem
+@doctrine_shotguns_oneshotbreach_head=Wyważanie drzwi przy pomocy jednego strzału
+@doctrine_shotguns_oneshotbreach_descr=\nSpecjalistyczna amunicja i odpowiednie ustawienie strzelby\npozwalają na wyważenie drzwi jednym strzałem.
+
+@doctrine_shotguns_doortakedown_name=Strzał W Zawias
+@doctrine_shotguns_doortakedown_head=Otwieraj drzwi bez kopania
+@doctrine_shotguns_doortakedown_descr=\nOperatorzy będą strzelać w zawiasy, pozwalając drzwiom upaść.\nNajlepiej na głowę przeciwnika.
+
+@doctrine_shotguns_car_name=Strzelanie Z Biodra
+@doctrine_shotguns_car_head=Pozwala na strzelanie z przyłożenia
+@doctrine_shotguns_car_descr=\nPrzymując odpowiednią pozycję i układając strzelbę pod ramieniem,\noperator może lepiej manewrować bronią w ciasnych pomieszczeniach.
+
+
+
+#
+# Entities
+#
+
+@entity_door_tooltip=Drzwi
+@entity_door_strong_tooltip=Wzmocnione drzwi
+@entity_door_strong_locked_tooltip=Wzmocnione drzwi (Zablokowane)
+@entity_door_flimsy_tooltip=Uszkodzone drzwi
+@entity_door_glass_tooltip=Szklane drzwi
+@entity_door_flimsy_locked_tooltip=Uszkodzone drzwi (Zablokowane)
+@entity_door_safe_tooltip=Drzwi sejfu
+@entity_door_gate_tooltip=Metalowa brama
+@entity_door_gate_locked_tooltip=Metalowa brama (Zablokowane)
+@entity_door_metal_tooltip=Metalowe drzwi
+@entity_door_metal_locked_tooltip=Metalowe drzwi (Zablokowane)
+@entity_door_gate_large_tooltip=Duża brama
+@entity_door_shortgate_tooltip=Niska brama
+@entity_door_grating_tooltip=Drzwi z kratą
+@entity_door_grating_locked_tooltip=Drzwi z kratą (Zamknięte)
+@entity_door_elevator_tooltip=Drzwi windy
+@entity_door_sliding_tooltip=Drzwi przesuwne
+@entity_door_sliding_tooltip2=Drzwi przesuwne
+@entity_door_sliding_blocked_tooltip=Zablokowane drzwi
+@entity_window=Okno
+@entity_drapes=Zasłony
+@entity_glass_wall=Szklana ściana
+@entity_window_blocker=Barykada okna
+@entity_chainlink_fence=Ogrodzenie z siatki
+@entity_fence=Płot
+@entity_rescuezone_tooltip=Strefa ratunkowa: tutaj dostarczaj zakładników, VIPów i inne cele.
+@entity_evaczone_tooltip=Strefa ewakuacyjna: tutaj prowadź operatorów po ukończeniu zadań.
+@entity_hvtescape=Strefa ucieczki: Misja się nie powiedzie, jeśli cel dotrze do tego miejsca.
+@entity_timebomb_tooltip=Bomba z zapalnikiem czasowym
+@entity_ied_tooltip=Improwizowany ładunek wybuchowy
+@entity_dopelarge_tooltip=Wielki zapas narkotyków. Dowód
+@entity_dopesmall_tooltip=Narkotyki. Dowód.
+@entity_dopepapers_tooltip=Ważne dokumenty.
+@entity_dopelaptop_tooltip=Laptop. Może zawierać informacje.
+@entity_dopePC_tooltip=Komputer. Dowód!
+@entity_dopepapersoptional_tooltip=Ważne dokumenty.
+@entity_dopelaptopoptional_tooltip=Laptop. Może zawierać informacje.
+@entity_storeyswitch_up_tooltip=Użyj, by udać się do góry
+@entity_storeyswitch_down_tooltip=Użyj, by udać się na dół
+@entity_getawaycarcrashed_tooltip=Samochód ewakuacyjny. Podejrzani w środku.
+@entity_escapezone_tooltip=Strefa ucieczki: zZłodzieje uciekną, jeśli dotrą do tego miejsca
+@entity_robberyitem_tooltip=Kod źródłowy Door Kickers 2!
+@entity_robberyitemgold_tooltip=Oni szukają tego złota, Joe.
+@entity_robberycash_tooltip=Pieniądz kręci światem.
+@entity_flashbangtarget_tooltip=Cel granatu błyskowego
+@entity_stingertarget_tooltip=Cel granatu kulkowego
+@entity_door_locked= (Zablokowane)
+@entity_door_padlocked= (Zamknięte)
+@entity_fusebox=Skrzynka z bezpiecznikami
+@entity_destroyed_fusebox=Zniszczona skrzynka z bezpiecznikami
+
+#
+# Mounted Weapons
+#
+
+
+@entity_mountedweaps_dshk=Ciężki karabin maszynowy DSzK (Nieinteraktywny... jeszcze)
+
+
+
+#
+# Humans
+#
+
+@entity_human_vip=Cel o wysokim znaczeniu
+@entity_human_hostage=Zakładnik
+@entity_human_civilian=Cywil
+@entity_human_civilian_vis_1=Cywil, który zadzwonił
+@entity_human_suicidebomber=Samobójca
+@entity_human_executioner=Egzekutor
+@entity_human_tuffnutsdude=Podniecony Dżihadysta
+@entity_human_ONUexpert=Kryptonim 'Underhill'
+@entity_human_friendly_vip=Sojuszniczy VIP
+@entity_human_friendly_vip_2=Wrogi zdrajca
+@entity_human_agent01="Mów mi Fergie"
+@entity_human_friendly_vipfem=Członkini rodziny
+@entity_human_ogamarksman=Sojuszniczy snajper
+@entity_human_ogaassaulter=Sojuszniczy strzelec
+
+@tooltip_enemy_vip=Cel misji. Aresztowuj i zaprowadź do strefy ewakuacyjnej.
+@tooltip_civilian=Cywil, jak każdy inny. Dobrzy ludzie ich nie zabijają.
+@tooltip_civilian_visible_1="Odkryłem bombę gdy chowałem się przed rebeliantami".
+@tooltip_friendly_vip=Cel misji. Nawiąż kontakt, by uzyskać kontrolę.
+@tooltip_friendly_militia=Nawiąż kontakt, by uzyskać kontrolę. 
+@tooltip_friendly_vip_phone=Cel misji.\nObecnie pod kontrolą.
+@tooltip_friendly_vip_arrested=Zbliż się, by kontrolować
+@tooltip_friendly_suit=Heroiczny Joe
+@tooltip_hostage=Odbij i eskortuj bezpiecznie do strefy ewakuacyjnej.
+@tooltip_hostage_civ=Cywil wzięty jako zakładnik. Jego życie to twój priorytet.
+@tooltip_hostage_visible=Cel priorytetowy. Ten zakładnik wkrótce zostanie zabity.
+@tooltip_hostage_visible_known=Wywiad wskazuje położenie zakładnika w tym miejscu.
+@tooltip_hostage_visible_phone=Kryjący się cywil, rozmawia przez telefon
+@tooltip_unarmed_bystander=Naoczny świadek
+@tooltip_unarmed_bystander_visible=Naoczny świadek
+@tooltip_friendly_sniper=Cel snajpera: przeciągnij lub wciśnij [TAB]
+
+#
+# Non-Human Objectives and Assets
+#
+
+@tooltip_destroyableasset=Cel misji. Zniszcz lub uszkodź.
+@tooltip_fusebox=Tablica rozdzielcza. Wyłącz światła.
+@tooltip_cameraroom=Kontroler kamer bezpieczeństwa. Zhakuj, by przejąć.
+
+#
+# Hardcoded texts
+#
+
+# scenario
+@scenario_type_clear=ELIMINACJA WROGÓW
+@scenario_type_hostage=RATOWANIE ZAKŁADNIKÓW
+@scenario_type_bomb=ROZBRAJANIE BOMBY
+@scenario_type_abduction=ARESZTOWANIE
+@scenario_type_execution=POWSTRZYMANIE EGZEKUCJI
+@scenario_type_vip_escort=ESKORTOWANIE VIPA
+@scenario_type_vip_extract=URATOWANIE VIPA
+@scenario_type_stronghold_raid=SZTURM NA TWIERDZĘ
+
+#Note: these may look identical, but there is a different number of empty spaces left at the end of their names. This is for editor purposes, where they need to be unique strings
+@scenario_type_qrf_survivors=SIŁY SZYBKIEGO REAGOWANIA
+@scenario_type_qrf_sabotage=SIŁY SZYBKIEGO REAGOWANIA 
+@scenario_type_qrf_survivors_sabotage=SIŁY SZYBKIEGO REAGOWANIA  
+
+@scenario_conditions_clear=Wyeliminuj wszystkich terrorystów
+@scenario_conditions_hostage=Zakładnicy muszą przeżyć (albo zostać ewakuowani)\nWyeliminuj wszystkich terrorystów (opcjonalne)
+@scenario_conditions_bomb=Rozbrój wszystkie bomby\nWyeliminuj wszystkich terrorystów
+@scenario_conditions_abduction=Zabezpiecz i ewakuuj wrogi cel o wysokim znaczeniu, żywego\nWyeliminuj wszystkich terrorystów (opcjonalne)
+@scenario_conditions_execution=Powstrzymaj terrorystów przed zabiciem zakładników\nWyeliminuj wszystkich terrorystów
+@scenario_conditions_vip_escort=Eskortuj VIPa do bezpiecznej strefy\nWyeliminuj wszystkich terrorystów (opcjonalne)
+@scenario_conditions_vip_extract=Znajdź i ewakuuj VIPa\n
+@scenario_conditions_stronghold_raid=Sabotuj wrogą infrastrukturę\nWycofaj się do strefy ewakuacji
+@scenario_conditions_qrf_survivors=Uratuj ocalałych\nWycofaj się do strefy ewakuacji
+@scenario_conditions_qrf_sabotage=Sabotuj infrastrukturę\nWycofaj się do strefy ewakuacji
+@scenario_conditions_qrf_survivors_sabotage=Uratuj ocalałych i sabotuj infrastrukturę\nWycofaj się do strefy ewakuacji
+
+# scenario win/lose texts
+@scenario_clear_win=Wszyscy wrogowie wyeliminowani
+@scenario_hostage_win=Zakładnicy uratowani
+@scenario_hostage_win_all=Wszyscy zakładnicy uratowani
+@scenario_abduction_win=Cel aresztowany
+@scenario_rescue_win=Cel ewakuowany
+@scenario_hostage_lose=Zakładnik zabity
+@scenario_hostage_lose_all=Wszyscy zakładnicy zabici
+@scenario_team_killed=Oddział szturmowy wyeliminowany
+@scenario_target_killed=Cel zabity
+@scenario_target_fled=Cel uciekł
+@scenario_bomb_win=Ładunek zabezpieczony
+@scenario_bomb_lose=Ładunek wysadzony
+@scenario_raid_win=Cel zniszczony
+@scenario_raid_lose=Oddział szturmowy wyeliminowany
+
+@scenario_qrf_survivors_win=Ocalali ewakuowani
+@scenario_qrf_survivors_sabotage_win=Zadania wykonane
+@scenario_qrf_survivors_lose=Ocalali nie zostali ewakuowani
+@scenario_qrf_survivors_lose2=Drużyna ratowniczy wyeliminowany
+
+@scenario_qrf_sabotage_win=Cel zniszczony
+@scenario_qrf_sabotage_lose=Drużyna wyeliminowana
+
+@effect_suppressed=OSTRZELIWANY
+@effect_pinned=PRZYGWOŻDŻONY
+
+# campaign
+@campaign_unlock_level=Odblokowywane na poziomie %d oddziału
+@campaign_in_progress_title=Kampania w trakcie
+@campaign_in_progress_line1=Czy na pewno chcesz rozpocząć nową kampanię?
+@campaign_in_progress_line2=(postęp w obecnej kampanii zostanie anulowany)
+@campaign_restart_title=Zrestartować kampanię?
+@campaign_restart_line1=Czy na pewno chcesz zrestartować tę kampanię?
+@campaign_restart_line2=(obecny postęp zostanie anulowany)
+@campaign_result_rating1=Okrutny
+@campaign_result_rating2=Słąby
+@campaign_result_rating3=Satysfakcjonujący
+@campaign_result_rating4=Doskonały
+@campaign_result_rating5=Nie do pobicia
+@campaign_map_complete_status=%s (ukończono)
+@campaign_map_optional_status=%s (opcjonalne)
+
+# doctrine screen
+@doctrine_required_point=Wymaga 1 punktu doktryny
+@doctrine_required_points=Wymaga %d punktów doktryny
+@doctrine_required_abilities=Wymaga %d aktywnych umiejętności w tym drzewku
+
+# mods screen
+@mods_conflict_title=Błąd - konflikt modyfikacji
+@mods_conflict=Nie da rady. Wybrany mod współdzieli przynajmniej jeden plik\nz '%s'. \nSprawdź plik log.txt, by uzyskać szczegóły.
+
+
+# statistics
+@stat_missiontime=Czas spędzony w misjach
+@stat_reloads=Liczba przeładowań
+@stat_success_missions=Wykonane misje
+@stat_doorsbreached=Wyłamane drzwi
+@stat_paths=Narysowane ścieżki
+@stat_saved_hostages=Uratowani zkaładnicy
+@stat_enemies_stunned=Ogłuszeni przeciwnicy
+@stat_time_waiting=Czas oczekiwania na Sygnały
+@stat_hostiles_killed=Spacyfikowani wrogowie
+@stat_bullets=Wystrzelone naboje
+@stat_grenades=Użyte granaty
+@stat_distance_walked=Pokonany dystans
+@stat_arrests=Aresztowania
+@stat_bombs_disarmed=Rozbrojone bomby
+
+# game
+@game_replay_desync_title=Błąd!
+@game_replay_desync_line=Desynchronizacja powtórki! Odtwarzanie zostanie zatrzymane.
+@game_reset_progress_line=Czy na pewno chcesz zresetować swoje postępy?\n(oddziały, odblokowane przedmioty, postępy w misjach itd.)
+@game_import_failed_title=Błąd podczas importowania zapisów gry
+@game_import_failed_line1=Upewnij się, że kod jest poprawny
+@game_import_failed_line2=i masz połączenie z Internetem
+@game_export_success_title=Eksportowano zapisy gry!
+@game_export_success_line=Użyj tego kodu, by importować na innych urządzeniach:
+@game_export_failed_title=Błąd podczas eksportowania zapisów gry
+@game_export_failed_line1=Wystąpił problem podczas wgrywania zapisów gry,
+@game_export_failed_line2=sprawdź swoje połączenie z internetem
+@game_export_failed_line3=i ustawienia zapory!
+@game_endscreen_stats_killed=ZABITY
+@game_injured=RANNY
+@game_healthy=ZDROWY
+@game_hidden=Ukryty
+@game_revealed=Wykryty
+@game_unarmed=Nieuzbrojony
+@game_badge_locked=Odznaka odblokowywana na poziomie %d
+@game_loadingscreen_press_any_key=Wciśnij dowolny przycisk, by kontynuować
+@game_loadingscreen_loading=ŁADOWANIE...
+@game_loadingscreen_generating=GENEROWANIE...
+@game_loadingscreen_longtime=To może chwilę potrwać
+@game_loadingscreen_downloading=POBIERANIE DANYCH...
+@game_initialloading_workshop=Aktualizowanie modów z Warsztatu Steam...
+@game_ironman_restart_title=Jesteś Iron Manem czy nie?
+@game_ironman_restart_line1=Nie można restartować misji w trybie Iron Man!
+@game_casualties_none=Brak
+@game_squad_level=Poziom Oddziału %d
+@game_squad_level_uppercase=Poziom Oddziału %d
+@game_evidence_destroyed_tooltip=Ten dowód został zniszczony
+@game_waypoint_tooltip_path=Wciśnij [PPM] by dodać/usunąć punkt ścieżki
+@game_waypoint_tooltip_normal=Wciśnij [PPM] by zmienić/usunąć akcję
+@game_waypoint_tooltip_detonate=Wciśnij, by zdetonować!
+@game_net_waiting_for_host_restart=Oczekiwanie na hosta, by zrestartować...
+@game_net_waiting_for_host_mission=Oczekiwanie na hosta, by wybrać nową misję...
+
+#
+# Texts used in textures. Texture must be manually localized by artist, using the .psd sources.
+#
+
+@game_texture_esczone=ESCAPE ZONE
+@game_texture_resczone=RESCUE ZONE
+@game_texture_tut1=CLICK & DRAG TO MOVE
+@game_texture_tut2=R-CLICK & DRAG TO ORIENTATE
+@game_texture_tut3=R-CLICK ON TROOPER FOR MENU
+@game_texture_tut4=USE PLANNING MODE (SPACE) TO START/STOP THE ACTION
+@game_texture_tut5=DRAG A PATH THROUGH DOOR & CHOOSE ENTRY METHOD
+@game_texture_tut6=CTRL+R-CLICK AND DRAG TO KEEP STRAFING
+@game_texture_aim=DRAG TO AIM
+@game_texture_campaign_win=CAMPAIGN COMPLETED
+@game_texture_campaign_fail=CAMPAIGN FAILED
+@game_texture_blowup=BLOW UP
+@game_texture_autodeploy=AUTO DEPLOY
+@game_texture_prevplan=PREV PLAN
+@game_texture_doctrinesquad=SQUAD DOCTRINE TREE
+@game_texture_doctrineunspent=Unspent doctrine points:
+@game_texture_doctrine_handguns=Handguns
+@game_texture_doctrine_shotguns=Shotguns
+@game_texture_doctrine_longguns=Long Guns
+@game_texture_menu=MENU
+@game_texture_deploy=DEPLOY MODE
+@game_texture_keepplan=KEEP PREVIOUS PLAN
+@game_texture_improved=IMPROVED RESULT
+@game_texture_unlock_campaign=CAMPAIGN MODE UNLOCKED
+@game_texture_unlock_class=NEW CLASS UNLOCKED
+@game_texture_snipersupport=SNIPER SUPPORT
+@game_texture_squadbadge=SQUAD BADGE
+@game_texture_promoted=PROMOTED
+@game_texture_replay=Replay
+@game_texture_replaypaused=Replay Paused

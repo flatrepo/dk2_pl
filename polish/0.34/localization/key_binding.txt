@@ -1,0 +1,139 @@
+
+@keybind_menu_title=STEROWANIE
+@keybind_menu_code=DZIAŁANIE
+@keybind_menu_bind1=Klawisz podstawowy
+@keybind_menu_bind2=Klawisz dodatkowy
+@keybind_menu_bind_tips=[ESC] by anulować, [DEL] by usunąć przypisanie
+@keybind_menu_wrong_key=Klawisz jest już przypisany do: %s
+
+@keybind_menu_change=ZMIEŃ
+@keybind_menu_default=Resetuj:
+@keybind_menu_default1=Tryb domyślny
+@keybind_menu_default2=Tryb kamery WSAD
+
+@keybind_toggle_play=Aktywuj pauzę
+@keybind_path=Zmień scieżkę
+@keybind_path_extra=%s (przeciągnij na ścieżce / operatorze)
+@keybind_path_ttip=(przeciągnij na ścieżce / operatorze)
+@keybind_action_menu=Menu akcji
+@keybind_action_menu_extra=%s (kliknij na ścieżce / operatorze)
+@keybind_action_menu_ttip=(kliknij na ścieżce / operatorze)
+@keybind_look_at=Spójrz na cel
+@keybind_look_at_extra=%s (przeciągnij na ścieżce / operatorze)
+@keybind_look_at_ttip=(przeciągnij na ścieżce / operatorze)
+@keybind_look_at_pie=Cięcie ciasta (przytrzymaj)
+@keybind_look_at_strafe=Strafe'ing (przytrzymaj)
+@keybind_gocodes=Sygnały
+@keybind_go_a=Sygnał Alfa
+@keybind_go_b=Sygnał Bravo
+@keybind_go_c=Sygnał Charlie
+@keybind_go_d=Sygnał Delta
+@keybind_go_wait_for_clear=Czekaj na brak wroga
+@keybind_go_wait_for_clear_extra=%s (w menu akcji)
+@keybind_go_wait_for_clear_ttip=(w menu akcji)
+@keybind_stop_in_place=Zatrzymaj na Sygnale
+@keybind_stop_in_place_extra=SHIFT + %s (na ścieżce)
+@keybind_stop_in_place_ttip=SHIFT + [klawisz] (na ścieżce)
+@keybind_trigger_stealth_fire=Tryb cichy
+@keybind_trigger_stealth_fire_extra=%s (+ SHIFT by przełączać)
+@keybind_trigger_stealth_fire_ttip=SHIFT + [klawisz] przełącza tryb cichy/głośny
+@keybind_cycle_troop_selection=Wybierz kolejnego operatora
+@keybind_sniper_fire=Strzał snajperski
+@keybind_sniper_cycle_target=Przełącz cele snajpera
+@keybind_sniper_firecycle=Ogień/cel snajperski
+@keybind_slow_mo=Spowolnienie
+@keybind_spawn_football=Przywołaj piłkę
+@keybind_cam_panning=Przesuwanie kamery
+@keybind_cam_panning_ttip=Lub przytrzymaj ŚPM
+@keybind_cam_pan_up=Kamera w górę
+@keybind_cam_pan_left=Kamera w lewo
+@keybind_cam_pan_down=Kamera w dół
+@keybind_cam_pan_right=Kamera w prawo
+@keybind_cam_zoom=Przybliżenie kamery
+@keybind_cam_move_up=Oddal kamerę
+@keybind_cam_move_down=Przybliż kamerę
+@keybind_cam_tilt=Pochylenie kamery
+@keybind_cam_tilt_down=Pochylenie kamery w dół
+@keybind_cam_tilt_up=Pochylenie kamery w górę
+
+@_menu_options_sketchtool=Narzędzie rysowania
+
+@keybind_or=lub
+@key_arrows=Strzałki
+@key_wasd=WSAD
+
+@key_unbound=[NIE PRZYPISANO]
+@key_assign=[PRZYPISZ KLAWISZ]
+
+@mouse_button1=LPM
+@mouse_button2=PPM
+@mouse_button3=ŚPM
+@mouse_wheel=Kółko myszy
+
+@key_backspace=BACKSPACE
+@key_tab=TAB
+@key_return=ENTER
+@key_esc=ESC
+@key_space=SPACJA
+
+@key_delete=DELETE
+@key_pgup=PAGE UP
+@key_pgdn=PAGE DOWN
+@key_end=END
+@key_home=HOME
+@key_insert=INSERT
+
+@key_left=STRZAŁKA W LEWO
+@key_up=STRZAŁKA W GÓRĘ
+@key_right=STRZAŁKA W PRAWO
+@key_down=STRZAŁKA W DÓŁ
+
+@key_shift=SHIFT
+@key_control=CTRL
+@key_menualt=MENU/ALT
+@key_lshift=Lewy SHIFT
+@key_rshift=Prawy SHIFT
+@key_lctrl=Lewy CTRL
+@key_rctrl=Prawy CTRL
+@key_lmenu=Lewy MENU
+@key_rmenu=Prawy MENU
+@key_lwin=Lewy WIN
+@key_rwin=Prawy WIN
+
+@key_printscreen=PRINT SCR
+@key_pause=PAUSE
+@key_capital=CAPS LOCK
+@key_numlock=NUM LOCK
+@key_scrolllock=SCROLL LOCK
+
+@key_num0=NUMPAD 0
+@key_num1=NUMPAD 1
+@key_num2=NUMPAD 2
+@key_num3=NUMPAD 3
+@key_num4=NUMPAD 4
+@key_num5=NUMPAD 5
+@key_num6=NUMPAD 6
+@key_num7=NUMPAD 7
+@key_num8=NUMPAD 8
+@key_num9=NUMPAD 9
+@key_nummul=NUMPAD *
+@key_numadd=NUMPAD +
+@key_numsep=NUMPAD ,
+@key_numsub=NUMPAD -
+@key_numdec=NUM DECIMAL
+@key_numdiv=NUMPAD /
+
+@key_f1=F1
+@key_f2=F2
+@key_f3=F3
+@key_f4=F4
+@key_f5=F5
+@key_f6=F6
+@key_f7=F7
+@key_f8=F8
+@key_f9=F9
+@key_f10=F10
+@key_f11=F11
+@key_f12=F12
+
+@key_plus=PLUS
