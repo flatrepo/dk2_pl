@@ -1,3 +1,6 @@
+> [!WARNING]
+> DK2 now supports Polish natively (since v.1.0, 10/02/2025). This mod should be considered obsolete.
+
 # Door Kickers 2 Polish Translation
 This is a public repository of Polish translation for game Door Kickers 2. The development of following code is maintained by FLATlabs organization. 
 
